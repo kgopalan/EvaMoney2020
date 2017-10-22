@@ -19,10 +19,6 @@ public class CloverGoConnectorListener: ICloverGoConnectorListener {
 
     public func onSaleResponse(_ response: SaleResponse) {
         print("onSaleResponse \(response)")
-        print("onSaleResponse \(String(describing: response.payment?.result?.rawValue))")
-        DispatchQueue.main.async {
-            SHARED.delegateStartTransaction?.onSalePaymentSuccess(response)
-        }
     }
     
     public func onAuthResponse(_ authResponse: AuthResponse) {
