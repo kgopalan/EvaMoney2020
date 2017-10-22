@@ -1,0 +1,293 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CloverDeviceObserver"
+- "DefaultCloverDeviceObserver"
+provides-nominal:
+- "30CloverConnector_Hackathon_20170A14DeviceObserverP"
+- "30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC"
+provides-member:
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", ""]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "Bool"
+- "CLVModels"
+- "CardData"
+- "Challenge"
+- "CloverDevice"
+- "CloverDeviceErrorType"
+- "CloverDeviceObserver"
+- "DefaultCloverDeviceObserver"
+- "DiscoveryResponseMessage"
+- "Error"
+- "ErrorCode"
+- "ExternalDeviceState"
+- "ExternalDeviceStateData"
+- "ExternalDeviceSubState"
+- "InputOption"
+- "Int"
+- "KeyPress"
+- "PendingPaymentEntry"
+- "QueryStatus"
+- "ResultCode"
+- "ResultStatus"
+- "Signature"
+- "String"
+- "TxStartResponseResult"
+- "TxState"
+- "UiState"
+- "VoidReason"
+depends-member:
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Order"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Payments"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Printer"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "Bool"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "CLVModels"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "CardData"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "Challenge"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "CloverDevice"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "CloverDeviceErrorType"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "DiscoveryResponseMessage"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "Error"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "ErrorCode"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "ExternalDeviceState"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "ExternalDeviceStateData"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "ExternalDeviceSubState"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "InputOption"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "Int"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "KeyPress"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "PendingPaymentEntry"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "QueryStatus"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "ResultCode"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "ResultStatus"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "Signature"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "String"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "TxStartResponseResult"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "TxState"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "UiState"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "VoidReason"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onActivityResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onAuthTipAdjustedResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onCapturePreAuthResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onCashbackSelectedResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onCloseoutResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onConfirmPayment"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onDeviceConnected"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onDeviceDisconnected"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onDeviceError"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onDeviceReady"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onDeviceStatusResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onFinishCancel"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onFinishOk"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onKeyPressed"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onMessageAck"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onMessageFromActivity"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onPartialAuthResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onPaymentRefundResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onPaymentVoidedResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onPendingPaymentsResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onPrintCredit"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onPrintCreditDecline"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onPrintMerchantReceipt"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onPrintPayment"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onPrintPaymentDecline"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onPrintRefundPayment"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onReadCardResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onResetDeviceResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onRetrievePaymentResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onRetrievePrintJobStatus"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onRetrievePrintersResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onTipAddedResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onTxStartResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onUiState"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onVaultCardResponse"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", "onVerifySignature"]
+- ["30CloverConnector_Hackathon_20170A14DeviceObserverP", ""]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "Bool"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "CLVModels"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "CardData"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "Challenge"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "CloverDevice"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "CloverDeviceErrorType"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "DiscoveryResponseMessage"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "Error"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "ErrorCode"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "ExternalDeviceState"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "ExternalDeviceStateData"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "ExternalDeviceSubState"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "InputOption"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "Int"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "KeyPress"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "PendingPaymentEntry"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "QueryStatus"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "ResultCode"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "ResultStatus"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "Signature"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "String"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "TxStartResponseResult"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "TxState"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "UiState"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "VoidReason"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "deinit"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "init"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onActivityResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onAuthTipAdjustedResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onCapturePreAuthResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onCashbackSelectedResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onCloseoutResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onConfirmPayment"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onDeviceConnected"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onDeviceDisconnected"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onDeviceError"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onDeviceReady"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onDeviceStatusResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onFinishCancel"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onFinishOk"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onKeyPressed"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onMessageAck"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onMessageFromActivity"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onPartialAuthResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onPaymentRefundResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onPaymentVoidedResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onPendingPaymentsResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onPrintCredit"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onPrintCreditDecline"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onPrintMerchantReceipt"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onPrintPayment"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onPrintPaymentDecline"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onPrintRefundPayment"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onReadCardResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onResetDeviceResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onRetrievePaymentResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onRetrievePrintJobStatus"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onRetrievePrintersResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onTipAddedResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onTxStartResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onUiState"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onVaultCardResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC", "onVerifySignature"]
+- ["s9EquatableP", "UiDirection"]
+- ["s8HashableP", "UiDirection"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC5OrderC", "Order"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC8PaymentsC", "Batch"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC8PaymentsC", "Credit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC8PaymentsC", "Payment"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC8PaymentsC", "Refund"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC8PaymentsC", "VaultedCard"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC7PrinterC", "Printer"]
+- ["s16RawRepresentableP", "UiDirection"]
+- ["30CloverConnector_Hackathon_20177UiStateO", "UiDirection"]
+depends-nominal:
+- "30CloverConnector_Hackathon_20179CLVModelsC"
+- "30CloverConnector_Hackathon_20170A14DeviceObserverP"
+- "30CloverConnector_Hackathon_201707DefaultA14DeviceObserverC"
+- "s9EquatableP"
+- "s8HashableP"
+- "30CloverConnector_Hackathon_20179CLVModelsC5OrderC"
+- "30CloverConnector_Hackathon_20179CLVModelsC8PaymentsC"
+- "30CloverConnector_Hackathon_20179CLVModelsC7PrinterC"
+- "s16RawRepresentableP"
+- "30CloverConnector_Hackathon_20177UiStateO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/CloverGoReaderSDK.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/CloverGoLogger.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/clovergoclient.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/CloverConnector-Hackathon-2017/CloverConnector-Hackathon-2017-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/CloverConnector-Hackathon-2017.build/unextended-module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Documents/Clover/Hackathon project/Sample/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/RealmSwift.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+interface-hash: "817dbf33153d2ca48cd01d540a543cf1"

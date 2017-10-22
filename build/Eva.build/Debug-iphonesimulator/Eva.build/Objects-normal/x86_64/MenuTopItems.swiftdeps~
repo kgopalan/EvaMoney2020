@@ -1,0 +1,1089 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MenuTopItems"
+- "Number"
+provides-nominal:
+- "3Eva12MenuTopItemsC"
+- "3Eva6NumberV"
+provides-member:
+- ["3Eva12MenuTopItemsC", ""]
+- ["3Eva6NumberV", ""]
+- ["s13BinaryIntegerP", ""]
+- ["s13BinaryIntegerP", "stringWithSepator"]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "lblOutstanding"
+- "lblOutstandingAmt"
+- "lblTotal"
+- "lblTotalCashAmt"
+- "nickNameLabel"
+depends-top-level:
+- !private "=="
+- !private "??"
+- !private "Amount"
+- "AppDelegate"
+- "AssignmentPrecedence"
+- !private "Balances"
+- "BinaryInteger"
+- "CastingPrecedence"
+- !private "DispatchQueue"
+- !private "EvaDataController"
+- !private "EvaUtils"
+- "MenuTopItems"
+- !private "NSNumber"
+- "Number"
+- "NumberFormatter"
+- "String"
+- "StringLiteralType"
+- "UIApplication"
+- "UILabel"
+- "UIView"
+- "UnicodeScalarType"
+- !private "amountType"
+- !private "print"
+depends-member:
+- !private ["10RealmSwift11AddableTypeP", "init"]
+- !private ["3Eva6AmountV", "cashValue"]
+- !private ["3Eva6AmountV", "creditValue"]
+- !private ["3Eva6AmountV", "init"]
+- !private ["3Eva7BalanceV", "merchant_name"]
+- !private ["3Eva7BalanceV", "sales_thismonth"]
+- !private ["3Eva7BalanceV", "sales_today"]
+- !private ["3Eva8BalancesV", "Map"]
+- !private ["3Eva8BalancesV", "balance"]
+- !private ["3Eva8BalancesV", "deinit"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "NSNumber"]
+- !private ["s13BinaryIntegerP", "Number"]
+- ["s13BinaryIntegerP", "String"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- ["s13BinaryIntegerP", "stringWithSepator"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "Amount"]
+- !private ["So15CALayerDelegateP", "Balances"]
+- !private ["So15CALayerDelegateP", "DispatchQueue"]
+- !private ["So15CALayerDelegateP", "EvaDataController"]
+- !private ["So15CALayerDelegateP", "EvaUtils"]
+- !private ["So15CALayerDelegateP", "String"]
+- ["So15CALayerDelegateP", "UIApplication"]
+- !private ["So15CALayerDelegateP", "amountType"]
+- !private ["So15CALayerDelegateP", "attributedText"]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "getTotalBalanceFromDB"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "lblOutstanding"]
+- !private ["So15CALayerDelegateP", "lblOutstandingAmt"]
+- !private ["So15CALayerDelegateP", "lblTotal"]
+- !private ["So15CALayerDelegateP", "lblTotalCashAmt"]
+- !private ["So15CALayerDelegateP", "nickNameLabel"]
+- !private ["So15CALayerDelegateP", "print"]
+- !private ["So15CALayerDelegateP", "reloadUI"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "Amount"]
+- !private ["s7CVarArgP", "Balances"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "EvaDataController"]
+- !private ["s7CVarArgP", "EvaUtils"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "amountType"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "attributedText"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "currentBalances"]
+- ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "getTotalBalanceFromDB"]
+- !private ["s7CVarArgP", "global"]
+- ["s7CVarArgP", "groupingSeparator"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lblOutstanding"]
+- !private ["s7CVarArgP", "lblOutstandingAmt"]
+- !private ["s7CVarArgP", "lblTotal"]
+- !private ["s7CVarArgP", "lblTotalCashAmt"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "nickNameLabel"]
+- ["s7CVarArgP", "numberStyle"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "reloadUI"]
+- ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "string"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "NSNumber"]
+- !private ["s10ComparableP", "Number"]
+- ["s10ComparableP", "String"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Amount"]
+- !private ["s28CustomDebugStringConvertibleP", "Balances"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "EvaDataController"]
+- !private ["s28CustomDebugStringConvertibleP", "EvaUtils"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "amountType"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "attributedText"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "currentBalances"]
+- ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "getTotalBalanceFromDB"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- ["s28CustomDebugStringConvertibleP", "groupingSeparator"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lblOutstanding"]
+- !private ["s28CustomDebugStringConvertibleP", "lblOutstandingAmt"]
+- !private ["s28CustomDebugStringConvertibleP", "lblTotal"]
+- !private ["s28CustomDebugStringConvertibleP", "lblTotalCashAmt"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "nickNameLabel"]
+- ["s28CustomDebugStringConvertibleP", "numberStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadUI"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Amount"]
+- !private ["s23CustomStringConvertibleP", "Balances"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "EvaDataController"]
+- !private ["s23CustomStringConvertibleP", "EvaUtils"]
+- !private ["s23CustomStringConvertibleP", "NSNumber"]
+- !private ["s23CustomStringConvertibleP", "Number"]
+- ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "amountType"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "attributedText"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "currentBalances"]
+- ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "getTotalBalanceFromDB"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- ["s23CustomStringConvertibleP", "groupingSeparator"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lblOutstanding"]
+- !private ["s23CustomStringConvertibleP", "lblOutstandingAmt"]
+- !private ["s23CustomStringConvertibleP", "lblTotal"]
+- !private ["s23CustomStringConvertibleP", "lblTotalCashAmt"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "nickNameLabel"]
+- ["s23CustomStringConvertibleP", "numberStyle"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "reloadUI"]
+- ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s10DictionaryV", "init"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "global"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "global"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Amount"]
+- !private ["s9EquatableP", "Balances"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "EvaDataController"]
+- !private ["s9EquatableP", "EvaUtils"]
+- !private ["s9EquatableP", "NSNumber"]
+- !private ["s9EquatableP", "Number"]
+- ["s9EquatableP", "String"]
+- ["s9EquatableP", "UIApplication"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "amountType"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "attributedText"]
+- !private ["s9EquatableP", "awakeFromNib"]
+- !private ["s9EquatableP", "background"]
+- !private ["s9EquatableP", "cash"]
+- !private ["s9EquatableP", "credit"]
+- !private ["s9EquatableP", "currentBalances"]
+- ["s9EquatableP", "decimal"]
+- ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "getTotalBalanceFromDB"]
+- !private ["s9EquatableP", "global"]
+- ["s9EquatableP", "groupingSeparator"]
+- !private ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lblOutstanding"]
+- !private ["s9EquatableP", "lblOutstandingAmt"]
+- !private ["s9EquatableP", "lblTotal"]
+- !private ["s9EquatableP", "lblTotalCashAmt"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "nickNameLabel"]
+- ["s9EquatableP", "numberStyle"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "reloadUI"]
+- ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "sharedInstance"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "totalBalance"]
+- ["s9EquatableP", ""]
+- !private ["3Eva0A14DataControllerC", "currentBalances"]
+- !private ["3Eva0A14DataControllerC", "sharedInstance"]
+- !private ["3Eva0A5UtilsV", "fetchFromDB"]
+- !private ["3Eva0A5UtilsV", "formatPoint8Text"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "NSNumber"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Number"]
+- ["s27ExpressibleByIntegerLiteralP", "String"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["So9FormatterC", "groupingSeparator"]
+- ["So9FormatterC", "init"]
+- ["So9FormatterC", "numberStyle"]
+- !private ["So9FormatterC", "string"]
+- !private ["s8HashableP", "Amount"]
+- !private ["s8HashableP", "Balances"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "EvaDataController"]
+- !private ["s8HashableP", "EvaUtils"]
+- !private ["s8HashableP", "NSNumber"]
+- !private ["s8HashableP", "Number"]
+- ["s8HashableP", "String"]
+- ["s8HashableP", "UIApplication"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "amountType"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "attributedText"]
+- !private ["s8HashableP", "awakeFromNib"]
+- !private ["s8HashableP", "background"]
+- !private ["s8HashableP", "cash"]
+- !private ["s8HashableP", "credit"]
+- !private ["s8HashableP", "currentBalances"]
+- ["s8HashableP", "decimal"]
+- ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "getTotalBalanceFromDB"]
+- !private ["s8HashableP", "global"]
+- ["s8HashableP", "groupingSeparator"]
+- !private ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "lblOutstanding"]
+- !private ["s8HashableP", "lblOutstandingAmt"]
+- !private ["s8HashableP", "lblTotal"]
+- !private ["s8HashableP", "lblTotalCashAmt"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "nickNameLabel"]
+- ["s8HashableP", "numberStyle"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "reloadUI"]
+- ["s8HashableP", "shared"]
+- !private ["s8HashableP", "sharedInstance"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "totalBalance"]
+- ["s8HashableP", ""]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["3Eva8MappableP", "Map"]
+- !private ["3Eva8MappableP", "_getBuiltinLogicValue"]
+- !private ["3Eva8MappableP", "balance"]
+- ["3Eva8MappableP", "init"]
+- !private ["3Eva8MappableP", "merchant_name"]
+- !private ["3Eva8MappableP", "sales_thismonth"]
+- !private ["3Eva8MappableP", "sales_today"]
+- !private ["3Eva12MenuTopItemsC", "Amount"]
+- ["3Eva12MenuTopItemsC", "AppDelegate"]
+- !private ["3Eva12MenuTopItemsC", "Balances"]
+- !private ["3Eva12MenuTopItemsC", "DispatchQueue"]
+- !private ["3Eva12MenuTopItemsC", "EvaDataController"]
+- !private ["3Eva12MenuTopItemsC", "EvaUtils"]
+- !private ["3Eva12MenuTopItemsC", "String"]
+- ["3Eva12MenuTopItemsC", "UIApplication"]
+- ["3Eva12MenuTopItemsC", "UILabel"]
+- !private ["3Eva12MenuTopItemsC", "amountType"]
+- ["3Eva12MenuTopItemsC", "appDelegate"]
+- ["3Eva12MenuTopItemsC", "awakeFromNib"]
+- ["3Eva12MenuTopItemsC", "deinit"]
+- ["3Eva12MenuTopItemsC", "getTotalBalanceFromDB"]
+- ["3Eva12MenuTopItemsC", "init"]
+- ["3Eva12MenuTopItemsC", "lblOutstanding"]
+- ["3Eva12MenuTopItemsC", "lblOutstandingAmt"]
+- ["3Eva12MenuTopItemsC", "lblTotal"]
+- ["3Eva12MenuTopItemsC", "lblTotalCashAmt"]
+- ["3Eva12MenuTopItemsC", "nickNameLabel"]
+- !private ["3Eva12MenuTopItemsC", "print"]
+- ["3Eva12MenuTopItemsC", "reloadUI"]
+- !private ["10RealmSwift10MinMaxTypeP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Amount"]
+- !private ["So8NSCodingP", "Balances"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "EvaDataController"]
+- !private ["So8NSCodingP", "EvaUtils"]
+- !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "amountType"]
+- !private ["So8NSCodingP", "attributedText"]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "getTotalBalanceFromDB"]
+- ["So8NSCodingP", "groupingSeparator"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lblOutstanding"]
+- !private ["So8NSCodingP", "lblOutstandingAmt"]
+- !private ["So8NSCodingP", "lblTotal"]
+- !private ["So8NSCodingP", "lblTotalCashAmt"]
+- !private ["So8NSCodingP", "nickNameLabel"]
+- ["So8NSCodingP", "numberStyle"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "reloadUI"]
+- !private ["So8NSCodingP", "string"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "groupingSeparator"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "numberStyle"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSObjectC", "Amount"]
+- ["So8NSObjectC", "AppDelegate"]
+- !private ["So8NSObjectC", "Balances"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "EvaDataController"]
+- !private ["So8NSObjectC", "EvaUtils"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "amountType"]
+- ["So8NSObjectC", "appDelegate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "attributedText"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "currentBalances"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "getTotalBalanceFromDB"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "groupingSeparator"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lblOutstanding"]
+- ["So8NSObjectC", "lblOutstandingAmt"]
+- ["So8NSObjectC", "lblTotal"]
+- ["So8NSObjectC", "lblTotalCashAmt"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "nickNameLabel"]
+- ["So8NSObjectC", "numberStyle"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "reloadUI"]
+- ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So16NSObjectProtocolP", "Amount"]
+- !private ["So16NSObjectProtocolP", "Balances"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "EvaDataController"]
+- !private ["So16NSObjectProtocolP", "EvaUtils"]
+- !private ["So16NSObjectProtocolP", "String"]
+- ["So16NSObjectProtocolP", "UIApplication"]
+- !private ["So16NSObjectProtocolP", "amountType"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "attributedText"]
+- !private ["So16NSObjectProtocolP", "awakeFromNib"]
+- !private ["So16NSObjectProtocolP", "currentBalances"]
+- ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "getTotalBalanceFromDB"]
+- !private ["So16NSObjectProtocolP", "global"]
+- ["So16NSObjectProtocolP", "groupingSeparator"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lblOutstanding"]
+- !private ["So16NSObjectProtocolP", "lblOutstandingAmt"]
+- !private ["So16NSObjectProtocolP", "lblTotal"]
+- !private ["So16NSObjectProtocolP", "lblTotalCashAmt"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "nickNameLabel"]
+- ["So16NSObjectProtocolP", "numberStyle"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "reloadUI"]
+- ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "sharedInstance"]
+- !private ["So16NSObjectProtocolP", "string"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["3Eva6NumberV", "NumberFormatter"]
+- ["3Eva6NumberV", "init"]
+- ["3Eva6NumberV", "withSeparator"]
+- ["So15NumberFormatterC", "groupingSeparator"]
+- ["So15NumberFormatterC", "init"]
+- ["So15NumberFormatterC", "numberStyle"]
+- !private ["So15NumberFormatterC", "string"]
+- !private ["s7NumericP", "NSNumber"]
+- !private ["s7NumericP", "Number"]
+- ["s7NumericP", "String"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "background"]
+- !private ["3Eva9QueryTypeO", "totalBalance"]
+- !private ["So7RLMBoolP", "init"]
+- !private ["So9RLMDoubleP", "init"]
+- !private ["So8RLMFloatP", "init"]
+- !private ["So6RLMIntP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "cash"]
+- !private ["s16RawRepresentableP", "credit"]
+- ["s16RawRepresentableP", "decimal"]
+- !private ["s16RawRepresentableP", "totalBalance"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- ["s8SequenceP", "init"]
+- !private ["s10StrideableP", "NSNumber"]
+- !private ["s10StrideableP", "Number"]
+- ["s10StrideableP", "String"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["So15NumberFormatterC5StyleO", "decimal"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "Amount"]
+- !private ["So29UIAccessibilityIdentificationP", "Balances"]
+- !private ["So29UIAccessibilityIdentificationP", "DispatchQueue"]
+- !private ["So29UIAccessibilityIdentificationP", "EvaDataController"]
+- !private ["So29UIAccessibilityIdentificationP", "EvaUtils"]
+- !private ["So29UIAccessibilityIdentificationP", "String"]
+- ["So29UIAccessibilityIdentificationP", "UIApplication"]
+- !private ["So29UIAccessibilityIdentificationP", "amountType"]
+- !private ["So29UIAccessibilityIdentificationP", "attributedText"]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "getTotalBalanceFromDB"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "lblOutstanding"]
+- !private ["So29UIAccessibilityIdentificationP", "lblOutstandingAmt"]
+- !private ["So29UIAccessibilityIdentificationP", "lblTotal"]
+- !private ["So29UIAccessibilityIdentificationP", "lblTotalCashAmt"]
+- !private ["So29UIAccessibilityIdentificationP", "nickNameLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "print"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadUI"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "Amount"]
+- !private ["So12UIAppearanceP", "Balances"]
+- !private ["So12UIAppearanceP", "DispatchQueue"]
+- !private ["So12UIAppearanceP", "EvaDataController"]
+- !private ["So12UIAppearanceP", "EvaUtils"]
+- !private ["So12UIAppearanceP", "String"]
+- ["So12UIAppearanceP", "UIApplication"]
+- !private ["So12UIAppearanceP", "amountType"]
+- !private ["So12UIAppearanceP", "attributedText"]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "getTotalBalanceFromDB"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "lblOutstanding"]
+- !private ["So12UIAppearanceP", "lblOutstandingAmt"]
+- !private ["So12UIAppearanceP", "lblTotal"]
+- !private ["So12UIAppearanceP", "lblTotalCashAmt"]
+- !private ["So12UIAppearanceP", "nickNameLabel"]
+- !private ["So12UIAppearanceP", "print"]
+- !private ["So12UIAppearanceP", "reloadUI"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "Amount"]
+- !private ["So21UIAppearanceContainerP", "Balances"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "EvaDataController"]
+- !private ["So21UIAppearanceContainerP", "EvaUtils"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "amountType"]
+- !private ["So21UIAppearanceContainerP", "attributedText"]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "getTotalBalanceFromDB"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "lblOutstanding"]
+- !private ["So21UIAppearanceContainerP", "lblOutstandingAmt"]
+- !private ["So21UIAppearanceContainerP", "lblTotal"]
+- !private ["So21UIAppearanceContainerP", "lblTotalCashAmt"]
+- !private ["So21UIAppearanceContainerP", "nickNameLabel"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "reloadUI"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So13UIApplicationC", "delegate"]
+- ["So13UIApplicationC", "shared"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "attributedText"]
+- !private ["So17UICoordinateSpaceP", "Amount"]
+- !private ["So17UICoordinateSpaceP", "Balances"]
+- !private ["So17UICoordinateSpaceP", "DispatchQueue"]
+- !private ["So17UICoordinateSpaceP", "EvaDataController"]
+- !private ["So17UICoordinateSpaceP", "EvaUtils"]
+- !private ["So17UICoordinateSpaceP", "String"]
+- ["So17UICoordinateSpaceP", "UIApplication"]
+- !private ["So17UICoordinateSpaceP", "amountType"]
+- !private ["So17UICoordinateSpaceP", "attributedText"]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "getTotalBalanceFromDB"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "lblOutstanding"]
+- !private ["So17UICoordinateSpaceP", "lblOutstandingAmt"]
+- !private ["So17UICoordinateSpaceP", "lblTotal"]
+- !private ["So17UICoordinateSpaceP", "lblTotalCashAmt"]
+- !private ["So17UICoordinateSpaceP", "nickNameLabel"]
+- !private ["So17UICoordinateSpaceP", "print"]
+- !private ["So17UICoordinateSpaceP", "reloadUI"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "Amount"]
+- !private ["So13UIDynamicItemP", "Balances"]
+- !private ["So13UIDynamicItemP", "DispatchQueue"]
+- !private ["So13UIDynamicItemP", "EvaDataController"]
+- !private ["So13UIDynamicItemP", "EvaUtils"]
+- !private ["So13UIDynamicItemP", "String"]
+- ["So13UIDynamicItemP", "UIApplication"]
+- !private ["So13UIDynamicItemP", "amountType"]
+- !private ["So13UIDynamicItemP", "attributedText"]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "getTotalBalanceFromDB"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "lblOutstanding"]
+- !private ["So13UIDynamicItemP", "lblOutstandingAmt"]
+- !private ["So13UIDynamicItemP", "lblTotal"]
+- !private ["So13UIDynamicItemP", "lblTotalCashAmt"]
+- !private ["So13UIDynamicItemP", "nickNameLabel"]
+- !private ["So13UIDynamicItemP", "print"]
+- !private ["So13UIDynamicItemP", "reloadUI"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "Amount"]
+- !private ["So18UIFocusEnvironmentP", "Balances"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "EvaDataController"]
+- !private ["So18UIFocusEnvironmentP", "EvaUtils"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "amountType"]
+- !private ["So18UIFocusEnvironmentP", "attributedText"]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "getTotalBalanceFromDB"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "lblOutstanding"]
+- !private ["So18UIFocusEnvironmentP", "lblOutstandingAmt"]
+- !private ["So18UIFocusEnvironmentP", "lblTotal"]
+- !private ["So18UIFocusEnvironmentP", "lblTotalCashAmt"]
+- !private ["So18UIFocusEnvironmentP", "nickNameLabel"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "reloadUI"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "Amount"]
+- !private ["So11UIFocusItemP", "Balances"]
+- !private ["So11UIFocusItemP", "DispatchQueue"]
+- !private ["So11UIFocusItemP", "EvaDataController"]
+- !private ["So11UIFocusItemP", "EvaUtils"]
+- !private ["So11UIFocusItemP", "String"]
+- ["So11UIFocusItemP", "UIApplication"]
+- !private ["So11UIFocusItemP", "amountType"]
+- !private ["So11UIFocusItemP", "attributedText"]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "getTotalBalanceFromDB"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "lblOutstanding"]
+- !private ["So11UIFocusItemP", "lblOutstandingAmt"]
+- !private ["So11UIFocusItemP", "lblTotal"]
+- !private ["So11UIFocusItemP", "lblTotalCashAmt"]
+- !private ["So11UIFocusItemP", "nickNameLabel"]
+- !private ["So11UIFocusItemP", "print"]
+- !private ["So11UIFocusItemP", "reloadUI"]
+- ["So11UIFocusItemP", ""]
+- !private ["So7UILabelC", "attributedText"]
+- !private ["So30UIPasteConfigurationSupportingP", "Amount"]
+- !private ["So30UIPasteConfigurationSupportingP", "Balances"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "EvaDataController"]
+- !private ["So30UIPasteConfigurationSupportingP", "EvaUtils"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "amountType"]
+- !private ["So30UIPasteConfigurationSupportingP", "attributedText"]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "getTotalBalanceFromDB"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "lblOutstanding"]
+- !private ["So30UIPasteConfigurationSupportingP", "lblOutstandingAmt"]
+- !private ["So30UIPasteConfigurationSupportingP", "lblTotal"]
+- !private ["So30UIPasteConfigurationSupportingP", "lblTotalCashAmt"]
+- !private ["So30UIPasteConfigurationSupportingP", "nickNameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadUI"]
+- ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "Amount"]
+- ["So11UIResponderC", "AppDelegate"]
+- !private ["So11UIResponderC", "Balances"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- !private ["So11UIResponderC", "EvaDataController"]
+- !private ["So11UIResponderC", "EvaUtils"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "amountType"]
+- ["So11UIResponderC", "appDelegate"]
+- !private ["So11UIResponderC", "attributedText"]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "getTotalBalanceFromDB"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "lblOutstanding"]
+- ["So11UIResponderC", "lblOutstandingAmt"]
+- ["So11UIResponderC", "lblTotal"]
+- ["So11UIResponderC", "lblTotalCashAmt"]
+- ["So11UIResponderC", "nickNameLabel"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "reloadUI"]
+- ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "Amount"]
+- !private ["So30UIResponderStandardEditActionsP", "Balances"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "EvaDataController"]
+- !private ["So30UIResponderStandardEditActionsP", "EvaUtils"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "amountType"]
+- !private ["So30UIResponderStandardEditActionsP", "attributedText"]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "getTotalBalanceFromDB"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "lblOutstanding"]
+- !private ["So30UIResponderStandardEditActionsP", "lblOutstandingAmt"]
+- !private ["So30UIResponderStandardEditActionsP", "lblTotal"]
+- !private ["So30UIResponderStandardEditActionsP", "lblTotalCashAmt"]
+- !private ["So30UIResponderStandardEditActionsP", "nickNameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadUI"]
+- ["So30UIResponderStandardEditActionsP", "shared"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "Amount"]
+- !private ["So18UITraitEnvironmentP", "Balances"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "EvaDataController"]
+- !private ["So18UITraitEnvironmentP", "EvaUtils"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "amountType"]
+- !private ["So18UITraitEnvironmentP", "attributedText"]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "getTotalBalanceFromDB"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "lblOutstanding"]
+- !private ["So18UITraitEnvironmentP", "lblOutstandingAmt"]
+- !private ["So18UITraitEnvironmentP", "lblTotal"]
+- !private ["So18UITraitEnvironmentP", "lblTotalCashAmt"]
+- !private ["So18UITraitEnvironmentP", "nickNameLabel"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "reloadUI"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "Amount"]
+- ["So6UIViewC", "AppDelegate"]
+- !private ["So6UIViewC", "Balances"]
+- !private ["So6UIViewC", "DispatchQueue"]
+- !private ["So6UIViewC", "EvaDataController"]
+- !private ["So6UIViewC", "EvaUtils"]
+- !private ["So6UIViewC", "String"]
+- ["So6UIViewC", "UIApplication"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "amountType"]
+- ["So6UIViewC", "appDelegate"]
+- !private ["So6UIViewC", "attributedText"]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "getTotalBalanceFromDB"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "lblOutstanding"]
+- ["So6UIViewC", "lblOutstandingAmt"]
+- ["So6UIViewC", "lblTotal"]
+- ["So6UIViewC", "lblTotalCashAmt"]
+- ["So6UIViewC", "nickNameLabel"]
+- !private ["So6UIViewC", "print"]
+- ["So6UIViewC", "reloadUI"]
+- ["So6UIViewC", ""]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "Amount"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "Balances"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "DispatchQueue"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "EvaDataController"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "EvaUtils"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "String"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "UIApplication"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "amountType"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "attributedText"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "getTotalBalanceFromDB"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "lblOutstanding"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "lblOutstandingAmt"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "lblTotal"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "lblTotalCashAmt"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "nickNameLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "print"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadUI"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Amount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Balances"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EvaDataController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EvaUtils"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "amountType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributedText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentBalances"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getTotalBalanceFromDB"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "groupingSeparator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lblOutstanding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lblOutstandingAmt"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lblTotal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lblTotalCashAmt"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nickNameLabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadUI"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "NSNumber"]
+- !private ["s11_StrideableP", "Number"]
+- ["s11_StrideableP", "String"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["3Eva10amountTypeO", "cash"]
+- !private ["3Eva10amountTypeO", "credit"]
+depends-nominal:
+- !private "10RealmSwift11AddableTypeP"
+- !private "3Eva6AmountV"
+- !private "3Eva7BalanceV"
+- !private "3Eva8BalancesV"
+- "s23BidirectionalCollectionP"
+- "s13BinaryIntegerP"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "3Eva0A14DataControllerC"
+- !private "3Eva0A5UtilsV"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "So9FormatterC"
+- "s8HashableP"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- "s25LosslessStringConvertibleP"
+- "3Eva8MappableP"
+- "3Eva12MenuTopItemsC"
+- !private "10RealmSwift10MinMaxTypeP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So20NSFetchRequestResultP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "3Eva6NumberV"
+- "So15NumberFormatterC"
+- "s7NumericP"
+- !private "So9OS_objectC"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "3Eva9QueryTypeO"
+- !private "So7RLMBoolP"
+- !private "So9RLMDoubleP"
+- !private "So8RLMFloatP"
+- !private "So6RLMIntP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- "s8SequenceP"
+- "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "So15NumberFormatterC5StyleO"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So13UIApplicationC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "9Alamofire14URLConvertibleP"
+- "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s11_StrideableP"
+- "s16_SwiftStringViewP"
+- !private "3Eva10amountTypeO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/CloverConnector-Hackathon-2017/CloverConnector_Hackathon_2017.framework/Modules/CloverConnector_Hackathon_2017.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/CloverGoReaderSDK.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/CloverGoLogger.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/clovergoclient.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Trupti/Desktop/Eva/Eva/ThirdPartyFiles/Postgre/testPostgreSqlAPI.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLog+LOGV.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/CloverConnector-Hackathon-2017/CloverConnector_Hackathon_2017.framework/Headers/CloverConnector-Hackathon-2017-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSPolly/AWSPolly.framework/Headers/AWSPolly-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSGeneric.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSPolly/AWSPolly.framework/Headers/AWSPollyService.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Trupti/Desktop/Eva/libpq.framework/Headers/libpq-fe.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDASLLogCapture.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLog.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCocoaLumberjack.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSPolly/AWSPolly.framework/Headers/AWSPollyModel.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/Trupti/Desktop/Eva/Eva/Eva-Bridging-Header.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSPolly/AWSPolly.framework/Headers/AWSPollySynthesizeSpeechURLBuilder.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDASLLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDOSLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDTTYLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDFileLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDAbstractDatabaseLogger.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDContextFilterLogFormatter.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDMultiFormatter.h"
+- "/Users/Trupti/Desktop/Eva/Eva/ThirdPartyFiles/PieChart/UIColor+HexColor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSPolly/AWSPolly.framework/Headers/AWSPollyResources.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLogMacros.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDAssertMacros.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLegacyMacros.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/CloverConnector-Hackathon-2017/CloverConnector_Hackathon_2017.framework/Headers/CloverConnector_Hackathon_2017-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient.h"
+- "/Users/Trupti/Desktop/Eva/Eva/ThirdPartyFiles/PieChart/VBPieChart.h"
+- "/Users/Trupti/Desktop/Eva/libpq.framework/Headers/pg_config_ext.h"
+- "/Users/Trupti/Desktop/Eva/libpq.framework/Headers/postgres_ext.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSPolly/AWSPolly.framework/Headers/AWSPolly.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSPolly/AWSPolly.framework/Headers/AWSPollyEnumTranslatorUtility.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/CloverConnector-Hackathon-2017/CloverConnector_Hackathon_2017.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSCore/AWSCore.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/AWSPolly/AWSPolly.framework/Modules/module.modulemap"
+interface-hash: "74d2362cce2a501166a3c879e4f41b50"

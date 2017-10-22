@@ -1,0 +1,454 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DisplayOrder"
+provides-nominal:
+- "30CloverConnector_Hackathon_201712DisplayOrderC"
+provides-member:
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<-"
+- "Array"
+- "DisplayDiscount"
+- "DisplayLineItem"
+- "DisplayOrder"
+- "DisplayPayment"
+- "Map"
+- "Mappable"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["Sa", "init"]
+- ["12ObjectMapper12BaseMappableP", "DisplayDiscount"]
+- ["12ObjectMapper12BaseMappableP", "DisplayLineItem"]
+- !private ["12ObjectMapper12BaseMappableP", "amountRemaining"]
+- !private ["12ObjectMapper12BaseMappableP", "currency"]
+- !private ["12ObjectMapper12BaseMappableP", "discounts"]
+- !private ["12ObjectMapper12BaseMappableP", "employee"]
+- !private ["12ObjectMapper12BaseMappableP", "id"]
+- ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["12ObjectMapper12BaseMappableP", "lineItems"]
+- ["12ObjectMapper12BaseMappableP", "mapping"]
+- !private ["12ObjectMapper12BaseMappableP", "note"]
+- !private ["12ObjectMapper12BaseMappableP", "payments"]
+- !private ["12ObjectMapper12BaseMappableP", "serviceChargeAmount"]
+- !private ["12ObjectMapper12BaseMappableP", "serviceChargeName"]
+- !private ["12ObjectMapper12BaseMappableP", "subtotal"]
+- !private ["12ObjectMapper12BaseMappableP", "tax"]
+- !private ["12ObjectMapper12BaseMappableP", "title"]
+- !private ["12ObjectMapper12BaseMappableP", "total"]
+- ["12ObjectMapper12BaseMappableP", ""]
+- ["s23BidirectionalCollectionP", "init"]
+- ["s7CVarArgP", "DisplayDiscount"]
+- ["s7CVarArgP", "DisplayLineItem"]
+- !private ["s7CVarArgP", "amountRemaining"]
+- !private ["s7CVarArgP", "currency"]
+- !private ["s7CVarArgP", "discounts"]
+- !private ["s7CVarArgP", "employee"]
+- !private ["s7CVarArgP", "id"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lineItems"]
+- ["s7CVarArgP", "mapping"]
+- !private ["s7CVarArgP", "note"]
+- !private ["s7CVarArgP", "payments"]
+- !private ["s7CVarArgP", "serviceChargeAmount"]
+- !private ["s7CVarArgP", "serviceChargeName"]
+- !private ["s7CVarArgP", "subtotal"]
+- !private ["s7CVarArgP", "tax"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "total"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "DisplayDiscount"]
+- ["s28CustomDebugStringConvertibleP", "DisplayLineItem"]
+- !private ["s28CustomDebugStringConvertibleP", "amountRemaining"]
+- !private ["s28CustomDebugStringConvertibleP", "currency"]
+- !private ["s28CustomDebugStringConvertibleP", "discounts"]
+- !private ["s28CustomDebugStringConvertibleP", "employee"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lineItems"]
+- ["s28CustomDebugStringConvertibleP", "mapping"]
+- !private ["s28CustomDebugStringConvertibleP", "note"]
+- !private ["s28CustomDebugStringConvertibleP", "payments"]
+- !private ["s28CustomDebugStringConvertibleP", "serviceChargeAmount"]
+- !private ["s28CustomDebugStringConvertibleP", "serviceChargeName"]
+- !private ["s28CustomDebugStringConvertibleP", "subtotal"]
+- !private ["s28CustomDebugStringConvertibleP", "tax"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "total"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "DisplayDiscount"]
+- ["s23CustomStringConvertibleP", "DisplayLineItem"]
+- !private ["s23CustomStringConvertibleP", "amountRemaining"]
+- !private ["s23CustomStringConvertibleP", "currency"]
+- !private ["s23CustomStringConvertibleP", "discounts"]
+- !private ["s23CustomStringConvertibleP", "employee"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lineItems"]
+- ["s23CustomStringConvertibleP", "mapping"]
+- !private ["s23CustomStringConvertibleP", "note"]
+- !private ["s23CustomStringConvertibleP", "payments"]
+- !private ["s23CustomStringConvertibleP", "serviceChargeAmount"]
+- !private ["s23CustomStringConvertibleP", "serviceChargeName"]
+- !private ["s23CustomStringConvertibleP", "subtotal"]
+- !private ["s23CustomStringConvertibleP", "tax"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "total"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s9DecodableP", "init"]
+- !private ["30CloverConnector_Hackathon_201715DisplayDiscountC", "deinit"]
+- !private ["30CloverConnector_Hackathon_201715DisplayLineItemC", "deinit"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "Array"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "DisplayDiscount"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "DisplayLineItem"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "DisplayPayment"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "Map"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "String"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "amountRemaining"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "currency"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "deinit"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "discounts"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "employee"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "id"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "init"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "lineItems"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "mapping"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "note"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "payments"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "serviceChargeAmount"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "serviceChargeName"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "subtotal"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "tax"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "title"]
+- ["30CloverConnector_Hackathon_201712DisplayOrderC", "total"]
+- !private ["30CloverConnector_Hackathon_201714DisplayPaymentC", "deinit"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "DisplayDiscount"]
+- ["s9EquatableP", "DisplayLineItem"]
+- !private ["s9EquatableP", "amountRemaining"]
+- !private ["s9EquatableP", "currency"]
+- !private ["s9EquatableP", "discounts"]
+- !private ["s9EquatableP", "employee"]
+- !private ["s9EquatableP", "id"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lineItems"]
+- ["s9EquatableP", "mapping"]
+- !private ["s9EquatableP", "note"]
+- !private ["s9EquatableP", "payments"]
+- !private ["s9EquatableP", "serviceChargeAmount"]
+- !private ["s9EquatableP", "serviceChargeName"]
+- !private ["s9EquatableP", "subtotal"]
+- !private ["s9EquatableP", "tax"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "total"]
+- ["s9EquatableP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "DisplayDiscount"]
+- ["s8HashableP", "DisplayLineItem"]
+- !private ["s8HashableP", "amountRemaining"]
+- !private ["s8HashableP", "currency"]
+- !private ["s8HashableP", "discounts"]
+- !private ["s8HashableP", "employee"]
+- !private ["s8HashableP", "id"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "lineItems"]
+- ["s8HashableP", "mapping"]
+- !private ["s8HashableP", "note"]
+- !private ["s8HashableP", "payments"]
+- !private ["s8HashableP", "serviceChargeAmount"]
+- !private ["s8HashableP", "serviceChargeName"]
+- !private ["s8HashableP", "subtotal"]
+- !private ["s8HashableP", "tax"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "total"]
+- ["s8HashableP", ""]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper3MapC", "subscript"]
+- ["12ObjectMapper8MappableP", "DisplayDiscount"]
+- ["12ObjectMapper8MappableP", "DisplayLineItem"]
+- !private ["12ObjectMapper8MappableP", "amountRemaining"]
+- !private ["12ObjectMapper8MappableP", "currency"]
+- !private ["12ObjectMapper8MappableP", "discounts"]
+- !private ["12ObjectMapper8MappableP", "employee"]
+- !private ["12ObjectMapper8MappableP", "id"]
+- ["12ObjectMapper8MappableP", "init"]
+- !private ["12ObjectMapper8MappableP", "lineItems"]
+- ["12ObjectMapper8MappableP", "mapping"]
+- !private ["12ObjectMapper8MappableP", "note"]
+- !private ["12ObjectMapper8MappableP", "payments"]
+- !private ["12ObjectMapper8MappableP", "serviceChargeAmount"]
+- !private ["12ObjectMapper8MappableP", "serviceChargeName"]
+- !private ["12ObjectMapper8MappableP", "subtotal"]
+- !private ["12ObjectMapper8MappableP", "tax"]
+- !private ["12ObjectMapper8MappableP", "title"]
+- !private ["12ObjectMapper8MappableP", "total"]
+- ["12ObjectMapper8MappableP", ""]
+- !private ["s10MirrorPathP", "init"]
+- ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Array"]
+- ["So8NSObjectC", "DisplayDiscount"]
+- ["So8NSObjectC", "DisplayLineItem"]
+- ["So8NSObjectC", "DisplayPayment"]
+- ["So8NSObjectC", "Map"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "amountRemaining"]
+- ["So8NSObjectC", "currency"]
+- ["So8NSObjectC", "discounts"]
+- ["So8NSObjectC", "employee"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lineItems"]
+- ["So8NSObjectC", "mapping"]
+- ["So8NSObjectC", "note"]
+- ["So8NSObjectC", "payments"]
+- ["So8NSObjectC", "serviceChargeAmount"]
+- ["So8NSObjectC", "serviceChargeName"]
+- ["So8NSObjectC", "subtotal"]
+- ["So8NSObjectC", "tax"]
+- ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "total"]
+- ["So8NSObjectC", ""]
+- ["So16NSObjectProtocolP", "DisplayDiscount"]
+- ["So16NSObjectProtocolP", "DisplayLineItem"]
+- !private ["So16NSObjectProtocolP", "amountRemaining"]
+- !private ["So16NSObjectProtocolP", "currency"]
+- !private ["So16NSObjectProtocolP", "discounts"]
+- !private ["So16NSObjectProtocolP", "employee"]
+- !private ["So16NSObjectProtocolP", "id"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lineItems"]
+- ["So16NSObjectProtocolP", "mapping"]
+- !private ["So16NSObjectProtocolP", "note"]
+- !private ["So16NSObjectProtocolP", "payments"]
+- !private ["So16NSObjectProtocolP", "serviceChargeAmount"]
+- !private ["So16NSObjectProtocolP", "serviceChargeName"]
+- !private ["So16NSObjectProtocolP", "subtotal"]
+- !private ["So16NSObjectProtocolP", "tax"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "total"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- ["s22RandomAccessCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- ["s14_ArrayProtocolP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DisplayDiscount"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DisplayLineItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "amountRemaining"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "discounts"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "employee"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lineItems"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapping"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "note"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "payments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serviceChargeAmount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serviceChargeName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subtotal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "total"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["s17_MutableIndexableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s22_RandomAccessIndexableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "12ObjectMapper12BaseMappableP"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "30CloverConnector_Hackathon_201715DisplayDiscountC"
+- !private "30CloverConnector_Hackathon_201715DisplayLineItemC"
+- "30CloverConnector_Hackathon_201712DisplayOrderC"
+- !private "30CloverConnector_Hackathon_201714DisplayPaymentC"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper3MapC"
+- "12ObjectMapper8MappableP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/CloverGoReaderSDK.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/CloverGoLogger.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/clovergoclient.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/CloverConnector-Hackathon-2017/CloverConnector-Hackathon-2017-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/CloverConnector-Hackathon-2017.build/unextended-module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Documents/Clover/Hackathon project/Sample/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Starscream.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Realm.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/ObjectMapper.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/RealmSwift.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+interface-hash: "a9d538c1d950d9fec96f2b3542ec333d"

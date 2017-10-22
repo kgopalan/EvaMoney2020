@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.2.0)
+  - AWSCore (2.6.4)
+  - AWSPolly (2.6.4):
+    - AWSCore (= 2.6.4)
+  - CloverConnector-Hackathon-2017 (0.0.4):
+    - CLVGoSDK (= 3.0.0.8)
+    - ObjectMapper (= 3.0.0)
+    - Starscream (= 2.1.1)
+    - SwiftyJSON (= 3.1.4)
+  - CLVGoSDK (3.0.0.8):
+    - Alamofire (= 4.2)
+    - ObjectMapper (= 3.0.0)
+    - RealmSwift (= 2.10.0)
+  - ObjectMapper (3.0.0)
+  - Realm (2.10.0):
+    - Realm/Headers (= 2.10.0)
+  - Realm/Headers (2.10.0)
+  - RealmSwift (2.10.0):
+    - Realm (= 2.10.0)
+  - Starscream (2.1.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - AWSPolly
+  - CloverConnector-Hackathon-2017 (= 0.0.4)
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  AWSCore: f5611be1c3edc38dbf9d6da0a5d2b6c4841d1c05
+  AWSPolly: 698429ec5961663b565a25ee258d2e474bc7fa8d
+  CloverConnector-Hackathon-2017: 0c908815d875544bf35be30f940911d2bca62867
+  CLVGoSDK: 6a4126c582ee56e89315a54fa05ae422a935b9b2
+  ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
+  Realm: 98b3a25643cf6b3e07d2b99fb43fe0eb9c801dec
+  RealmSwift: 34073ad3a31232bbaf7c0db898c037940284cba2
+  Starscream: 142bd8ef24592d985daee9fa48c936070b85b15f
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: db29d70a5a7f9cbe325bf0794ae557ee20b6b0c7
+
+COCOAPODS: 1.2.0

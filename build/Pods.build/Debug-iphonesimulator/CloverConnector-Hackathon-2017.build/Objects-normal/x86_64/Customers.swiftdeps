@@ -1,0 +1,723 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC"
+provides-member:
+- ["30CloverConnector_Hackathon_20179CLVModelsC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Customers"]
+provides-dynamic-lookup:
+- "encode"
+depends-top-level:
+- !private "<-"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CLVDateTransform"
+- "CLVModels"
+- "CastingPrecedence"
+- "Date"
+- "Int"
+- "Map"
+- "Mappable"
+- "NSCoder"
+- "NSCoding"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "address1"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "address2"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "address3"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "city"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "country"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "state"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC", "zip"]
+- !private ["12ObjectMapper12BaseMappableP", "CLVDateTransform"]
+- !private ["12ObjectMapper12BaseMappableP", "address1"]
+- !private ["12ObjectMapper12BaseMappableP", "address2"]
+- !private ["12ObjectMapper12BaseMappableP", "address3"]
+- !private ["12ObjectMapper12BaseMappableP", "addresses"]
+- !private ["12ObjectMapper12BaseMappableP", "cardType"]
+- !private ["12ObjectMapper12BaseMappableP", "cards"]
+- !private ["12ObjectMapper12BaseMappableP", "city"]
+- !private ["12ObjectMapper12BaseMappableP", "country"]
+- !private ["12ObjectMapper12BaseMappableP", "customerSince"]
+- !private ["12ObjectMapper12BaseMappableP", "emailAddress"]
+- !private ["12ObjectMapper12BaseMappableP", "emailAddresses"]
+- ["12ObjectMapper12BaseMappableP", "encode"]
+- ["12ObjectMapper12BaseMappableP", "encodeWithCoder"]
+- !private ["12ObjectMapper12BaseMappableP", "expirationDate"]
+- !private ["12ObjectMapper12BaseMappableP", "first6"]
+- !private ["12ObjectMapper12BaseMappableP", "firstName"]
+- !private ["12ObjectMapper12BaseMappableP", "id"]
+- ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["12ObjectMapper12BaseMappableP", "last4"]
+- !private ["12ObjectMapper12BaseMappableP", "lastName"]
+- ["12ObjectMapper12BaseMappableP", "mapping"]
+- !private ["12ObjectMapper12BaseMappableP", "marketingAllowed"]
+- !private ["12ObjectMapper12BaseMappableP", "orderRef"]
+- !private ["12ObjectMapper12BaseMappableP", "orders"]
+- !private ["12ObjectMapper12BaseMappableP", "phoneNumber"]
+- !private ["12ObjectMapper12BaseMappableP", "phoneNumbers"]
+- !private ["12ObjectMapper12BaseMappableP", "state"]
+- !private ["12ObjectMapper12BaseMappableP", "token"]
+- !private ["12ObjectMapper12BaseMappableP", "verifiedTime"]
+- !private ["12ObjectMapper12BaseMappableP", "zip"]
+- ["12ObjectMapper12BaseMappableP", ""]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["30CloverConnector_Hackathon_201716CLVDateTransformC", "deinit"]
+- !private ["30CloverConnector_Hackathon_201716CLVDateTransformC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Bool"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC", "CLVDateTransform"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Customers"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Date"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Mappable"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "NSCoding"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "NSObject"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Order"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "String"]
+- !private ["s7CVarArgP", "CLVDateTransform"]
+- !private ["s7CVarArgP", "address1"]
+- !private ["s7CVarArgP", "address2"]
+- !private ["s7CVarArgP", "address3"]
+- !private ["s7CVarArgP", "addresses"]
+- !private ["s7CVarArgP", "cardType"]
+- !private ["s7CVarArgP", "cards"]
+- !private ["s7CVarArgP", "city"]
+- !private ["s7CVarArgP", "country"]
+- !private ["s7CVarArgP", "customerSince"]
+- !private ["s7CVarArgP", "decodeObject"]
+- !private ["s7CVarArgP", "emailAddress"]
+- !private ["s7CVarArgP", "emailAddresses"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- !private ["s7CVarArgP", "expirationDate"]
+- !private ["s7CVarArgP", "first6"]
+- !private ["s7CVarArgP", "firstName"]
+- !private ["s7CVarArgP", "id"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last4"]
+- !private ["s7CVarArgP", "lastName"]
+- ["s7CVarArgP", "mapping"]
+- !private ["s7CVarArgP", "marketingAllowed"]
+- !private ["s7CVarArgP", "orderRef"]
+- !private ["s7CVarArgP", "orders"]
+- !private ["s7CVarArgP", "phoneNumber"]
+- !private ["s7CVarArgP", "phoneNumbers"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "token"]
+- !private ["s7CVarArgP", "verifiedTime"]
+- !private ["s7CVarArgP", "zip"]
+- ["s7CVarArgP", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "cardType"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "expirationDate"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "first6"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "firstName"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "last4"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "lastName"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC", "token"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CLVDateTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "address1"]
+- !private ["s28CustomDebugStringConvertibleP", "address2"]
+- !private ["s28CustomDebugStringConvertibleP", "address3"]
+- !private ["s28CustomDebugStringConvertibleP", "addresses"]
+- !private ["s28CustomDebugStringConvertibleP", "cardType"]
+- !private ["s28CustomDebugStringConvertibleP", "cards"]
+- !private ["s28CustomDebugStringConvertibleP", "city"]
+- !private ["s28CustomDebugStringConvertibleP", "country"]
+- !private ["s28CustomDebugStringConvertibleP", "customerSince"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "emailAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "emailAddresses"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- !private ["s28CustomDebugStringConvertibleP", "expirationDate"]
+- !private ["s28CustomDebugStringConvertibleP", "first6"]
+- !private ["s28CustomDebugStringConvertibleP", "firstName"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last4"]
+- !private ["s28CustomDebugStringConvertibleP", "lastName"]
+- ["s28CustomDebugStringConvertibleP", "mapping"]
+- !private ["s28CustomDebugStringConvertibleP", "marketingAllowed"]
+- !private ["s28CustomDebugStringConvertibleP", "orderRef"]
+- !private ["s28CustomDebugStringConvertibleP", "orders"]
+- !private ["s28CustomDebugStringConvertibleP", "phoneNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "phoneNumbers"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "token"]
+- !private ["s28CustomDebugStringConvertibleP", "verifiedTime"]
+- !private ["s28CustomDebugStringConvertibleP", "zip"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CLVDateTransform"]
+- !private ["s23CustomStringConvertibleP", "address1"]
+- !private ["s23CustomStringConvertibleP", "address2"]
+- !private ["s23CustomStringConvertibleP", "address3"]
+- !private ["s23CustomStringConvertibleP", "addresses"]
+- !private ["s23CustomStringConvertibleP", "cardType"]
+- !private ["s23CustomStringConvertibleP", "cards"]
+- !private ["s23CustomStringConvertibleP", "city"]
+- !private ["s23CustomStringConvertibleP", "country"]
+- !private ["s23CustomStringConvertibleP", "customerSince"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- !private ["s23CustomStringConvertibleP", "emailAddress"]
+- !private ["s23CustomStringConvertibleP", "emailAddresses"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- !private ["s23CustomStringConvertibleP", "expirationDate"]
+- !private ["s23CustomStringConvertibleP", "first6"]
+- !private ["s23CustomStringConvertibleP", "firstName"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last4"]
+- !private ["s23CustomStringConvertibleP", "lastName"]
+- ["s23CustomStringConvertibleP", "mapping"]
+- !private ["s23CustomStringConvertibleP", "marketingAllowed"]
+- !private ["s23CustomStringConvertibleP", "orderRef"]
+- !private ["s23CustomStringConvertibleP", "orders"]
+- !private ["s23CustomStringConvertibleP", "phoneNumber"]
+- !private ["s23CustomStringConvertibleP", "phoneNumbers"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "token"]
+- !private ["s23CustomStringConvertibleP", "verifiedTime"]
+- !private ["s23CustomStringConvertibleP", "zip"]
+- ["s23CustomStringConvertibleP", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "Bool"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "addresses"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "cards"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "customerSince"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "emailAddresses"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "firstName"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "lastName"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "marketingAllowed"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "orderRef"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "orders"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC", "phoneNumbers"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "Address"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "Bool"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "CLVDateTransform"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "Card"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "Customer"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "Date"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "EmailAddress"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "Mappable"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "NSCoding"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "NSObject"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "PhoneNumber"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC", "init"]
+- !private ["s9DecodableP", "init"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "CLVDateTransform"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "Date"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "emailAddress"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC", "verifiedTime"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CLVDateTransform"]
+- !private ["s9EquatableP", "address1"]
+- !private ["s9EquatableP", "address2"]
+- !private ["s9EquatableP", "address3"]
+- !private ["s9EquatableP", "addresses"]
+- !private ["s9EquatableP", "cardType"]
+- !private ["s9EquatableP", "cards"]
+- !private ["s9EquatableP", "city"]
+- !private ["s9EquatableP", "country"]
+- !private ["s9EquatableP", "customerSince"]
+- !private ["s9EquatableP", "decodeObject"]
+- !private ["s9EquatableP", "emailAddress"]
+- !private ["s9EquatableP", "emailAddresses"]
+- ["s9EquatableP", "encode"]
+- ["s9EquatableP", "encodeWithCoder"]
+- !private ["s9EquatableP", "expirationDate"]
+- !private ["s9EquatableP", "first6"]
+- !private ["s9EquatableP", "firstName"]
+- !private ["s9EquatableP", "id"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "last4"]
+- !private ["s9EquatableP", "lastName"]
+- ["s9EquatableP", "mapping"]
+- !private ["s9EquatableP", "marketingAllowed"]
+- !private ["s9EquatableP", "orderRef"]
+- !private ["s9EquatableP", "orders"]
+- !private ["s9EquatableP", "phoneNumber"]
+- !private ["s9EquatableP", "phoneNumbers"]
+- !private ["s9EquatableP", "state"]
+- !private ["s9EquatableP", "token"]
+- !private ["s9EquatableP", "verifiedTime"]
+- !private ["s9EquatableP", "zip"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CLVDateTransform"]
+- !private ["s8HashableP", "address1"]
+- !private ["s8HashableP", "address2"]
+- !private ["s8HashableP", "address3"]
+- !private ["s8HashableP", "addresses"]
+- !private ["s8HashableP", "cardType"]
+- !private ["s8HashableP", "cards"]
+- !private ["s8HashableP", "city"]
+- !private ["s8HashableP", "country"]
+- !private ["s8HashableP", "customerSince"]
+- !private ["s8HashableP", "decodeObject"]
+- !private ["s8HashableP", "emailAddress"]
+- !private ["s8HashableP", "emailAddresses"]
+- ["s8HashableP", "encode"]
+- ["s8HashableP", "encodeWithCoder"]
+- !private ["s8HashableP", "expirationDate"]
+- !private ["s8HashableP", "first6"]
+- !private ["s8HashableP", "firstName"]
+- !private ["s8HashableP", "id"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "last4"]
+- !private ["s8HashableP", "lastName"]
+- ["s8HashableP", "mapping"]
+- !private ["s8HashableP", "marketingAllowed"]
+- !private ["s8HashableP", "orderRef"]
+- !private ["s8HashableP", "orders"]
+- !private ["s8HashableP", "phoneNumber"]
+- !private ["s8HashableP", "phoneNumbers"]
+- !private ["s8HashableP", "state"]
+- !private ["s8HashableP", "token"]
+- !private ["s8HashableP", "verifiedTime"]
+- !private ["s8HashableP", "zip"]
+- ["s8HashableP", ""]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper3MapC", "subscript"]
+- !private ["12ObjectMapper8MappableP", "CLVDateTransform"]
+- !private ["12ObjectMapper8MappableP", "address1"]
+- !private ["12ObjectMapper8MappableP", "address2"]
+- !private ["12ObjectMapper8MappableP", "address3"]
+- !private ["12ObjectMapper8MappableP", "addresses"]
+- !private ["12ObjectMapper8MappableP", "cardType"]
+- !private ["12ObjectMapper8MappableP", "cards"]
+- !private ["12ObjectMapper8MappableP", "city"]
+- !private ["12ObjectMapper8MappableP", "country"]
+- !private ["12ObjectMapper8MappableP", "customerSince"]
+- !private ["12ObjectMapper8MappableP", "emailAddress"]
+- !private ["12ObjectMapper8MappableP", "emailAddresses"]
+- ["12ObjectMapper8MappableP", "encode"]
+- ["12ObjectMapper8MappableP", "encodeWithCoder"]
+- !private ["12ObjectMapper8MappableP", "expirationDate"]
+- !private ["12ObjectMapper8MappableP", "first6"]
+- !private ["12ObjectMapper8MappableP", "firstName"]
+- !private ["12ObjectMapper8MappableP", "id"]
+- ["12ObjectMapper8MappableP", "init"]
+- !private ["12ObjectMapper8MappableP", "last4"]
+- !private ["12ObjectMapper8MappableP", "lastName"]
+- ["12ObjectMapper8MappableP", "mapping"]
+- !private ["12ObjectMapper8MappableP", "marketingAllowed"]
+- !private ["12ObjectMapper8MappableP", "orderRef"]
+- !private ["12ObjectMapper8MappableP", "orders"]
+- !private ["12ObjectMapper8MappableP", "phoneNumber"]
+- !private ["12ObjectMapper8MappableP", "phoneNumbers"]
+- !private ["12ObjectMapper8MappableP", "state"]
+- !private ["12ObjectMapper8MappableP", "token"]
+- !private ["12ObjectMapper8MappableP", "verifiedTime"]
+- !private ["12ObjectMapper8MappableP", "zip"]
+- ["12ObjectMapper8MappableP", ""]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So8NSCodingP", "CLVDateTransform"]
+- !private ["So8NSCodingP", "address1"]
+- !private ["So8NSCodingP", "address2"]
+- !private ["So8NSCodingP", "address3"]
+- !private ["So8NSCodingP", "addresses"]
+- !private ["So8NSCodingP", "cardType"]
+- !private ["So8NSCodingP", "cards"]
+- !private ["So8NSCodingP", "city"]
+- !private ["So8NSCodingP", "country"]
+- !private ["So8NSCodingP", "customerSince"]
+- !private ["So8NSCodingP", "emailAddress"]
+- !private ["So8NSCodingP", "emailAddresses"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- !private ["So8NSCodingP", "expirationDate"]
+- !private ["So8NSCodingP", "first6"]
+- !private ["So8NSCodingP", "firstName"]
+- !private ["So8NSCodingP", "id"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "last4"]
+- !private ["So8NSCodingP", "lastName"]
+- ["So8NSCodingP", "mapping"]
+- !private ["So8NSCodingP", "marketingAllowed"]
+- !private ["So8NSCodingP", "orderRef"]
+- !private ["So8NSCodingP", "orders"]
+- !private ["So8NSCodingP", "phoneNumber"]
+- !private ["So8NSCodingP", "phoneNumbers"]
+- !private ["So8NSCodingP", "state"]
+- !private ["So8NSCodingP", "token"]
+- !private ["So8NSCodingP", "verifiedTime"]
+- !private ["So8NSCodingP", "zip"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CLVDateTransform"]
+- ["So8NSObjectC", "CLVModels"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Map"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "address1"]
+- ["So8NSObjectC", "address2"]
+- ["So8NSObjectC", "address3"]
+- ["So8NSObjectC", "addresses"]
+- ["So8NSObjectC", "cardType"]
+- ["So8NSObjectC", "cards"]
+- ["So8NSObjectC", "city"]
+- ["So8NSObjectC", "country"]
+- ["So8NSObjectC", "customerSince"]
+- !private ["So8NSObjectC", "decodeObject"]
+- ["So8NSObjectC", "emailAddress"]
+- ["So8NSObjectC", "emailAddresses"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- ["So8NSObjectC", "expirationDate"]
+- ["So8NSObjectC", "first6"]
+- ["So8NSObjectC", "firstName"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "last4"]
+- ["So8NSObjectC", "lastName"]
+- ["So8NSObjectC", "mapping"]
+- ["So8NSObjectC", "marketingAllowed"]
+- ["So8NSObjectC", "orderRef"]
+- ["So8NSObjectC", "orders"]
+- ["So8NSObjectC", "phoneNumber"]
+- ["So8NSObjectC", "phoneNumbers"]
+- ["So8NSObjectC", "state"]
+- ["So8NSObjectC", "token"]
+- ["So8NSObjectC", "verifiedTime"]
+- ["So8NSObjectC", "zip"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "CLVDateTransform"]
+- !private ["So16NSObjectProtocolP", "address1"]
+- !private ["So16NSObjectProtocolP", "address2"]
+- !private ["So16NSObjectProtocolP", "address3"]
+- !private ["So16NSObjectProtocolP", "addresses"]
+- !private ["So16NSObjectProtocolP", "cardType"]
+- !private ["So16NSObjectProtocolP", "cards"]
+- !private ["So16NSObjectProtocolP", "city"]
+- !private ["So16NSObjectProtocolP", "country"]
+- !private ["So16NSObjectProtocolP", "customerSince"]
+- !private ["So16NSObjectProtocolP", "decodeObject"]
+- !private ["So16NSObjectProtocolP", "emailAddress"]
+- !private ["So16NSObjectProtocolP", "emailAddresses"]
+- ["So16NSObjectProtocolP", "encode"]
+- ["So16NSObjectProtocolP", "encodeWithCoder"]
+- !private ["So16NSObjectProtocolP", "expirationDate"]
+- !private ["So16NSObjectProtocolP", "first6"]
+- !private ["So16NSObjectProtocolP", "firstName"]
+- !private ["So16NSObjectProtocolP", "id"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "last4"]
+- !private ["So16NSObjectProtocolP", "lastName"]
+- ["So16NSObjectProtocolP", "mapping"]
+- !private ["So16NSObjectProtocolP", "marketingAllowed"]
+- !private ["So16NSObjectProtocolP", "orderRef"]
+- !private ["So16NSObjectProtocolP", "orders"]
+- !private ["So16NSObjectProtocolP", "phoneNumber"]
+- !private ["So16NSObjectProtocolP", "phoneNumbers"]
+- !private ["So16NSObjectProtocolP", "state"]
+- !private ["So16NSObjectProtocolP", "token"]
+- !private ["So16NSObjectProtocolP", "verifiedTime"]
+- !private ["So16NSObjectProtocolP", "zip"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC5OrderC", "Order"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC5OrderCADC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC", "phoneNumber"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["12ObjectMapper13TransformTypeP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLVDateTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "address1"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "address2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "address3"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addresses"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cardType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cards"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "city"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "country"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "customerSince"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailAddresses"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expirationDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "first6"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "last4"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastName"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapping"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "marketingAllowed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orderRef"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orders"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "phoneNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "phoneNumbers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "token"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "verifiedTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "zip"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC7AddressC"
+- "12ObjectMapper12BaseMappableP"
+- !private "s23BidirectionalCollectionP"
+- !private "30CloverConnector_Hackathon_201716CLVDateTransformC"
+- "30CloverConnector_Hackathon_20179CLVModelsC"
+- "s7CVarArgP"
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC4CardC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC8CustomerC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC"
+- !private "s9DecodableP"
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC12EmailAddressC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper3MapC"
+- "12ObjectMapper8MappableP"
+- !private "s10MirrorPathP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "30CloverConnector_Hackathon_20179CLVModelsC5OrderC"
+- !private "30CloverConnector_Hackathon_20179CLVModelsC5OrderCADC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9CustomersC11PhoneNumberC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "12ObjectMapper13TransformTypeP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/CloverGoReaderSDK.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/CloverGoLogger.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/clovergoclient.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/CloverConnector-Hackathon-2017/CloverConnector-Hackathon-2017-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/CloverConnector-Hackathon-2017.build/unextended-module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Documents/Clover/Hackathon project/Sample/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/RealmSwift.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+interface-hash: "37a37f69ced0feac6a4a6c2d60abcc63"

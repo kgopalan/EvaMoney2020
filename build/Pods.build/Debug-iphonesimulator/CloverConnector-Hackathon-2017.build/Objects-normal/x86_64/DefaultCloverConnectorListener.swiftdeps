@@ -1,0 +1,619 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DefaultCloverConnectorListener"
+provides-nominal:
+- "30CloverConnector_Hackathon_201707DefaultaB8ListenerC"
+provides-member:
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "AuthResponse"
+- "CapturePreAuthResponse"
+- "CloseoutResponse"
+- "CloverDeviceErrorEvent"
+- "CloverDeviceEvent"
+- "ConfirmPaymentRequest"
+- "CustomActivityResponse"
+- "DefaultCloverConnectorListener"
+- "ICloverConnector"
+- "ICloverConnectorListener"
+- "ManualRefundResponse"
+- "MerchantInfo"
+- "MessageFromActivity"
+- "NSObject"
+- "PreAuthResponse"
+- "PrintJobStatusResponse"
+- "PrintManualRefundDeclineReceiptMessage"
+- "PrintManualRefundReceiptMessage"
+- "PrintPaymentDeclineReceiptMessage"
+- "PrintPaymentMerchantCopyReceiptMessage"
+- "PrintPaymentReceiptMessage"
+- "PrintRefundPaymentReceiptMessage"
+- "ReadCardDataResponse"
+- "RefundPaymentResponse"
+- "ResetDeviceResponse"
+- "RetrieveDeviceStatusResponse"
+- "RetrievePaymentResponse"
+- "RetrievePendingPaymentsResponse"
+- "RetrievePrintersResponse"
+- "SaleResponse"
+- !private "StringLiteralType"
+- "TipAddedMessage"
+- "TipAdjustAuthResponse"
+- "VaultCardResponse"
+- "VerifySignatureRequest"
+- "Void"
+- "VoidCreditResponse"
+- "VoidPaymentResponse"
+depends-member:
+- !private ["s7CVarArgP", "cloverConnector"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "onAuthResponse"]
+- ["s7CVarArgP", "onCapturePreAuthResponse"]
+- ["s7CVarArgP", "onCloseoutResponse"]
+- ["s7CVarArgP", "onConfirmPaymentRequest"]
+- ["s7CVarArgP", "onCustomActivityResponse"]
+- ["s7CVarArgP", "onDeviceActivityEnd"]
+- ["s7CVarArgP", "onDeviceActivityStart"]
+- ["s7CVarArgP", "onDeviceConnected"]
+- ["s7CVarArgP", "onDeviceDisconnected"]
+- ["s7CVarArgP", "onDeviceError"]
+- ["s7CVarArgP", "onDeviceReady"]
+- ["s7CVarArgP", "onManualRefundResponse"]
+- ["s7CVarArgP", "onMessageFromActivity"]
+- ["s7CVarArgP", "onPreAuthResponse"]
+- ["s7CVarArgP", "onPrintJobStatusResponse"]
+- ["s7CVarArgP", "onPrintManualRefundDeclineReceipt"]
+- ["s7CVarArgP", "onPrintManualRefundReceipt"]
+- ["s7CVarArgP", "onPrintPaymentDeclineReceipt"]
+- ["s7CVarArgP", "onPrintPaymentMerchantCopyReceipt"]
+- ["s7CVarArgP", "onPrintPaymentReceipt"]
+- ["s7CVarArgP", "onPrintRefundPaymentReceipt"]
+- ["s7CVarArgP", "onReadCardDataResponse"]
+- ["s7CVarArgP", "onRefundPaymentResponse"]
+- ["s7CVarArgP", "onResetDeviceResponse"]
+- ["s7CVarArgP", "onRetrieveDeviceStatusResponse"]
+- ["s7CVarArgP", "onRetrievePaymentResponse"]
+- ["s7CVarArgP", "onRetrievePendingPaymentsResponse"]
+- ["s7CVarArgP", "onRetrievePrintersResponse"]
+- ["s7CVarArgP", "onSaleResponse"]
+- ["s7CVarArgP", "onTipAdded"]
+- ["s7CVarArgP", "onTipAdjustAuthResponse"]
+- ["s7CVarArgP", "onVaultCardResponse"]
+- ["s7CVarArgP", "onVerifySignatureRequest"]
+- ["s7CVarArgP", "onVoidPaymentResponse"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cloverConnector"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "onAuthResponse"]
+- ["s28CustomDebugStringConvertibleP", "onCapturePreAuthResponse"]
+- ["s28CustomDebugStringConvertibleP", "onCloseoutResponse"]
+- ["s28CustomDebugStringConvertibleP", "onConfirmPaymentRequest"]
+- ["s28CustomDebugStringConvertibleP", "onCustomActivityResponse"]
+- ["s28CustomDebugStringConvertibleP", "onDeviceActivityEnd"]
+- ["s28CustomDebugStringConvertibleP", "onDeviceActivityStart"]
+- ["s28CustomDebugStringConvertibleP", "onDeviceConnected"]
+- ["s28CustomDebugStringConvertibleP", "onDeviceDisconnected"]
+- ["s28CustomDebugStringConvertibleP", "onDeviceError"]
+- ["s28CustomDebugStringConvertibleP", "onDeviceReady"]
+- ["s28CustomDebugStringConvertibleP", "onManualRefundResponse"]
+- ["s28CustomDebugStringConvertibleP", "onMessageFromActivity"]
+- ["s28CustomDebugStringConvertibleP", "onPreAuthResponse"]
+- ["s28CustomDebugStringConvertibleP", "onPrintJobStatusResponse"]
+- ["s28CustomDebugStringConvertibleP", "onPrintManualRefundDeclineReceipt"]
+- ["s28CustomDebugStringConvertibleP", "onPrintManualRefundReceipt"]
+- ["s28CustomDebugStringConvertibleP", "onPrintPaymentDeclineReceipt"]
+- ["s28CustomDebugStringConvertibleP", "onPrintPaymentMerchantCopyReceipt"]
+- ["s28CustomDebugStringConvertibleP", "onPrintPaymentReceipt"]
+- ["s28CustomDebugStringConvertibleP", "onPrintRefundPaymentReceipt"]
+- ["s28CustomDebugStringConvertibleP", "onReadCardDataResponse"]
+- ["s28CustomDebugStringConvertibleP", "onRefundPaymentResponse"]
+- ["s28CustomDebugStringConvertibleP", "onResetDeviceResponse"]
+- ["s28CustomDebugStringConvertibleP", "onRetrieveDeviceStatusResponse"]
+- ["s28CustomDebugStringConvertibleP", "onRetrievePaymentResponse"]
+- ["s28CustomDebugStringConvertibleP", "onRetrievePendingPaymentsResponse"]
+- ["s28CustomDebugStringConvertibleP", "onRetrievePrintersResponse"]
+- ["s28CustomDebugStringConvertibleP", "onSaleResponse"]
+- ["s28CustomDebugStringConvertibleP", "onTipAdded"]
+- ["s28CustomDebugStringConvertibleP", "onTipAdjustAuthResponse"]
+- ["s28CustomDebugStringConvertibleP", "onVaultCardResponse"]
+- ["s28CustomDebugStringConvertibleP", "onVerifySignatureRequest"]
+- ["s28CustomDebugStringConvertibleP", "onVoidPaymentResponse"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "cloverConnector"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "onAuthResponse"]
+- ["s23CustomStringConvertibleP", "onCapturePreAuthResponse"]
+- ["s23CustomStringConvertibleP", "onCloseoutResponse"]
+- ["s23CustomStringConvertibleP", "onConfirmPaymentRequest"]
+- ["s23CustomStringConvertibleP", "onCustomActivityResponse"]
+- ["s23CustomStringConvertibleP", "onDeviceActivityEnd"]
+- ["s23CustomStringConvertibleP", "onDeviceActivityStart"]
+- ["s23CustomStringConvertibleP", "onDeviceConnected"]
+- ["s23CustomStringConvertibleP", "onDeviceDisconnected"]
+- ["s23CustomStringConvertibleP", "onDeviceError"]
+- ["s23CustomStringConvertibleP", "onDeviceReady"]
+- ["s23CustomStringConvertibleP", "onManualRefundResponse"]
+- ["s23CustomStringConvertibleP", "onMessageFromActivity"]
+- ["s23CustomStringConvertibleP", "onPreAuthResponse"]
+- ["s23CustomStringConvertibleP", "onPrintJobStatusResponse"]
+- ["s23CustomStringConvertibleP", "onPrintManualRefundDeclineReceipt"]
+- ["s23CustomStringConvertibleP", "onPrintManualRefundReceipt"]
+- ["s23CustomStringConvertibleP", "onPrintPaymentDeclineReceipt"]
+- ["s23CustomStringConvertibleP", "onPrintPaymentMerchantCopyReceipt"]
+- ["s23CustomStringConvertibleP", "onPrintPaymentReceipt"]
+- ["s23CustomStringConvertibleP", "onPrintRefundPaymentReceipt"]
+- ["s23CustomStringConvertibleP", "onReadCardDataResponse"]
+- ["s23CustomStringConvertibleP", "onRefundPaymentResponse"]
+- ["s23CustomStringConvertibleP", "onResetDeviceResponse"]
+- ["s23CustomStringConvertibleP", "onRetrieveDeviceStatusResponse"]
+- ["s23CustomStringConvertibleP", "onRetrievePaymentResponse"]
+- ["s23CustomStringConvertibleP", "onRetrievePendingPaymentsResponse"]
+- ["s23CustomStringConvertibleP", "onRetrievePrintersResponse"]
+- ["s23CustomStringConvertibleP", "onSaleResponse"]
+- ["s23CustomStringConvertibleP", "onTipAdded"]
+- ["s23CustomStringConvertibleP", "onTipAdjustAuthResponse"]
+- ["s23CustomStringConvertibleP", "onVaultCardResponse"]
+- ["s23CustomStringConvertibleP", "onVerifySignatureRequest"]
+- ["s23CustomStringConvertibleP", "onVoidPaymentResponse"]
+- ["s23CustomStringConvertibleP", ""]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "AuthResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "CapturePreAuthResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "CloseoutResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "CloverDeviceErrorEvent"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "CloverDeviceEvent"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "ConfirmPaymentRequest"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "CustomActivityResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "ICloverConnector"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "ManualRefundResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "MerchantInfo"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "MessageFromActivity"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "PreAuthResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "PrintJobStatusResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "PrintManualRefundDeclineReceiptMessage"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "PrintManualRefundReceiptMessage"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "PrintPaymentDeclineReceiptMessage"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "PrintPaymentMerchantCopyReceiptMessage"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "PrintPaymentReceiptMessage"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "PrintRefundPaymentReceiptMessage"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "ReadCardDataResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "RefundPaymentResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "ResetDeviceResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "RetrieveDeviceStatusResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "RetrievePaymentResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "RetrievePendingPaymentsResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "RetrievePrintersResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "SaleResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "TipAddedMessage"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "TipAdjustAuthResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "VaultCardResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "VerifySignatureRequest"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "Void"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "VoidCreditResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "VoidPaymentResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "cloverConnector"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "deinit"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "init"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onAuthResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onCapturePreAuthResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onCloseoutResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onConfirmPaymentRequest"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onCustomActivityResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onDeviceActivityEnd"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onDeviceActivityStart"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onDeviceConnected"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onDeviceDisconnected"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onDeviceError"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onDeviceReady"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onManualRefundResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onMessageFromActivity"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onPreAuthResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onPrintJobStatusResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onPrintManualRefundDeclineReceipt"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onPrintManualRefundReceipt"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onPrintPaymentDeclineReceipt"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onPrintPaymentMerchantCopyReceipt"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onPrintPaymentReceipt"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onPrintRefundPaymentReceipt"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onReadCardDataResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onRefundPaymentResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onResetDeviceResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onRetrieveDeviceStatusResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onRetrievePaymentResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onRetrievePendingPaymentsResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onRetrievePrintersResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onSaleResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onTipAdded"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onTipAdjustAuthResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onVaultCardResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onVerifySignatureRequest"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onVoidCreditResponse"]
+- ["30CloverConnector_Hackathon_201707DefaultaB8ListenerC", "onVoidPaymentResponse"]
+- !private ["s9EquatableP", "cloverConnector"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "onAuthResponse"]
+- ["s9EquatableP", "onCapturePreAuthResponse"]
+- ["s9EquatableP", "onCloseoutResponse"]
+- ["s9EquatableP", "onConfirmPaymentRequest"]
+- ["s9EquatableP", "onCustomActivityResponse"]
+- ["s9EquatableP", "onDeviceActivityEnd"]
+- ["s9EquatableP", "onDeviceActivityStart"]
+- ["s9EquatableP", "onDeviceConnected"]
+- ["s9EquatableP", "onDeviceDisconnected"]
+- ["s9EquatableP", "onDeviceError"]
+- ["s9EquatableP", "onDeviceReady"]
+- ["s9EquatableP", "onManualRefundResponse"]
+- ["s9EquatableP", "onMessageFromActivity"]
+- ["s9EquatableP", "onPreAuthResponse"]
+- ["s9EquatableP", "onPrintJobStatusResponse"]
+- ["s9EquatableP", "onPrintManualRefundDeclineReceipt"]
+- ["s9EquatableP", "onPrintManualRefundReceipt"]
+- ["s9EquatableP", "onPrintPaymentDeclineReceipt"]
+- ["s9EquatableP", "onPrintPaymentMerchantCopyReceipt"]
+- ["s9EquatableP", "onPrintPaymentReceipt"]
+- ["s9EquatableP", "onPrintRefundPaymentReceipt"]
+- ["s9EquatableP", "onReadCardDataResponse"]
+- ["s9EquatableP", "onRefundPaymentResponse"]
+- ["s9EquatableP", "onResetDeviceResponse"]
+- ["s9EquatableP", "onRetrieveDeviceStatusResponse"]
+- ["s9EquatableP", "onRetrievePaymentResponse"]
+- ["s9EquatableP", "onRetrievePendingPaymentsResponse"]
+- ["s9EquatableP", "onRetrievePrintersResponse"]
+- ["s9EquatableP", "onSaleResponse"]
+- ["s9EquatableP", "onTipAdded"]
+- ["s9EquatableP", "onTipAdjustAuthResponse"]
+- ["s9EquatableP", "onVaultCardResponse"]
+- ["s9EquatableP", "onVerifySignatureRequest"]
+- ["s9EquatableP", "onVoidPaymentResponse"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "cloverConnector"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "onAuthResponse"]
+- ["s8HashableP", "onCapturePreAuthResponse"]
+- ["s8HashableP", "onCloseoutResponse"]
+- ["s8HashableP", "onConfirmPaymentRequest"]
+- ["s8HashableP", "onCustomActivityResponse"]
+- ["s8HashableP", "onDeviceActivityEnd"]
+- ["s8HashableP", "onDeviceActivityStart"]
+- ["s8HashableP", "onDeviceConnected"]
+- ["s8HashableP", "onDeviceDisconnected"]
+- ["s8HashableP", "onDeviceError"]
+- ["s8HashableP", "onDeviceReady"]
+- ["s8HashableP", "onManualRefundResponse"]
+- ["s8HashableP", "onMessageFromActivity"]
+- ["s8HashableP", "onPreAuthResponse"]
+- ["s8HashableP", "onPrintJobStatusResponse"]
+- ["s8HashableP", "onPrintManualRefundDeclineReceipt"]
+- ["s8HashableP", "onPrintManualRefundReceipt"]
+- ["s8HashableP", "onPrintPaymentDeclineReceipt"]
+- ["s8HashableP", "onPrintPaymentMerchantCopyReceipt"]
+- ["s8HashableP", "onPrintPaymentReceipt"]
+- ["s8HashableP", "onPrintRefundPaymentReceipt"]
+- ["s8HashableP", "onReadCardDataResponse"]
+- ["s8HashableP", "onRefundPaymentResponse"]
+- ["s8HashableP", "onResetDeviceResponse"]
+- ["s8HashableP", "onRetrieveDeviceStatusResponse"]
+- ["s8HashableP", "onRetrievePaymentResponse"]
+- ["s8HashableP", "onRetrievePendingPaymentsResponse"]
+- ["s8HashableP", "onRetrievePrintersResponse"]
+- ["s8HashableP", "onSaleResponse"]
+- ["s8HashableP", "onTipAdded"]
+- ["s8HashableP", "onTipAdjustAuthResponse"]
+- ["s8HashableP", "onVaultCardResponse"]
+- ["s8HashableP", "onVerifySignatureRequest"]
+- ["s8HashableP", "onVoidPaymentResponse"]
+- ["s8HashableP", ""]
+- !private ["30CloverConnector_Hackathon_201707ICloverB0P", "acceptSignature"]
+- !private ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "cloverConnector"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onAuthResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onCapturePreAuthResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onCloseoutResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onConfirmPaymentRequest"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onCustomActivityResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onDeviceActivityEnd"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onDeviceActivityStart"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onDeviceConnected"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onDeviceDisconnected"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onDeviceError"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onDeviceReady"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onManualRefundResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onMessageFromActivity"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onPreAuthResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onPrintJobStatusResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onPrintManualRefundDeclineReceipt"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onPrintManualRefundReceipt"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onPrintPaymentDeclineReceipt"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onPrintPaymentMerchantCopyReceipt"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onPrintPaymentReceipt"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onPrintRefundPaymentReceipt"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onReadCardDataResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onRefundPaymentResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onResetDeviceResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onRetrieveDeviceStatusResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onRetrievePaymentResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onRetrievePendingPaymentsResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onRetrievePrintersResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onSaleResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onTipAdded"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onTipAdjustAuthResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onVaultCardResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onVerifySignatureRequest"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "onVoidPaymentResponse"]
+- ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", ""]
+- ["So8NSObjectC", "AuthResponse"]
+- ["So8NSObjectC", "CapturePreAuthResponse"]
+- ["So8NSObjectC", "CloseoutResponse"]
+- ["So8NSObjectC", "CloverDeviceErrorEvent"]
+- ["So8NSObjectC", "CloverDeviceEvent"]
+- ["So8NSObjectC", "ConfirmPaymentRequest"]
+- ["So8NSObjectC", "CustomActivityResponse"]
+- ["So8NSObjectC", "ICloverConnector"]
+- ["So8NSObjectC", "ManualRefundResponse"]
+- ["So8NSObjectC", "MerchantInfo"]
+- ["So8NSObjectC", "MessageFromActivity"]
+- ["So8NSObjectC", "PreAuthResponse"]
+- ["So8NSObjectC", "PrintJobStatusResponse"]
+- ["So8NSObjectC", "PrintManualRefundDeclineReceiptMessage"]
+- ["So8NSObjectC", "PrintManualRefundReceiptMessage"]
+- ["So8NSObjectC", "PrintPaymentDeclineReceiptMessage"]
+- ["So8NSObjectC", "PrintPaymentMerchantCopyReceiptMessage"]
+- ["So8NSObjectC", "PrintPaymentReceiptMessage"]
+- ["So8NSObjectC", "PrintRefundPaymentReceiptMessage"]
+- ["So8NSObjectC", "ReadCardDataResponse"]
+- ["So8NSObjectC", "RefundPaymentResponse"]
+- ["So8NSObjectC", "ResetDeviceResponse"]
+- ["So8NSObjectC", "RetrieveDeviceStatusResponse"]
+- ["So8NSObjectC", "RetrievePaymentResponse"]
+- ["So8NSObjectC", "RetrievePendingPaymentsResponse"]
+- ["So8NSObjectC", "RetrievePrintersResponse"]
+- ["So8NSObjectC", "SaleResponse"]
+- ["So8NSObjectC", "TipAddedMessage"]
+- ["So8NSObjectC", "TipAdjustAuthResponse"]
+- ["So8NSObjectC", "VaultCardResponse"]
+- ["So8NSObjectC", "VerifySignatureRequest"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "VoidCreditResponse"]
+- ["So8NSObjectC", "VoidPaymentResponse"]
+- ["So8NSObjectC", "cloverConnector"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "onAuthResponse"]
+- ["So8NSObjectC", "onCapturePreAuthResponse"]
+- ["So8NSObjectC", "onCloseoutResponse"]
+- ["So8NSObjectC", "onConfirmPaymentRequest"]
+- ["So8NSObjectC", "onCustomActivityResponse"]
+- ["So8NSObjectC", "onDeviceActivityEnd"]
+- ["So8NSObjectC", "onDeviceActivityStart"]
+- ["So8NSObjectC", "onDeviceConnected"]
+- ["So8NSObjectC", "onDeviceDisconnected"]
+- ["So8NSObjectC", "onDeviceError"]
+- ["So8NSObjectC", "onDeviceReady"]
+- ["So8NSObjectC", "onManualRefundResponse"]
+- ["So8NSObjectC", "onMessageFromActivity"]
+- ["So8NSObjectC", "onPreAuthResponse"]
+- ["So8NSObjectC", "onPrintJobStatusResponse"]
+- ["So8NSObjectC", "onPrintManualRefundDeclineReceipt"]
+- ["So8NSObjectC", "onPrintManualRefundReceipt"]
+- ["So8NSObjectC", "onPrintPaymentDeclineReceipt"]
+- ["So8NSObjectC", "onPrintPaymentMerchantCopyReceipt"]
+- ["So8NSObjectC", "onPrintPaymentReceipt"]
+- ["So8NSObjectC", "onPrintRefundPaymentReceipt"]
+- ["So8NSObjectC", "onReadCardDataResponse"]
+- ["So8NSObjectC", "onRefundPaymentResponse"]
+- ["So8NSObjectC", "onResetDeviceResponse"]
+- ["So8NSObjectC", "onRetrieveDeviceStatusResponse"]
+- ["So8NSObjectC", "onRetrievePaymentResponse"]
+- ["So8NSObjectC", "onRetrievePendingPaymentsResponse"]
+- ["So8NSObjectC", "onRetrievePrintersResponse"]
+- ["So8NSObjectC", "onSaleResponse"]
+- ["So8NSObjectC", "onTipAdded"]
+- ["So8NSObjectC", "onTipAdjustAuthResponse"]
+- ["So8NSObjectC", "onVaultCardResponse"]
+- ["So8NSObjectC", "onVerifySignatureRequest"]
+- ["So8NSObjectC", "onVoidCreditResponse"]
+- ["So8NSObjectC", "onVoidPaymentResponse"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "cloverConnector"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "onAuthResponse"]
+- ["So16NSObjectProtocolP", "onCapturePreAuthResponse"]
+- ["So16NSObjectProtocolP", "onCloseoutResponse"]
+- ["So16NSObjectProtocolP", "onConfirmPaymentRequest"]
+- ["So16NSObjectProtocolP", "onCustomActivityResponse"]
+- ["So16NSObjectProtocolP", "onDeviceActivityEnd"]
+- ["So16NSObjectProtocolP", "onDeviceActivityStart"]
+- ["So16NSObjectProtocolP", "onDeviceConnected"]
+- ["So16NSObjectProtocolP", "onDeviceDisconnected"]
+- ["So16NSObjectProtocolP", "onDeviceError"]
+- ["So16NSObjectProtocolP", "onDeviceReady"]
+- ["So16NSObjectProtocolP", "onManualRefundResponse"]
+- ["So16NSObjectProtocolP", "onMessageFromActivity"]
+- ["So16NSObjectProtocolP", "onPreAuthResponse"]
+- ["So16NSObjectProtocolP", "onPrintJobStatusResponse"]
+- ["So16NSObjectProtocolP", "onPrintManualRefundDeclineReceipt"]
+- ["So16NSObjectProtocolP", "onPrintManualRefundReceipt"]
+- ["So16NSObjectProtocolP", "onPrintPaymentDeclineReceipt"]
+- ["So16NSObjectProtocolP", "onPrintPaymentMerchantCopyReceipt"]
+- ["So16NSObjectProtocolP", "onPrintPaymentReceipt"]
+- ["So16NSObjectProtocolP", "onPrintRefundPaymentReceipt"]
+- ["So16NSObjectProtocolP", "onReadCardDataResponse"]
+- ["So16NSObjectProtocolP", "onRefundPaymentResponse"]
+- ["So16NSObjectProtocolP", "onResetDeviceResponse"]
+- ["So16NSObjectProtocolP", "onRetrieveDeviceStatusResponse"]
+- ["So16NSObjectProtocolP", "onRetrievePaymentResponse"]
+- ["So16NSObjectProtocolP", "onRetrievePendingPaymentsResponse"]
+- ["So16NSObjectProtocolP", "onRetrievePrintersResponse"]
+- ["So16NSObjectProtocolP", "onSaleResponse"]
+- ["So16NSObjectProtocolP", "onTipAdded"]
+- ["So16NSObjectProtocolP", "onTipAdjustAuthResponse"]
+- ["So16NSObjectProtocolP", "onVaultCardResponse"]
+- ["So16NSObjectProtocolP", "onVerifySignatureRequest"]
+- ["So16NSObjectProtocolP", "onVoidPaymentResponse"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["s12StaticStringV", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cloverConnector"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onAuthResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onCapturePreAuthResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onCloseoutResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onConfirmPaymentRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onCustomActivityResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onDeviceActivityEnd"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onDeviceActivityStart"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onDeviceConnected"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onDeviceDisconnected"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onDeviceError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onDeviceReady"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onManualRefundResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onMessageFromActivity"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onPreAuthResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onPrintJobStatusResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onPrintManualRefundDeclineReceipt"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onPrintManualRefundReceipt"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onPrintPaymentDeclineReceipt"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onPrintPaymentMerchantCopyReceipt"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onPrintPaymentReceipt"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onPrintRefundPaymentReceipt"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onReadCardDataResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onRefundPaymentResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onResetDeviceResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onRetrieveDeviceStatusResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onRetrievePaymentResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onRetrievePendingPaymentsResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onRetrievePrintersResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onSaleResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onTipAdded"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onTipAdjustAuthResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onVaultCardResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onVerifySignatureRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onVoidPaymentResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "30CloverConnector_Hackathon_201707DefaultaB8ListenerC"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "30CloverConnector_Hackathon_201707ICloverB0P"
+- "30CloverConnector_Hackathon_201707ICloverB8ListenerP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s12StaticStringV"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/CloverGoReaderSDK.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/CloverGoLogger.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/clovergoclient.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/CloverConnector-Hackathon-2017/CloverConnector-Hackathon-2017-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/CloverConnector-Hackathon-2017.build/unextended-module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Documents/Clover/Hackathon project/Sample/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphonesimulator/RealmSwift.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+interface-hash: "b2a1304b96e63d1ee8d43c8f705fecc8"

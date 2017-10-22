@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "f161e47aab403e6e66c9a3b6477a3ef0"
+build_time: [1508648157, 930966000]
+inputs:
+  "/Users/Trupti/Desktop/Eva/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1508623982, 0]

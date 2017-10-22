@@ -1,0 +1,1140 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "3Eva14ViewControllerC"
+provides-member:
+- ["3Eva14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "action_connect450Button"
+- "didReceiveMemoryWarning"
+- "doSaleTransaction"
+- "viewDidLoad"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "=="
+- "AnyObject"
+- !private "AppDelegate"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "CloverGoConnector"
+- "CloverGoConnectorListener"
+- !private "CloverGoDeviceConfiguration"
+- !private "FLAGS"
+- "ICloverGoConnector"
+- !private "ICloverGoConnectorListener"
+- !private "Int"
+- "MerchantInfo"
+- !private "PARAMETERS"
+- !private "SHARED"
+- !private "SaleRequest"
+- "SaleResponse"
+- "StartTransactionDelegate"
+- !private "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertActionStyle"
+- !private "UIAlertController"
+- !private "UIAlertControllerStyle"
+- !private "UIApplication"
+- "UIViewController"
+- "ViewController"
+- !private "arc4random"
+- !private "print"
+depends-member:
+- !private ["10RealmSwift11AddableTypeP", "init"]
+- !private ["3Eva11AppDelegateC", "cloverConnector"]
+- !private ["3Eva11AppDelegateC", "cloverConnectorListener"]
+- !private ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["30CloverConnector_Hackathon_20170A21GoDeviceConfigurationC7BuilderC", "accessToken"]
+- !private ["30CloverConnector_Hackathon_20170A21GoDeviceConfigurationC7BuilderC", "allowAutoConnect"]
+- !private ["30CloverConnector_Hackathon_20170A21GoDeviceConfigurationC7BuilderC", "allowDuplicateTransaction"]
+- !private ["30CloverConnector_Hackathon_20170A21GoDeviceConfigurationC7BuilderC", "build"]
+- !private ["30CloverConnector_Hackathon_20170A21GoDeviceConfigurationC7BuilderC", "init"]
+- !private ["30CloverConnector_Hackathon_201716CLVGoEnvironmentO", "live"]
+- !private ["s7CVarArgP", "Builder"]
+- !private ["s7CVarArgP", "CloverGoConnector"]
+- !private ["s7CVarArgP", "CloverGoConnectorListener"]
+- !private ["s7CVarArgP", "CloverGoDeviceConfiguration"]
+- !private ["s7CVarArgP", "FLAGS"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "PARAMETERS"]
+- !private ["s7CVarArgP", "SHARED"]
+- !private ["s7CVarArgP", "SaleRequest"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertActionStyle"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "UIAlertControllerStyle"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "addCloverGoConnectorListener"]
+- !private ["s7CVarArgP", "arc4random"]
+- !private ["s7CVarArgP", "checkReaderConnectedStatus"]
+- !private ["s7CVarArgP", "cloverConnector"]
+- !private ["s7CVarArgP", "cloverConnector450Reader"]
+- !private ["s7CVarArgP", "cloverConnectorListener"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "deviceInfo"]
+- !private ["s7CVarArgP", "deviceModel"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "onSalePaymentSuccess"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- ["s7CVarArgP", "proceedAfterReaderReady"]
+- ["s7CVarArgP", "readerDisconnected"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["14clovergoclient18CardReaderDelegateP", "addCloverGoConnectorListener"]
+- !private ["14clovergoclient18CardReaderDelegateP", "init"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "Builder"]
+- !private ["30CloverConnector_Hackathon_20170a2GoB0C", "addCloverGoConnectorListener"]
+- !private ["30CloverConnector_Hackathon_20170a2GoB0C", "init"]
+- !private ["3Eva25CloverGoConnectorListenerC", "deinit"]
+- !private ["3Eva25CloverGoConnectorListenerC", "init"]
+- !private ["30CloverConnector_Hackathon_20170A21GoDeviceConfigurationC", "Builder"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Builder"]
+- !private ["s28CustomDebugStringConvertibleP", "CloverGoConnector"]
+- !private ["s28CustomDebugStringConvertibleP", "CloverGoConnectorListener"]
+- !private ["s28CustomDebugStringConvertibleP", "CloverGoDeviceConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "FLAGS"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "PARAMETERS"]
+- !private ["s28CustomDebugStringConvertibleP", "SHARED"]
+- !private ["s28CustomDebugStringConvertibleP", "SaleRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertActionStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertControllerStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "addCloverGoConnectorListener"]
+- !private ["s28CustomDebugStringConvertibleP", "arc4random"]
+- !private ["s28CustomDebugStringConvertibleP", "checkReaderConnectedStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "cloverConnector"]
+- !private ["s28CustomDebugStringConvertibleP", "cloverConnector450Reader"]
+- !private ["s28CustomDebugStringConvertibleP", "cloverConnectorListener"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceModel"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "onSalePaymentSuccess"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- ["s28CustomDebugStringConvertibleP", "proceedAfterReaderReady"]
+- ["s28CustomDebugStringConvertibleP", "readerDisconnected"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Builder"]
+- !private ["s23CustomStringConvertibleP", "CloverGoConnector"]
+- !private ["s23CustomStringConvertibleP", "CloverGoConnectorListener"]
+- !private ["s23CustomStringConvertibleP", "CloverGoDeviceConfiguration"]
+- !private ["s23CustomStringConvertibleP", "FLAGS"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "PARAMETERS"]
+- !private ["s23CustomStringConvertibleP", "SHARED"]
+- !private ["s23CustomStringConvertibleP", "SaleRequest"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertActionStyle"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- !private ["s23CustomStringConvertibleP", "UIAlertControllerStyle"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "addCloverGoConnectorListener"]
+- !private ["s23CustomStringConvertibleP", "arc4random"]
+- !private ["s23CustomStringConvertibleP", "checkReaderConnectedStatus"]
+- !private ["s23CustomStringConvertibleP", "cloverConnector"]
+- !private ["s23CustomStringConvertibleP", "cloverConnector450Reader"]
+- !private ["s23CustomStringConvertibleP", "cloverConnectorListener"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "deviceInfo"]
+- !private ["s23CustomStringConvertibleP", "deviceModel"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "onSalePaymentSuccess"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- ["s23CustomStringConvertibleP", "proceedAfterReaderReady"]
+- ["s23CustomStringConvertibleP", "readerDisconnected"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["30CloverConnector_Hackathon_201710DeviceInfoC", "deviceModel"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Builder"]
+- !private ["s9EquatableP", "CloverGoConnector"]
+- !private ["s9EquatableP", "CloverGoConnectorListener"]
+- !private ["s9EquatableP", "CloverGoDeviceConfiguration"]
+- !private ["s9EquatableP", "FLAGS"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "PARAMETERS"]
+- !private ["s9EquatableP", "SHARED"]
+- !private ["s9EquatableP", "SaleRequest"]
+- !private ["s9EquatableP", "UIAlertAction"]
+- !private ["s9EquatableP", "UIAlertActionStyle"]
+- !private ["s9EquatableP", "UIAlertController"]
+- !private ["s9EquatableP", "UIAlertControllerStyle"]
+- !private ["s9EquatableP", "UIApplication"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addAction"]
+- !private ["s9EquatableP", "addCloverGoConnectorListener"]
+- !private ["s9EquatableP", "alert"]
+- !private ["s9EquatableP", "arc4random"]
+- !private ["s9EquatableP", "checkReaderConnectedStatus"]
+- !private ["s9EquatableP", "cloverConnector"]
+- !private ["s9EquatableP", "cloverConnector450Reader"]
+- !private ["s9EquatableP", "cloverConnectorListener"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "deviceInfo"]
+- !private ["s9EquatableP", "deviceModel"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "live"]
+- ["s9EquatableP", "onSalePaymentSuccess"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "print"]
+- ["s9EquatableP", "proceedAfterReaderReady"]
+- ["s9EquatableP", "readerDisconnected"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["3Eva5FLAGSV", "is350ReaderInitialized"]
+- !private ["3Eva5FLAGSV", "is450ReaderInitialized"]
+- !private ["3Eva5FLAGSV", "isKeyedTransaction"]
+- !private ["3Eva5FLAGSV", "isOAuthMode"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "Builder"]
+- !private ["s8HashableP", "CloverGoConnector"]
+- !private ["s8HashableP", "CloverGoConnectorListener"]
+- !private ["s8HashableP", "CloverGoDeviceConfiguration"]
+- !private ["s8HashableP", "FLAGS"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "PARAMETERS"]
+- !private ["s8HashableP", "SHARED"]
+- !private ["s8HashableP", "SaleRequest"]
+- !private ["s8HashableP", "UIAlertAction"]
+- !private ["s8HashableP", "UIAlertActionStyle"]
+- !private ["s8HashableP", "UIAlertController"]
+- !private ["s8HashableP", "UIAlertControllerStyle"]
+- !private ["s8HashableP", "UIApplication"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addAction"]
+- !private ["s8HashableP", "addCloverGoConnectorListener"]
+- !private ["s8HashableP", "alert"]
+- !private ["s8HashableP", "arc4random"]
+- !private ["s8HashableP", "checkReaderConnectedStatus"]
+- !private ["s8HashableP", "cloverConnector"]
+- !private ["s8HashableP", "cloverConnector450Reader"]
+- !private ["s8HashableP", "cloverConnectorListener"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "deviceInfo"]
+- !private ["s8HashableP", "deviceModel"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "live"]
+- ["s8HashableP", "onSalePaymentSuccess"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- ["s8HashableP", "proceedAfterReaderReady"]
+- ["s8HashableP", "readerDisconnected"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["30CloverConnector_Hackathon_201707ICloverB0P", "addCloverGoConnectorListener"]
+- !private ["30CloverConnector_Hackathon_201707ICloverB0P", "init"]
+- !private ["30CloverConnector_Hackathon_201707ICloverB0P", "initializeConnection"]
+- !private ["30CloverConnector_Hackathon_201707ICloverB0P", "sale"]
+- !private ["30CloverConnector_Hackathon_201707ICloverB8ListenerP", "init"]
+- !private ["30CloverConnector_Hackathon_201709ICloverGoB0P", "addCloverGoConnectorListener"]
+- !private ["30CloverConnector_Hackathon_201709ICloverGoB0P", "init"]
+- !private ["30CloverConnector_Hackathon_201709ICloverGoB0P", "initializeConnection"]
+- !private ["30CloverConnector_Hackathon_201709ICloverGoB0P", "sale"]
+- !private ["30CloverConnector_Hackathon_201709ICloverGoB8ListenerP", "init"]
+- !private ["Si", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper8MappableP", "init"]
+- !private ["3Eva8MappableP", "_getBuiltinLogicValue"]
+- !private ["3Eva8MappableP", "init"]
+- !private ["30CloverConnector_Hackathon_201712MerchantInfoC", "deviceInfo"]
+- !private ["10RealmSwift10MinMaxTypeP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CloverGoConnector"]
+- !private ["So8NSCodingP", "CloverGoConnectorListener"]
+- !private ["So8NSCodingP", "CloverGoDeviceConfiguration"]
+- !private ["So8NSCodingP", "FLAGS"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "PARAMETERS"]
+- !private ["So8NSCodingP", "SHARED"]
+- !private ["So8NSCodingP", "SaleRequest"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertActionStyle"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- !private ["So8NSCodingP", "UIAlertControllerStyle"]
+- !private ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "arc4random"]
+- !private ["So8NSCodingP", "checkReaderConnectedStatus"]
+- !private ["So8NSCodingP", "cloverConnector450Reader"]
+- !private ["So8NSCodingP", "cloverConnectorListener"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "onSalePaymentSuccess"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- ["So8NSCodingP", "proceedAfterReaderReady"]
+- ["So8NSCodingP", "readerDisconnected"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "CloverGoConnector"]
+- !private ["So26NSExtensionRequestHandlingP", "CloverGoConnectorListener"]
+- !private ["So26NSExtensionRequestHandlingP", "CloverGoDeviceConfiguration"]
+- !private ["So26NSExtensionRequestHandlingP", "FLAGS"]
+- !private ["So26NSExtensionRequestHandlingP", "Int"]
+- !private ["So26NSExtensionRequestHandlingP", "PARAMETERS"]
+- !private ["So26NSExtensionRequestHandlingP", "SHARED"]
+- !private ["So26NSExtensionRequestHandlingP", "SaleRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertActionStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertControllerStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "UIApplication"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "arc4random"]
+- !private ["So26NSExtensionRequestHandlingP", "checkReaderConnectedStatus"]
+- !private ["So26NSExtensionRequestHandlingP", "cloverConnector450Reader"]
+- !private ["So26NSExtensionRequestHandlingP", "cloverConnectorListener"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "onSalePaymentSuccess"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So26NSExtensionRequestHandlingP", "proceedAfterReaderReady"]
+- ["So26NSExtensionRequestHandlingP", "readerDisconnected"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "AppDelegate"]
+- !private ["So8NSObjectC", "Builder"]
+- !private ["So8NSObjectC", "CloverGoConnector"]
+- ["So8NSObjectC", "CloverGoConnectorListener"]
+- !private ["So8NSObjectC", "CloverGoDeviceConfiguration"]
+- !private ["So8NSObjectC", "FLAGS"]
+- ["So8NSObjectC", "ICloverGoConnector"]
+- !private ["So8NSObjectC", "ICloverGoConnectorListener"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "MerchantInfo"]
+- !private ["So8NSObjectC", "PARAMETERS"]
+- !private ["So8NSObjectC", "SHARED"]
+- !private ["So8NSObjectC", "SaleRequest"]
+- ["So8NSObjectC", "SaleResponse"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertActionStyle"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- !private ["So8NSObjectC", "UIAlertControllerStyle"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "action_connect450Button"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "addCloverGoConnectorListener"]
+- !private ["So8NSObjectC", "arc4random"]
+- ["So8NSObjectC", "checkReaderConnectedStatus"]
+- !private ["So8NSObjectC", "cloverConnector"]
+- ["So8NSObjectC", "cloverConnector350Reader"]
+- ["So8NSObjectC", "cloverConnector450Reader"]
+- ["So8NSObjectC", "cloverConnectorListener"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "deviceInfo"]
+- !private ["So8NSObjectC", "deviceModel"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "doSaleTransaction"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "onSalePaymentSuccess"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "proceedAfterReaderReady"]
+- ["So8NSObjectC", "readerDisconnected"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Builder"]
+- !private ["So16NSObjectProtocolP", "CloverGoConnector"]
+- !private ["So16NSObjectProtocolP", "CloverGoConnectorListener"]
+- !private ["So16NSObjectProtocolP", "CloverGoDeviceConfiguration"]
+- !private ["So16NSObjectProtocolP", "FLAGS"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "PARAMETERS"]
+- !private ["So16NSObjectProtocolP", "SHARED"]
+- !private ["So16NSObjectProtocolP", "SaleRequest"]
+- !private ["So16NSObjectProtocolP", "UIAlertAction"]
+- !private ["So16NSObjectProtocolP", "UIAlertActionStyle"]
+- !private ["So16NSObjectProtocolP", "UIAlertController"]
+- !private ["So16NSObjectProtocolP", "UIAlertControllerStyle"]
+- !private ["So16NSObjectProtocolP", "UIApplication"]
+- !private ["So16NSObjectProtocolP", "addAction"]
+- !private ["So16NSObjectProtocolP", "addCloverGoConnectorListener"]
+- !private ["So16NSObjectProtocolP", "arc4random"]
+- !private ["So16NSObjectProtocolP", "checkReaderConnectedStatus"]
+- !private ["So16NSObjectProtocolP", "cloverConnector"]
+- !private ["So16NSObjectProtocolP", "cloverConnector450Reader"]
+- !private ["So16NSObjectProtocolP", "cloverConnectorListener"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "deviceInfo"]
+- !private ["So16NSObjectProtocolP", "deviceModel"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "onSalePaymentSuccess"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- ["So16NSObjectProtocolP", "proceedAfterReaderReady"]
+- ["So16NSObjectProtocolP", "readerDisconnected"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["3Eva10PARAMETERSV", "accessToken"]
+- !private ["3Eva10PARAMETERSV", "apiKey"]
+- !private ["3Eva10PARAMETERSV", "secret"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "alert"]
+- !private ["s16RawRepresentableP", "default"]
+- !private ["s16RawRepresentableP", "live"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A12OptionalTypeP", "init"]
+- !private ["3Eva6SHAREDV", "delegateStartTransaction"]
+- !private ["30CloverConnector_Hackathon_201711SaleRequestC", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["3Eva24StartTransactionDelegateP", "CloverGoConnector"]
+- !private ["3Eva24StartTransactionDelegateP", "CloverGoConnectorListener"]
+- !private ["3Eva24StartTransactionDelegateP", "CloverGoDeviceConfiguration"]
+- !private ["3Eva24StartTransactionDelegateP", "FLAGS"]
+- !private ["3Eva24StartTransactionDelegateP", "Int"]
+- !private ["3Eva24StartTransactionDelegateP", "PARAMETERS"]
+- !private ["3Eva24StartTransactionDelegateP", "SHARED"]
+- !private ["3Eva24StartTransactionDelegateP", "SaleRequest"]
+- !private ["3Eva24StartTransactionDelegateP", "UIAlertAction"]
+- !private ["3Eva24StartTransactionDelegateP", "UIAlertActionStyle"]
+- !private ["3Eva24StartTransactionDelegateP", "UIAlertController"]
+- !private ["3Eva24StartTransactionDelegateP", "UIAlertControllerStyle"]
+- !private ["3Eva24StartTransactionDelegateP", "UIApplication"]
+- !private ["3Eva24StartTransactionDelegateP", "arc4random"]
+- !private ["3Eva24StartTransactionDelegateP", "checkReaderConnectedStatus"]
+- !private ["3Eva24StartTransactionDelegateP", "cloverConnector450Reader"]
+- !private ["3Eva24StartTransactionDelegateP", "cloverConnectorListener"]
+- ["3Eva24StartTransactionDelegateP", "onSalePaymentSuccess"]
+- !private ["3Eva24StartTransactionDelegateP", "present"]
+- !private ["3Eva24StartTransactionDelegateP", "print"]
+- ["3Eva24StartTransactionDelegateP", "proceedAfterReaderReady"]
+- ["3Eva24StartTransactionDelegateP", "readerDisconnected"]
+- ["3Eva24StartTransactionDelegateP", ""]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["30CloverConnector_Hackathon_201718TransactionRequestC", "init"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["SC18UIAlertActionStyleO", "default"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["SC22UIAlertControllerStyleO", "alert"]
+- !private ["So21UIAppearanceContainerP", "CloverGoConnector"]
+- !private ["So21UIAppearanceContainerP", "CloverGoConnectorListener"]
+- !private ["So21UIAppearanceContainerP", "CloverGoDeviceConfiguration"]
+- !private ["So21UIAppearanceContainerP", "FLAGS"]
+- !private ["So21UIAppearanceContainerP", "Int"]
+- !private ["So21UIAppearanceContainerP", "PARAMETERS"]
+- !private ["So21UIAppearanceContainerP", "SHARED"]
+- !private ["So21UIAppearanceContainerP", "SaleRequest"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertActionStyle"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- !private ["So21UIAppearanceContainerP", "UIAlertControllerStyle"]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "arc4random"]
+- !private ["So21UIAppearanceContainerP", "checkReaderConnectedStatus"]
+- !private ["So21UIAppearanceContainerP", "cloverConnector450Reader"]
+- !private ["So21UIAppearanceContainerP", "cloverConnectorListener"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "onSalePaymentSuccess"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- ["So21UIAppearanceContainerP", "proceedAfterReaderReady"]
+- ["So21UIAppearanceContainerP", "readerDisconnected"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So13UIApplicationC", "delegate"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "cloverConnector"]
+- !private ["So21UIApplicationDelegateP", "cloverConnectorListener"]
+- !private ["So18UIContentContainerP", "CloverGoConnector"]
+- !private ["So18UIContentContainerP", "CloverGoConnectorListener"]
+- !private ["So18UIContentContainerP", "CloverGoDeviceConfiguration"]
+- !private ["So18UIContentContainerP", "FLAGS"]
+- !private ["So18UIContentContainerP", "Int"]
+- !private ["So18UIContentContainerP", "PARAMETERS"]
+- !private ["So18UIContentContainerP", "SHARED"]
+- !private ["So18UIContentContainerP", "SaleRequest"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertActionStyle"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- !private ["So18UIContentContainerP", "UIAlertControllerStyle"]
+- !private ["So18UIContentContainerP", "UIApplication"]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "arc4random"]
+- !private ["So18UIContentContainerP", "checkReaderConnectedStatus"]
+- !private ["So18UIContentContainerP", "cloverConnector450Reader"]
+- !private ["So18UIContentContainerP", "cloverConnectorListener"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "onSalePaymentSuccess"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- ["So18UIContentContainerP", "proceedAfterReaderReady"]
+- ["So18UIContentContainerP", "readerDisconnected"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIFocusEnvironmentP", "CloverGoConnector"]
+- !private ["So18UIFocusEnvironmentP", "CloverGoConnectorListener"]
+- !private ["So18UIFocusEnvironmentP", "CloverGoDeviceConfiguration"]
+- !private ["So18UIFocusEnvironmentP", "FLAGS"]
+- !private ["So18UIFocusEnvironmentP", "Int"]
+- !private ["So18UIFocusEnvironmentP", "PARAMETERS"]
+- !private ["So18UIFocusEnvironmentP", "SHARED"]
+- !private ["So18UIFocusEnvironmentP", "SaleRequest"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertActionStyle"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertControllerStyle"]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "arc4random"]
+- !private ["So18UIFocusEnvironmentP", "checkReaderConnectedStatus"]
+- !private ["So18UIFocusEnvironmentP", "cloverConnector450Reader"]
+- !private ["So18UIFocusEnvironmentP", "cloverConnectorListener"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "onSalePaymentSuccess"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- ["So18UIFocusEnvironmentP", "proceedAfterReaderReady"]
+- ["So18UIFocusEnvironmentP", "readerDisconnected"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "CloverGoConnector"]
+- !private ["So30UIPasteConfigurationSupportingP", "CloverGoConnectorListener"]
+- !private ["So30UIPasteConfigurationSupportingP", "CloverGoDeviceConfiguration"]
+- !private ["So30UIPasteConfigurationSupportingP", "FLAGS"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "PARAMETERS"]
+- !private ["So30UIPasteConfigurationSupportingP", "SHARED"]
+- !private ["So30UIPasteConfigurationSupportingP", "SaleRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertActionStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertControllerStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "arc4random"]
+- !private ["So30UIPasteConfigurationSupportingP", "checkReaderConnectedStatus"]
+- !private ["So30UIPasteConfigurationSupportingP", "cloverConnector"]
+- !private ["So30UIPasteConfigurationSupportingP", "cloverConnector450Reader"]
+- !private ["So30UIPasteConfigurationSupportingP", "cloverConnectorListener"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "onSalePaymentSuccess"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "proceedAfterReaderReady"]
+- ["So30UIPasteConfigurationSupportingP", "readerDisconnected"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "AppDelegate"]
+- !private ["So11UIResponderC", "CloverGoConnector"]
+- ["So11UIResponderC", "CloverGoConnectorListener"]
+- !private ["So11UIResponderC", "CloverGoDeviceConfiguration"]
+- !private ["So11UIResponderC", "FLAGS"]
+- ["So11UIResponderC", "ICloverGoConnector"]
+- !private ["So11UIResponderC", "ICloverGoConnectorListener"]
+- !private ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "MerchantInfo"]
+- !private ["So11UIResponderC", "PARAMETERS"]
+- !private ["So11UIResponderC", "SHARED"]
+- !private ["So11UIResponderC", "SaleRequest"]
+- ["So11UIResponderC", "SaleResponse"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertActionStyle"]
+- !private ["So11UIResponderC", "UIAlertController"]
+- !private ["So11UIResponderC", "UIAlertControllerStyle"]
+- !private ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "action_connect450Button"]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "arc4random"]
+- ["So11UIResponderC", "checkReaderConnectedStatus"]
+- !private ["So11UIResponderC", "cloverConnector"]
+- ["So11UIResponderC", "cloverConnector350Reader"]
+- ["So11UIResponderC", "cloverConnector450Reader"]
+- ["So11UIResponderC", "cloverConnectorListener"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "doSaleTransaction"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "onSalePaymentSuccess"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "proceedAfterReaderReady"]
+- ["So11UIResponderC", "readerDisconnected"]
+- !private ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CloverGoConnector"]
+- !private ["So30UIResponderStandardEditActionsP", "CloverGoConnectorListener"]
+- !private ["So30UIResponderStandardEditActionsP", "CloverGoDeviceConfiguration"]
+- !private ["So30UIResponderStandardEditActionsP", "FLAGS"]
+- !private ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "PARAMETERS"]
+- !private ["So30UIResponderStandardEditActionsP", "SHARED"]
+- !private ["So30UIResponderStandardEditActionsP", "SaleRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertActionStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertControllerStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "arc4random"]
+- !private ["So30UIResponderStandardEditActionsP", "checkReaderConnectedStatus"]
+- !private ["So30UIResponderStandardEditActionsP", "cloverConnector"]
+- !private ["So30UIResponderStandardEditActionsP", "cloverConnector450Reader"]
+- !private ["So30UIResponderStandardEditActionsP", "cloverConnectorListener"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "onSalePaymentSuccess"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- ["So30UIResponderStandardEditActionsP", "proceedAfterReaderReady"]
+- ["So30UIResponderStandardEditActionsP", "readerDisconnected"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "CloverGoConnector"]
+- !private ["So16UIStateRestoringP", "CloverGoConnectorListener"]
+- !private ["So16UIStateRestoringP", "CloverGoDeviceConfiguration"]
+- !private ["So16UIStateRestoringP", "FLAGS"]
+- !private ["So16UIStateRestoringP", "Int"]
+- !private ["So16UIStateRestoringP", "PARAMETERS"]
+- !private ["So16UIStateRestoringP", "SHARED"]
+- !private ["So16UIStateRestoringP", "SaleRequest"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertActionStyle"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- !private ["So16UIStateRestoringP", "UIAlertControllerStyle"]
+- !private ["So16UIStateRestoringP", "UIApplication"]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "arc4random"]
+- !private ["So16UIStateRestoringP", "checkReaderConnectedStatus"]
+- !private ["So16UIStateRestoringP", "cloverConnector450Reader"]
+- !private ["So16UIStateRestoringP", "cloverConnectorListener"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "onSalePaymentSuccess"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- ["So16UIStateRestoringP", "proceedAfterReaderReady"]
+- ["So16UIStateRestoringP", "readerDisconnected"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "CloverGoConnector"]
+- !private ["So18UITraitEnvironmentP", "CloverGoConnectorListener"]
+- !private ["So18UITraitEnvironmentP", "CloverGoDeviceConfiguration"]
+- !private ["So18UITraitEnvironmentP", "FLAGS"]
+- !private ["So18UITraitEnvironmentP", "Int"]
+- !private ["So18UITraitEnvironmentP", "PARAMETERS"]
+- !private ["So18UITraitEnvironmentP", "SHARED"]
+- !private ["So18UITraitEnvironmentP", "SaleRequest"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertActionStyle"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- !private ["So18UITraitEnvironmentP", "UIAlertControllerStyle"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "arc4random"]
+- !private ["So18UITraitEnvironmentP", "checkReaderConnectedStatus"]
+- !private ["So18UITraitEnvironmentP", "cloverConnector450Reader"]
+- !private ["So18UITraitEnvironmentP", "cloverConnectorListener"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "onSalePaymentSuccess"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- ["So18UITraitEnvironmentP", "proceedAfterReaderReady"]
+- ["So18UITraitEnvironmentP", "readerDisconnected"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So16UIViewControllerC", "AnyObject"]
+- !private ["So16UIViewControllerC", "AppDelegate"]
+- !private ["So16UIViewControllerC", "CloverGoConnector"]
+- ["So16UIViewControllerC", "CloverGoConnectorListener"]
+- !private ["So16UIViewControllerC", "CloverGoDeviceConfiguration"]
+- !private ["So16UIViewControllerC", "FLAGS"]
+- ["So16UIViewControllerC", "ICloverGoConnector"]
+- !private ["So16UIViewControllerC", "ICloverGoConnectorListener"]
+- !private ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "MerchantInfo"]
+- !private ["So16UIViewControllerC", "PARAMETERS"]
+- !private ["So16UIViewControllerC", "SHARED"]
+- !private ["So16UIViewControllerC", "SaleRequest"]
+- ["So16UIViewControllerC", "SaleResponse"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertActionStyle"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
+- !private ["So16UIViewControllerC", "UIAlertControllerStyle"]
+- !private ["So16UIViewControllerC", "UIApplication"]
+- ["So16UIViewControllerC", "action_connect450Button"]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "arc4random"]
+- ["So16UIViewControllerC", "checkReaderConnectedStatus"]
+- ["So16UIViewControllerC", "cloverConnector350Reader"]
+- ["So16UIViewControllerC", "cloverConnector450Reader"]
+- ["So16UIViewControllerC", "cloverConnectorListener"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "doSaleTransaction"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "onSalePaymentSuccess"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "proceedAfterReaderReady"]
+- ["So16UIViewControllerC", "readerDisconnected"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- ["3Eva14ViewControllerC", "AnyObject"]
+- !private ["3Eva14ViewControllerC", "AppDelegate"]
+- !private ["3Eva14ViewControllerC", "CloverGoConnector"]
+- ["3Eva14ViewControllerC", "CloverGoConnectorListener"]
+- !private ["3Eva14ViewControllerC", "CloverGoDeviceConfiguration"]
+- !private ["3Eva14ViewControllerC", "FLAGS"]
+- ["3Eva14ViewControllerC", "ICloverGoConnector"]
+- !private ["3Eva14ViewControllerC", "ICloverGoConnectorListener"]
+- !private ["3Eva14ViewControllerC", "Int"]
+- ["3Eva14ViewControllerC", "MerchantInfo"]
+- !private ["3Eva14ViewControllerC", "PARAMETERS"]
+- !private ["3Eva14ViewControllerC", "SHARED"]
+- !private ["3Eva14ViewControllerC", "SaleRequest"]
+- ["3Eva14ViewControllerC", "SaleResponse"]
+- !private ["3Eva14ViewControllerC", "UIAlertAction"]
+- !private ["3Eva14ViewControllerC", "UIAlertActionStyle"]
+- !private ["3Eva14ViewControllerC", "UIAlertController"]
+- !private ["3Eva14ViewControllerC", "UIAlertControllerStyle"]
+- !private ["3Eva14ViewControllerC", "UIApplication"]
+- ["3Eva14ViewControllerC", "action_connect450Button"]
+- !private ["3Eva14ViewControllerC", "arc4random"]
+- ["3Eva14ViewControllerC", "checkReaderConnectedStatus"]
+- ["3Eva14ViewControllerC", "cloverConnector350Reader"]
+- ["3Eva14ViewControllerC", "cloverConnector450Reader"]
+- ["3Eva14ViewControllerC", "cloverConnectorListener"]
+- ["3Eva14ViewControllerC", "deinit"]
+- ["3Eva14ViewControllerC", "didReceiveMemoryWarning"]
+- ["3Eva14ViewControllerC", "doSaleTransaction"]
+- ["3Eva14ViewControllerC", "init"]
+- ["3Eva14ViewControllerC", "onSalePaymentSuccess"]
+- !private ["3Eva14ViewControllerC", "present"]
+- !private ["3Eva14ViewControllerC", "print"]
+- ["3Eva14ViewControllerC", "proceedAfterReaderReady"]
+- ["3Eva14ViewControllerC", "readerDisconnected"]
+- ["3Eva14ViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Builder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CloverGoConnector"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CloverGoConnectorListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CloverGoDeviceConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FLAGS"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PARAMETERS"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SHARED"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SaleRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertActionStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertControllerStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addCloverGoConnectorListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arc4random"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkReaderConnectedStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cloverConnector"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cloverConnector450Reader"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cloverConnectorListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onSalePaymentSuccess"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "proceedAfterReaderReady"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "readerDisconnected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "10RealmSwift11AddableTypeP"
+- !private "3Eva11AppDelegateC"
+- !private "12ObjectMapper12BaseMappableP"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "30CloverConnector_Hackathon_20170A21GoDeviceConfigurationC7BuilderC"
+- !private "30CloverConnector_Hackathon_201716CLVGoEnvironmentO"
+- "s7CVarArgP"
+- !private "14clovergoclient18CardReaderDelegateP"
+- !private "30CloverConnector_Hackathon_20170A19DeviceConfigurationP"
+- !private "30CloverConnector_Hackathon_20170a2GoB0C"
+- !private "3Eva25CloverGoConnectorListenerC"
+- !private "30CloverConnector_Hackathon_20170A21GoDeviceConfigurationC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "30CloverConnector_Hackathon_201710DeviceInfoC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "3Eva5FLAGSV"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "30CloverConnector_Hackathon_201707ICloverB0P"
+- !private "30CloverConnector_Hackathon_201707ICloverB8ListenerP"
+- !private "30CloverConnector_Hackathon_201709ICloverGoB0P"
+- !private "30CloverConnector_Hackathon_201709ICloverGoB8ListenerP"
+- !private "Si"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper8MappableP"
+- !private "3Eva8MappableP"
+- !private "30CloverConnector_Hackathon_201712MerchantInfoC"
+- !private "10RealmSwift10MinMaxTypeP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- !private "3Eva10PARAMETERSV"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "3Eva6SHAREDV"
+- !private "30CloverConnector_Hackathon_201711SaleRequestC"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- "3Eva24StartTransactionDelegateP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "30CloverConnector_Hackathon_201718TransactionRequestC"
+- !private "So13UIAlertActionC"
+- !private "SC18UIAlertActionStyleO"
+- !private "So17UIAlertControllerC"
+- !private "SC22UIAlertControllerStyleO"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- "3Eva14ViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/CloverConnector-Hackathon-2017/CloverConnector_Hackathon_2017.framework/Modules/CloverConnector_Hackathon_2017.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/CloverGoReaderSDK.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/CloverGoLogger.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/clovergoclient.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Trupti/Desktop/Eva/Eva/ThirdPartyFiles/Postgre/testPostgreSqlAPI.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLog+LOGV.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/CloverConnector-Hackathon-2017/CloverConnector_Hackathon_2017.framework/Headers/CloverConnector-Hackathon-2017-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSPolly/AWSPolly.framework/Headers/AWSPolly-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGeneric.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSPolly/AWSPolly.framework/Headers/AWSPollyService.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Trupti/Desktop/Eva/libpq.framework/Headers/libpq-fe.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDASLLogCapture.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLog.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCocoaLumberjack.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSPolly/AWSPolly.framework/Headers/AWSPollyModel.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/Trupti/Desktop/Eva/Eva/Eva-Bridging-Header.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSPolly/AWSPolly.framework/Headers/AWSPollySynthesizeSpeechURLBuilder.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDASLLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDOSLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDTTYLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDFileLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDAbstractDatabaseLogger.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDContextFilterLogFormatter.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDMultiFormatter.h"
+- "/Users/Trupti/Desktop/Eva/Eva/ThirdPartyFiles/PieChart/UIColor+HexColor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSPolly/AWSPolly.framework/Headers/AWSPollyResources.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLogMacros.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDAssertMacros.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLegacyMacros.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/CloverConnector-Hackathon-2017/CloverConnector_Hackathon_2017.framework/Headers/CloverConnector_Hackathon_2017-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient.h"
+- "/Users/Trupti/Desktop/Eva/Eva/ThirdPartyFiles/PieChart/VBPieChart.h"
+- "/Users/Trupti/Desktop/Eva/libpq.framework/Headers/pg_config_ext.h"
+- "/Users/Trupti/Desktop/Eva/libpq.framework/Headers/postgres_ext.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSPolly/AWSPolly.framework/Headers/AWSPolly.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSPolly/AWSPolly.framework/Headers/AWSPollyEnumTranslatorUtility.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/CloverConnector-Hackathon-2017/CloverConnector_Hackathon_2017.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSCore/AWSCore.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/AWSPolly/AWSPolly.framework/Modules/module.modulemap"
+interface-hash: "05aa070eae49d1f0709cf5cf8a82d9cb"

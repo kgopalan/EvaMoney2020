@@ -1,0 +1,990 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11AccountRoleO"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC"
+provides-member:
+- ["30CloverConnector_Hackathon_20179CLVModelsC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11AccountRoleO", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Employees"]
+provides-dynamic-lookup:
+- "encode"
+depends-top-level:
+- !private "<-"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CLVDateTransform"
+- "CLVModels"
+- "CastingPrecedence"
+- "Date"
+- "Int"
+- "Map"
+- "Mappable"
+- "NSCoder"
+- "NSCoding"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- !private "~="
+depends-member:
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11AccountRoleO", "ADMIN"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11AccountRoleO", "EMPLOYEE"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11AccountRoleO", "MANAGER"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11AccountRoleO", "RawValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11AccountRoleO", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11AccountRoleO", "hashValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11AccountRoleO", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11AccountRoleO", "rawValue"]
+- !private ["10RealmSwift11AddableTypeP", "hashValue"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC4AppsC3AppC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC4AppsC", "App"]
+- !private ["12ObjectMapper12BaseMappableP", "CLVDateTransform"]
+- !private ["12ObjectMapper12BaseMappableP", "CLVModels"]
+- !private ["12ObjectMapper12BaseMappableP", "app"]
+- !private ["12ObjectMapper12BaseMappableP", "bits"]
+- !private ["12ObjectMapper12BaseMappableP", "cashTipsCollected"]
+- !private ["12ObjectMapper12BaseMappableP", "claimedTime"]
+- !private ["12ObjectMapper12BaseMappableP", "customId"]
+- !private ["12ObjectMapper12BaseMappableP", "deletedTime"]
+- !private ["12ObjectMapper12BaseMappableP", "deleted_time"]
+- !private ["12ObjectMapper12BaseMappableP", "email"]
+- !private ["12ObjectMapper12BaseMappableP", "employee"]
+- !private ["12ObjectMapper12BaseMappableP", "employeeDefault"]
+- !private ["12ObjectMapper12BaseMappableP", "employeesRef"]
+- ["12ObjectMapper12BaseMappableP", "encode"]
+- ["12ObjectMapper12BaseMappableP", "encodeWithCoder"]
+- !private ["12ObjectMapper12BaseMappableP", "id"]
+- !private ["12ObjectMapper12BaseMappableP", "inTime"]
+- ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["12ObjectMapper12BaseMappableP", "inviteSent"]
+- !private ["12ObjectMapper12BaseMappableP", "isOwner"]
+- !private ["12ObjectMapper12BaseMappableP", "label"]
+- !private ["12ObjectMapper12BaseMappableP", "managerDefault"]
+- ["12ObjectMapper12BaseMappableP", "mapping"]
+- !private ["12ObjectMapper12BaseMappableP", "modified_time"]
+- !private ["12ObjectMapper12BaseMappableP", "name"]
+- !private ["12ObjectMapper12BaseMappableP", "nickname"]
+- !private ["12ObjectMapper12BaseMappableP", "orders"]
+- !private ["12ObjectMapper12BaseMappableP", "outTime"]
+- !private ["12ObjectMapper12BaseMappableP", "overrideInEmployee"]
+- !private ["12ObjectMapper12BaseMappableP", "overrideInTime"]
+- !private ["12ObjectMapper12BaseMappableP", "overrideOutEmployee"]
+- !private ["12ObjectMapper12BaseMappableP", "overrideOutTime"]
+- !private ["12ObjectMapper12BaseMappableP", "payments"]
+- !private ["12ObjectMapper12BaseMappableP", "permissionSet"]
+- !private ["12ObjectMapper12BaseMappableP", "permissions"]
+- !private ["12ObjectMapper12BaseMappableP", "pin"]
+- !private ["12ObjectMapper12BaseMappableP", "role"]
+- !private ["12ObjectMapper12BaseMappableP", "roles"]
+- !private ["12ObjectMapper12BaseMappableP", "serverBanking"]
+- !private ["12ObjectMapper12BaseMappableP", "shifts"]
+- !private ["12ObjectMapper12BaseMappableP", "systemRole"]
+- !private ["12ObjectMapper12BaseMappableP", "unhashedPin"]
+- ["12ObjectMapper12BaseMappableP", ""]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["30CloverConnector_Hackathon_201716CLVDateTransformC", "deinit"]
+- !private ["30CloverConnector_Hackathon_201716CLVDateTransformC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Apps"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Bool"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC", "CLVDateTransform"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Date"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Employees"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Mappable"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "NSCoding"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "NSObject"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Order"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Payments"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "String"]
+- !private ["s7CVarArgP", "CLVDateTransform"]
+- !private ["s7CVarArgP", "CLVModels"]
+- !private ["s7CVarArgP", "app"]
+- !private ["s7CVarArgP", "bits"]
+- !private ["s7CVarArgP", "cashTipsCollected"]
+- !private ["s7CVarArgP", "claimedTime"]
+- !private ["s7CVarArgP", "customId"]
+- !private ["s7CVarArgP", "decodeObject"]
+- !private ["s7CVarArgP", "deletedTime"]
+- !private ["s7CVarArgP", "deleted_time"]
+- !private ["s7CVarArgP", "email"]
+- !private ["s7CVarArgP", "employee"]
+- !private ["s7CVarArgP", "employeeDefault"]
+- !private ["s7CVarArgP", "employeesRef"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "inTime"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "inviteSent"]
+- !private ["s7CVarArgP", "isOwner"]
+- !private ["s7CVarArgP", "label"]
+- !private ["s7CVarArgP", "managerDefault"]
+- ["s7CVarArgP", "mapping"]
+- !private ["s7CVarArgP", "modified_time"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "nickname"]
+- !private ["s7CVarArgP", "orders"]
+- !private ["s7CVarArgP", "outTime"]
+- !private ["s7CVarArgP", "overrideInEmployee"]
+- !private ["s7CVarArgP", "overrideInTime"]
+- !private ["s7CVarArgP", "overrideOutEmployee"]
+- !private ["s7CVarArgP", "overrideOutTime"]
+- !private ["s7CVarArgP", "payments"]
+- !private ["s7CVarArgP", "permissionSet"]
+- !private ["s7CVarArgP", "permissions"]
+- !private ["s7CVarArgP", "pin"]
+- !private ["s7CVarArgP", "role"]
+- !private ["s7CVarArgP", "roles"]
+- !private ["s7CVarArgP", "serverBanking"]
+- !private ["s7CVarArgP", "shifts"]
+- !private ["s7CVarArgP", "systemRole"]
+- !private ["s7CVarArgP", "unhashedPin"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CLVDateTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "CLVModels"]
+- !private ["s28CustomDebugStringConvertibleP", "app"]
+- !private ["s28CustomDebugStringConvertibleP", "bits"]
+- !private ["s28CustomDebugStringConvertibleP", "cashTipsCollected"]
+- !private ["s28CustomDebugStringConvertibleP", "claimedTime"]
+- !private ["s28CustomDebugStringConvertibleP", "customId"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "deletedTime"]
+- !private ["s28CustomDebugStringConvertibleP", "deleted_time"]
+- !private ["s28CustomDebugStringConvertibleP", "email"]
+- !private ["s28CustomDebugStringConvertibleP", "employee"]
+- !private ["s28CustomDebugStringConvertibleP", "employeeDefault"]
+- !private ["s28CustomDebugStringConvertibleP", "employeesRef"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "inTime"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "inviteSent"]
+- !private ["s28CustomDebugStringConvertibleP", "isOwner"]
+- !private ["s28CustomDebugStringConvertibleP", "label"]
+- !private ["s28CustomDebugStringConvertibleP", "managerDefault"]
+- ["s28CustomDebugStringConvertibleP", "mapping"]
+- !private ["s28CustomDebugStringConvertibleP", "modified_time"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "nickname"]
+- !private ["s28CustomDebugStringConvertibleP", "orders"]
+- !private ["s28CustomDebugStringConvertibleP", "outTime"]
+- !private ["s28CustomDebugStringConvertibleP", "overrideInEmployee"]
+- !private ["s28CustomDebugStringConvertibleP", "overrideInTime"]
+- !private ["s28CustomDebugStringConvertibleP", "overrideOutEmployee"]
+- !private ["s28CustomDebugStringConvertibleP", "overrideOutTime"]
+- !private ["s28CustomDebugStringConvertibleP", "payments"]
+- !private ["s28CustomDebugStringConvertibleP", "permissionSet"]
+- !private ["s28CustomDebugStringConvertibleP", "permissions"]
+- !private ["s28CustomDebugStringConvertibleP", "pin"]
+- !private ["s28CustomDebugStringConvertibleP", "role"]
+- !private ["s28CustomDebugStringConvertibleP", "roles"]
+- !private ["s28CustomDebugStringConvertibleP", "serverBanking"]
+- !private ["s28CustomDebugStringConvertibleP", "shifts"]
+- !private ["s28CustomDebugStringConvertibleP", "systemRole"]
+- !private ["s28CustomDebugStringConvertibleP", "unhashedPin"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CLVDateTransform"]
+- !private ["s23CustomStringConvertibleP", "CLVModels"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "app"]
+- !private ["s23CustomStringConvertibleP", "bits"]
+- !private ["s23CustomStringConvertibleP", "cashTipsCollected"]
+- !private ["s23CustomStringConvertibleP", "claimedTime"]
+- !private ["s23CustomStringConvertibleP", "customId"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- !private ["s23CustomStringConvertibleP", "deletedTime"]
+- !private ["s23CustomStringConvertibleP", "deleted_time"]
+- !private ["s23CustomStringConvertibleP", "email"]
+- !private ["s23CustomStringConvertibleP", "employee"]
+- !private ["s23CustomStringConvertibleP", "employeeDefault"]
+- !private ["s23CustomStringConvertibleP", "employeesRef"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "inTime"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "inviteSent"]
+- !private ["s23CustomStringConvertibleP", "isOwner"]
+- !private ["s23CustomStringConvertibleP", "label"]
+- !private ["s23CustomStringConvertibleP", "managerDefault"]
+- ["s23CustomStringConvertibleP", "mapping"]
+- !private ["s23CustomStringConvertibleP", "modified_time"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "nickname"]
+- !private ["s23CustomStringConvertibleP", "orders"]
+- !private ["s23CustomStringConvertibleP", "outTime"]
+- !private ["s23CustomStringConvertibleP", "overrideInEmployee"]
+- !private ["s23CustomStringConvertibleP", "overrideInTime"]
+- !private ["s23CustomStringConvertibleP", "overrideOutEmployee"]
+- !private ["s23CustomStringConvertibleP", "overrideOutTime"]
+- !private ["s23CustomStringConvertibleP", "payments"]
+- !private ["s23CustomStringConvertibleP", "permissionSet"]
+- !private ["s23CustomStringConvertibleP", "permissions"]
+- !private ["s23CustomStringConvertibleP", "pin"]
+- !private ["s23CustomStringConvertibleP", "role"]
+- !private ["s23CustomStringConvertibleP", "roles"]
+- !private ["s23CustomStringConvertibleP", "serverBanking"]
+- !private ["s23CustomStringConvertibleP", "shifts"]
+- !private ["s23CustomStringConvertibleP", "systemRole"]
+- !private ["s23CustomStringConvertibleP", "unhashedPin"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "Bool"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "CLVDateTransform"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "Date"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "claimedTime"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "customId"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "deletedTime"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "email"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "inviteSent"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "isOwner"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "name"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "nickname"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "orders"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "payments"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "pin"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "role"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "roles"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "shifts"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC", "unhashedPin"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "AccountRole"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "Bool"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "CLVDateTransform"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "Date"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "Employee"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "Mappable"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "NSCoding"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "NSObject"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "Permission"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "PermissionSet"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "PermissionSetRole"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "Permissions"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "Role"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "Shift"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CLVDateTransform"]
+- !private ["s9EquatableP", "CLVModels"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "app"]
+- !private ["s9EquatableP", "bits"]
+- !private ["s9EquatableP", "cashTipsCollected"]
+- !private ["s9EquatableP", "claimedTime"]
+- !private ["s9EquatableP", "customId"]
+- !private ["s9EquatableP", "decodeObject"]
+- !private ["s9EquatableP", "deletedTime"]
+- !private ["s9EquatableP", "deleted_time"]
+- !private ["s9EquatableP", "email"]
+- !private ["s9EquatableP", "employee"]
+- !private ["s9EquatableP", "employeeDefault"]
+- !private ["s9EquatableP", "employeesRef"]
+- ["s9EquatableP", "encode"]
+- ["s9EquatableP", "encodeWithCoder"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "id"]
+- !private ["s9EquatableP", "inTime"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "inviteSent"]
+- !private ["s9EquatableP", "isOwner"]
+- !private ["s9EquatableP", "label"]
+- !private ["s9EquatableP", "managerDefault"]
+- ["s9EquatableP", "mapping"]
+- !private ["s9EquatableP", "modified_time"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "nickname"]
+- !private ["s9EquatableP", "orders"]
+- !private ["s9EquatableP", "outTime"]
+- !private ["s9EquatableP", "overrideInEmployee"]
+- !private ["s9EquatableP", "overrideInTime"]
+- !private ["s9EquatableP", "overrideOutEmployee"]
+- !private ["s9EquatableP", "overrideOutTime"]
+- !private ["s9EquatableP", "payments"]
+- !private ["s9EquatableP", "permissionSet"]
+- !private ["s9EquatableP", "permissions"]
+- !private ["s9EquatableP", "pin"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "role"]
+- !private ["s9EquatableP", "roles"]
+- !private ["s9EquatableP", "serverBanking"]
+- !private ["s9EquatableP", "shifts"]
+- !private ["s9EquatableP", "systemRole"]
+- !private ["s9EquatableP", "unhashedPin"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "CLVDateTransform"]
+- !private ["s8HashableP", "CLVModels"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "app"]
+- !private ["s8HashableP", "bits"]
+- !private ["s8HashableP", "cashTipsCollected"]
+- !private ["s8HashableP", "claimedTime"]
+- !private ["s8HashableP", "customId"]
+- !private ["s8HashableP", "decodeObject"]
+- !private ["s8HashableP", "deletedTime"]
+- !private ["s8HashableP", "deleted_time"]
+- !private ["s8HashableP", "email"]
+- !private ["s8HashableP", "employee"]
+- !private ["s8HashableP", "employeeDefault"]
+- !private ["s8HashableP", "employeesRef"]
+- ["s8HashableP", "encode"]
+- ["s8HashableP", "encodeWithCoder"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "id"]
+- !private ["s8HashableP", "inTime"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "inviteSent"]
+- !private ["s8HashableP", "isOwner"]
+- !private ["s8HashableP", "label"]
+- !private ["s8HashableP", "managerDefault"]
+- ["s8HashableP", "mapping"]
+- !private ["s8HashableP", "modified_time"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "nickname"]
+- !private ["s8HashableP", "orders"]
+- !private ["s8HashableP", "outTime"]
+- !private ["s8HashableP", "overrideInEmployee"]
+- !private ["s8HashableP", "overrideInTime"]
+- !private ["s8HashableP", "overrideOutEmployee"]
+- !private ["s8HashableP", "overrideOutTime"]
+- !private ["s8HashableP", "payments"]
+- !private ["s8HashableP", "permissionSet"]
+- !private ["s8HashableP", "permissions"]
+- !private ["s8HashableP", "pin"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "role"]
+- !private ["s8HashableP", "roles"]
+- !private ["s8HashableP", "serverBanking"]
+- !private ["s8HashableP", "shifts"]
+- !private ["s8HashableP", "systemRole"]
+- !private ["s8HashableP", "unhashedPin"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "hashValue"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper3MapC", "subscript"]
+- !private ["12ObjectMapper8MappableP", "CLVDateTransform"]
+- !private ["12ObjectMapper8MappableP", "CLVModels"]
+- !private ["12ObjectMapper8MappableP", "app"]
+- !private ["12ObjectMapper8MappableP", "bits"]
+- !private ["12ObjectMapper8MappableP", "cashTipsCollected"]
+- !private ["12ObjectMapper8MappableP", "claimedTime"]
+- !private ["12ObjectMapper8MappableP", "customId"]
+- !private ["12ObjectMapper8MappableP", "deletedTime"]
+- !private ["12ObjectMapper8MappableP", "deleted_time"]
+- !private ["12ObjectMapper8MappableP", "email"]
+- !private ["12ObjectMapper8MappableP", "employee"]
+- !private ["12ObjectMapper8MappableP", "employeeDefault"]
+- !private ["12ObjectMapper8MappableP", "employeesRef"]
+- ["12ObjectMapper8MappableP", "encode"]
+- ["12ObjectMapper8MappableP", "encodeWithCoder"]
+- !private ["12ObjectMapper8MappableP", "id"]
+- !private ["12ObjectMapper8MappableP", "inTime"]
+- ["12ObjectMapper8MappableP", "init"]
+- !private ["12ObjectMapper8MappableP", "inviteSent"]
+- !private ["12ObjectMapper8MappableP", "isOwner"]
+- !private ["12ObjectMapper8MappableP", "label"]
+- !private ["12ObjectMapper8MappableP", "managerDefault"]
+- ["12ObjectMapper8MappableP", "mapping"]
+- !private ["12ObjectMapper8MappableP", "modified_time"]
+- !private ["12ObjectMapper8MappableP", "name"]
+- !private ["12ObjectMapper8MappableP", "nickname"]
+- !private ["12ObjectMapper8MappableP", "orders"]
+- !private ["12ObjectMapper8MappableP", "outTime"]
+- !private ["12ObjectMapper8MappableP", "overrideInEmployee"]
+- !private ["12ObjectMapper8MappableP", "overrideInTime"]
+- !private ["12ObjectMapper8MappableP", "overrideOutEmployee"]
+- !private ["12ObjectMapper8MappableP", "overrideOutTime"]
+- !private ["12ObjectMapper8MappableP", "payments"]
+- !private ["12ObjectMapper8MappableP", "permissionSet"]
+- !private ["12ObjectMapper8MappableP", "permissions"]
+- !private ["12ObjectMapper8MappableP", "pin"]
+- !private ["12ObjectMapper8MappableP", "role"]
+- !private ["12ObjectMapper8MappableP", "roles"]
+- !private ["12ObjectMapper8MappableP", "serverBanking"]
+- !private ["12ObjectMapper8MappableP", "shifts"]
+- !private ["12ObjectMapper8MappableP", "systemRole"]
+- !private ["12ObjectMapper8MappableP", "unhashedPin"]
+- ["12ObjectMapper8MappableP", ""]
+- !private ["10RealmSwift10MinMaxTypeP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So8NSCodingP", "CLVDateTransform"]
+- !private ["So8NSCodingP", "CLVModels"]
+- !private ["So8NSCodingP", "app"]
+- !private ["So8NSCodingP", "bits"]
+- !private ["So8NSCodingP", "cashTipsCollected"]
+- !private ["So8NSCodingP", "claimedTime"]
+- !private ["So8NSCodingP", "customId"]
+- !private ["So8NSCodingP", "deletedTime"]
+- !private ["So8NSCodingP", "deleted_time"]
+- !private ["So8NSCodingP", "email"]
+- !private ["So8NSCodingP", "employee"]
+- !private ["So8NSCodingP", "employeeDefault"]
+- !private ["So8NSCodingP", "employeesRef"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- !private ["So8NSCodingP", "id"]
+- !private ["So8NSCodingP", "inTime"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "inviteSent"]
+- !private ["So8NSCodingP", "isOwner"]
+- !private ["So8NSCodingP", "label"]
+- !private ["So8NSCodingP", "managerDefault"]
+- ["So8NSCodingP", "mapping"]
+- !private ["So8NSCodingP", "modified_time"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "nickname"]
+- !private ["So8NSCodingP", "orders"]
+- !private ["So8NSCodingP", "outTime"]
+- !private ["So8NSCodingP", "overrideInEmployee"]
+- !private ["So8NSCodingP", "overrideInTime"]
+- !private ["So8NSCodingP", "overrideOutEmployee"]
+- !private ["So8NSCodingP", "overrideOutTime"]
+- !private ["So8NSCodingP", "payments"]
+- !private ["So8NSCodingP", "permissionSet"]
+- !private ["So8NSCodingP", "permissions"]
+- !private ["So8NSCodingP", "pin"]
+- !private ["So8NSCodingP", "role"]
+- !private ["So8NSCodingP", "roles"]
+- !private ["So8NSCodingP", "serverBanking"]
+- !private ["So8NSCodingP", "shifts"]
+- !private ["So8NSCodingP", "systemRole"]
+- !private ["So8NSCodingP", "unhashedPin"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CLVDateTransform"]
+- ["So8NSObjectC", "CLVModels"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Map"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "app"]
+- ["So8NSObjectC", "bits"]
+- ["So8NSObjectC", "cashTipsCollected"]
+- ["So8NSObjectC", "claimedTime"]
+- ["So8NSObjectC", "customId"]
+- !private ["So8NSObjectC", "decodeObject"]
+- ["So8NSObjectC", "deletedTime"]
+- ["So8NSObjectC", "deleted_time"]
+- ["So8NSObjectC", "email"]
+- ["So8NSObjectC", "employee"]
+- ["So8NSObjectC", "employeeDefault"]
+- ["So8NSObjectC", "employeesRef"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "inTime"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "inviteSent"]
+- ["So8NSObjectC", "isOwner"]
+- ["So8NSObjectC", "label"]
+- ["So8NSObjectC", "managerDefault"]
+- ["So8NSObjectC", "mapping"]
+- ["So8NSObjectC", "modified_time"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "nickname"]
+- ["So8NSObjectC", "orders"]
+- ["So8NSObjectC", "outTime"]
+- ["So8NSObjectC", "overrideInEmployee"]
+- ["So8NSObjectC", "overrideInTime"]
+- ["So8NSObjectC", "overrideOutEmployee"]
+- ["So8NSObjectC", "overrideOutTime"]
+- ["So8NSObjectC", "payments"]
+- ["So8NSObjectC", "permissionSet"]
+- ["So8NSObjectC", "permissions"]
+- ["So8NSObjectC", "pin"]
+- ["So8NSObjectC", "role"]
+- ["So8NSObjectC", "roles"]
+- ["So8NSObjectC", "serverBanking"]
+- ["So8NSObjectC", "shifts"]
+- ["So8NSObjectC", "systemRole"]
+- ["So8NSObjectC", "unhashedPin"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "CLVDateTransform"]
+- !private ["So16NSObjectProtocolP", "CLVModels"]
+- !private ["So16NSObjectProtocolP", "app"]
+- !private ["So16NSObjectProtocolP", "bits"]
+- !private ["So16NSObjectProtocolP", "cashTipsCollected"]
+- !private ["So16NSObjectProtocolP", "claimedTime"]
+- !private ["So16NSObjectProtocolP", "customId"]
+- !private ["So16NSObjectProtocolP", "decodeObject"]
+- !private ["So16NSObjectProtocolP", "deletedTime"]
+- !private ["So16NSObjectProtocolP", "deleted_time"]
+- !private ["So16NSObjectProtocolP", "email"]
+- !private ["So16NSObjectProtocolP", "employee"]
+- !private ["So16NSObjectProtocolP", "employeeDefault"]
+- !private ["So16NSObjectProtocolP", "employeesRef"]
+- ["So16NSObjectProtocolP", "encode"]
+- ["So16NSObjectProtocolP", "encodeWithCoder"]
+- !private ["So16NSObjectProtocolP", "id"]
+- !private ["So16NSObjectProtocolP", "inTime"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "inviteSent"]
+- !private ["So16NSObjectProtocolP", "isOwner"]
+- !private ["So16NSObjectProtocolP", "label"]
+- !private ["So16NSObjectProtocolP", "managerDefault"]
+- ["So16NSObjectProtocolP", "mapping"]
+- !private ["So16NSObjectProtocolP", "modified_time"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "nickname"]
+- !private ["So16NSObjectProtocolP", "orders"]
+- !private ["So16NSObjectProtocolP", "outTime"]
+- !private ["So16NSObjectProtocolP", "overrideInEmployee"]
+- !private ["So16NSObjectProtocolP", "overrideInTime"]
+- !private ["So16NSObjectProtocolP", "overrideOutEmployee"]
+- !private ["So16NSObjectProtocolP", "overrideOutTime"]
+- !private ["So16NSObjectProtocolP", "payments"]
+- !private ["So16NSObjectProtocolP", "permissionSet"]
+- !private ["So16NSObjectProtocolP", "permissions"]
+- !private ["So16NSObjectProtocolP", "pin"]
+- !private ["So16NSObjectProtocolP", "role"]
+- !private ["So16NSObjectProtocolP", "roles"]
+- !private ["So16NSObjectProtocolP", "serverBanking"]
+- !private ["So16NSObjectProtocolP", "shifts"]
+- !private ["So16NSObjectProtocolP", "systemRole"]
+- !private ["So16NSObjectProtocolP", "unhashedPin"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC5OrderC", "Order"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC5OrderCADC", "deinit"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC8PaymentsC7PaymentC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC8PaymentsC", "Payment"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "CUSTOMERS_R"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "CUSTOMERS_W"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "EMPLOYEES_R"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "EMPLOYEES_W"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "INVENTORY_R"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "INVENTORY_W"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "MERCHANT_R"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "MERCHANT_W"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "ORDERS_R"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "ORDERS_W"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "PAYMENTS_R"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "PAYMENTS_W"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "RawValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "hashValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO", "rawValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "Bool"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "app"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "employeeDefault"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "label"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "managerDefault"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "name"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "permissions"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC", "roles"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "deleted_time"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "modified_time"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "permissionSet"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC", "role"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", "bits"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC", "mapping"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A12OptionalTypeP", "hashValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "employeesRef"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "name"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC", "systemRole"]
+- ["s8SequenceP", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "Bool"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "CLVDateTransform"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "Date"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "cashTipsCollected"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "employee"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "inTime"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "outTime"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "overrideInEmployee"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "overrideInTime"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "overrideOutEmployee"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "overrideOutTime"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC", "serverBanking"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["12ObjectMapper13TransformTypeP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLVDateTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLVModels"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "app"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cashTipsCollected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "claimedTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "customId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deletedTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deleted_time"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "email"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "employee"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "employeeDefault"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "employeesRef"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "inTime"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "inviteSent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isOwner"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "label"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "managerDefault"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapping"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modified_time"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nickname"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orders"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "overrideInEmployee"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "overrideInTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "overrideOutEmployee"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "overrideOutTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "payments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "permissionSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "permissions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "role"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "roles"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serverBanking"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shifts"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemRole"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unhashedPin"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11AccountRoleO"
+- !private "10RealmSwift11AddableTypeP"
+- !private "30CloverConnector_Hackathon_20179CLVModelsC4AppsC3AppC"
+- "30CloverConnector_Hackathon_20179CLVModelsC4AppsC"
+- "12ObjectMapper12BaseMappableP"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "30CloverConnector_Hackathon_201716CLVDateTransformC"
+- "30CloverConnector_Hackathon_20179CLVModelsC"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC8EmployeeC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper3MapC"
+- "12ObjectMapper8MappableP"
+- !private "10RealmSwift10MinMaxTypeP"
+- "s10MirrorPathP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "30CloverConnector_Hackathon_20179CLVModelsC5OrderC"
+- !private "30CloverConnector_Hackathon_20179CLVModelsC5OrderCADC"
+- !private "30CloverConnector_Hackathon_20179CLVModelsC8PaymentsC7PaymentC"
+- "30CloverConnector_Hackathon_20179CLVModelsC8PaymentsC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC10PermissionO"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC13PermissionSetC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC17PermissionSetRoleC"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC11PermissionsC"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC4RoleC"
+- "s8SequenceP"
+- "30CloverConnector_Hackathon_20179CLVModelsC9EmployeesC5ShiftC"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "12ObjectMapper13TransformTypeP"
+- "9Alamofire14URLConvertibleP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/CloverGoReaderSDK.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/CloverGoLogger.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/clovergoclient.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/CloverConnector-Hackathon-2017/CloverConnector-Hackathon-2017-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/CloverConnector-Hackathon-2017.build/unextended-module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Documents/Clover/Hackathon project/Sample/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Starscream.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Realm.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/ObjectMapper.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/RealmSwift.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+interface-hash: "97193def49a9f244db8d4cf67f9d9dc3"

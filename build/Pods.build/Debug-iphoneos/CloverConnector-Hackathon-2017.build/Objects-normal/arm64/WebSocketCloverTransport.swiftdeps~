@@ -1,0 +1,1226 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WebSocketCloverTransport"
+provides-nominal:
+- "30CloverConnector_Hackathon_201709WebSocketA9TransportC"
+provides-member:
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", ""]
+- ["10Starscream9WebSocketC", ""]
+- ["10Starscream9WebSocketC", "connect"]
+provides-dynamic-lookup:
+- "disconnectMissedPong"
+- "reportDisconnect"
+- "sendPing"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "/"
+- !private "<"
+- !private "=="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CloverTransport"
+- !private "Data"
+- !private "Date"
+- "DateFormatter"
+- !private "DispatchQoS"
+- "DispatchQueue"
+- !private "DispatchTime"
+- !private "Double"
+- "Int"
+- !private "Int64"
+- !private "Mapper"
+- !private "NSEC_PER_SEC"
+- !private "PairingCode"
+- !private "PairingCodeMessage"
+- "PairingDeviceConfiguration"
+- !private "PairingRequest"
+- !private "PairingRequestMessage"
+- !private "PairingResponse"
+- !private "PairingResponseMessage"
+- "String"
+- "StringLiteralType"
+- "Timer"
+- "URL"
+- "WebSocket"
+- "WebSocketCloverTransport"
+- !private "__stderrp"
+- !private "debugPrint"
+- !private "stderr"
+- !private "||"
+depends-member:
+- !private ["10RealmSwift11AddableTypeP", "init"]
+- !private ["12ObjectMapper12BaseMappableP", "authenticationToken"]
+- !private ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["12ObjectMapper12BaseMappableP", "method"]
+- !private ["12ObjectMapper12BaseMappableP", "pairingCode"]
+- !private ["12ObjectMapper12BaseMappableP", "pairingState"]
+- !private ["12ObjectMapper12BaseMappableP", "payload"]
+- !private ["s23BidirectionalCollectionP", "characters"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "Date"]
+- ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "DispatchQoS"]
+- ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "DispatchTime"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Int64"]
+- !private ["s7CVarArgP", "Mapper"]
+- !private ["s7CVarArgP", "NSEC_PER_SEC"]
+- !private ["s7CVarArgP", "PairingCode"]
+- !private ["s7CVarArgP", "PairingRequest"]
+- !private ["s7CVarArgP", "PairingRequestMessage"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "Timer"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "WebSocket"]
+- !private ["s7CVarArgP", "__stderrp"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "characters"]
+- !private ["s7CVarArgP", "code"]
+- !private ["s7CVarArgP", "connect"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "df"]
+- !private ["s7CVarArgP", "disableSSLCertValidation"]
+- !private ["s7CVarArgP", "disableSSLValidation"]
+- !private ["s7CVarArgP", "disconnect"]
+- !private ["s7CVarArgP", "disconnectMissedPong"]
+- !private ["s7CVarArgP", "disconnectTimer"]
+- !private ["s7CVarArgP", "dispose"]
+- !private ["s7CVarArgP", "disposed"]
+- !private ["s7CVarArgP", "endpoint"]
+- !private ["s7CVarArgP", "global"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "invalidate"]
+- !private ["s7CVarArgP", "isConnected"]
+- !private ["s7CVarArgP", "localizedDescription"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "observers"]
+- !private ["s7CVarArgP", "onConnect"]
+- !private ["s7CVarArgP", "onData"]
+- !private ["s7CVarArgP", "onDisconnect"]
+- !private ["s7CVarArgP", "onPong"]
+- !private ["s7CVarArgP", "onText"]
+- !private ["s7CVarArgP", "pairingAuthToken"]
+- !private ["s7CVarArgP", "pairingConfig"]
+- !private ["s7CVarArgP", "pingFrequency"]
+- !private ["s7CVarArgP", "pingTimer"]
+- !private ["s7CVarArgP", "pongTimeout"]
+- !private ["s7CVarArgP", "processQueue"]
+- !private ["s7CVarArgP", "reconnectDelay"]
+- !private ["s7CVarArgP", "reportConnectionProblemAfter"]
+- !private ["s7CVarArgP", "reportDisconnect"]
+- !private ["s7CVarArgP", "reportDisconnectTimer"]
+- !private ["s7CVarArgP", "reportedDisconnect"]
+- !private ["s7CVarArgP", "resetPong"]
+- !private ["s7CVarArgP", "scheduleDisconnect"]
+- !private ["s7CVarArgP", "schedulePing"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s7CVarArgP", "sendMessage"]
+- !private ["s7CVarArgP", "sendPairingRequest"]
+- !private ["s7CVarArgP", "sendPing"]
+- !private ["s7CVarArgP", "serialNumber"]
+- !private ["s7CVarArgP", "socket"]
+- !private ["s7CVarArgP", "stderr"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "write"]
+- ["s7CVarArgP", ""]
+- !private ["SS13CharacterViewV", "count"]
+- !private ["30CloverConnector_Hackathon_20170A15DeviceErrorTypeO", "CONNECTION_ERROR"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "Bool"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "Data"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "Date"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "DateFormatter"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "DispatchQoS"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "DispatchQueue"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "DispatchTime"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "Double"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "Int"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "Int64"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "Mapper"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "NSEC_PER_SEC"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "PairingCode"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "PairingCodeMessage"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "PairingDeviceConfiguration"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "PairingRequest"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "PairingRequestMessage"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "PairingResponse"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "PairingResponseMessage"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "String"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "Timer"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "URL"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "WebSocket"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "__stderrp"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "debugPrint"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "df"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "disableSSLValidation"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "disconnectMissedPong"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "disconnectTimer"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "dispose"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "disposed"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "endpoint"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "init"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "initialize"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "name"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "observers"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "pairingAuthToken"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "pairingConfig"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "pingFrequency"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "pingTimer"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "pongTimeout"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "processQueue"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "reconnect"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "reconnectDelay"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "reportConnectionProblemAfter"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "reportDisconnect"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "reportDisconnectTimer"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "reportedDisconnect"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "resetPong"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "scheduleDisconnect"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "schedulePing"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "sendMessage"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "sendPairingRequest"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "sendPing"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "serialNumber"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", "socket"]
+- !private ["30CloverConnector_Hackathon_20170A9TransportC", "stderr"]
+- ["30CloverConnector_Hackathon_20170A9TransportC", ""]
+- !private ["30CloverConnector_Hackathon_20170A17TransportObserverP", "onDeviceConnected"]
+- !private ["30CloverConnector_Hackathon_20170A17TransportObserverP", "onDeviceDisconnected"]
+- !private ["30CloverConnector_Hackathon_20170A17TransportObserverP", "onDeviceError"]
+- !private ["30CloverConnector_Hackathon_20170A17TransportObserverP", "onDeviceReady"]
+- !private ["30CloverConnector_Hackathon_20170A17TransportObserverP", "onMessage"]
+- !private ["s10CollectionP", "characters"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "characters"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQoS"]
+- ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchTime"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
+- !private ["s28CustomDebugStringConvertibleP", "Mapper"]
+- !private ["s28CustomDebugStringConvertibleP", "NSEC_PER_SEC"]
+- !private ["s28CustomDebugStringConvertibleP", "PairingCode"]
+- !private ["s28CustomDebugStringConvertibleP", "PairingRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "PairingRequestMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "Timer"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "WebSocket"]
+- !private ["s28CustomDebugStringConvertibleP", "__stderrp"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "characters"]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- !private ["s28CustomDebugStringConvertibleP", "connect"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "df"]
+- !private ["s28CustomDebugStringConvertibleP", "disableSSLCertValidation"]
+- !private ["s28CustomDebugStringConvertibleP", "disableSSLValidation"]
+- !private ["s28CustomDebugStringConvertibleP", "disconnect"]
+- !private ["s28CustomDebugStringConvertibleP", "disconnectMissedPong"]
+- !private ["s28CustomDebugStringConvertibleP", "disconnectTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "dispose"]
+- !private ["s28CustomDebugStringConvertibleP", "disposed"]
+- !private ["s28CustomDebugStringConvertibleP", "endpoint"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "isConnected"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "observers"]
+- !private ["s28CustomDebugStringConvertibleP", "onConnect"]
+- !private ["s28CustomDebugStringConvertibleP", "onData"]
+- !private ["s28CustomDebugStringConvertibleP", "onDisconnect"]
+- !private ["s28CustomDebugStringConvertibleP", "onPong"]
+- !private ["s28CustomDebugStringConvertibleP", "onText"]
+- !private ["s28CustomDebugStringConvertibleP", "pairingAuthToken"]
+- !private ["s28CustomDebugStringConvertibleP", "pairingConfig"]
+- !private ["s28CustomDebugStringConvertibleP", "pingFrequency"]
+- !private ["s28CustomDebugStringConvertibleP", "pingTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "pongTimeout"]
+- !private ["s28CustomDebugStringConvertibleP", "processQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "reconnectDelay"]
+- !private ["s28CustomDebugStringConvertibleP", "reportConnectionProblemAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "reportDisconnect"]
+- !private ["s28CustomDebugStringConvertibleP", "reportDisconnectTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "reportedDisconnect"]
+- !private ["s28CustomDebugStringConvertibleP", "resetPong"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduleDisconnect"]
+- !private ["s28CustomDebugStringConvertibleP", "schedulePing"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "sendMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "sendPairingRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "sendPing"]
+- !private ["s28CustomDebugStringConvertibleP", "serialNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "socket"]
+- !private ["s28CustomDebugStringConvertibleP", "stderr"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "characters"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "characters"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "DispatchQoS"]
+- ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "DispatchTime"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "Mapper"]
+- !private ["s23CustomStringConvertibleP", "NSEC_PER_SEC"]
+- !private ["s23CustomStringConvertibleP", "PairingCode"]
+- !private ["s23CustomStringConvertibleP", "PairingRequest"]
+- !private ["s23CustomStringConvertibleP", "PairingRequestMessage"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "Timer"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "WebSocket"]
+- !private ["s23CustomStringConvertibleP", "__stderrp"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "characters"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- !private ["s23CustomStringConvertibleP", "connect"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "df"]
+- !private ["s23CustomStringConvertibleP", "disableSSLCertValidation"]
+- !private ["s23CustomStringConvertibleP", "disableSSLValidation"]
+- !private ["s23CustomStringConvertibleP", "disconnect"]
+- !private ["s23CustomStringConvertibleP", "disconnectMissedPong"]
+- !private ["s23CustomStringConvertibleP", "disconnectTimer"]
+- !private ["s23CustomStringConvertibleP", "dispose"]
+- !private ["s23CustomStringConvertibleP", "disposed"]
+- !private ["s23CustomStringConvertibleP", "endpoint"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialize"]
+- !private ["s23CustomStringConvertibleP", "invalidate"]
+- !private ["s23CustomStringConvertibleP", "isConnected"]
+- !private ["s23CustomStringConvertibleP", "localizedDescription"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "observers"]
+- !private ["s23CustomStringConvertibleP", "onConnect"]
+- !private ["s23CustomStringConvertibleP", "onData"]
+- !private ["s23CustomStringConvertibleP", "onDisconnect"]
+- !private ["s23CustomStringConvertibleP", "onPong"]
+- !private ["s23CustomStringConvertibleP", "onText"]
+- !private ["s23CustomStringConvertibleP", "pairingAuthToken"]
+- !private ["s23CustomStringConvertibleP", "pairingConfig"]
+- !private ["s23CustomStringConvertibleP", "pingFrequency"]
+- !private ["s23CustomStringConvertibleP", "pingTimer"]
+- !private ["s23CustomStringConvertibleP", "pongTimeout"]
+- !private ["s23CustomStringConvertibleP", "processQueue"]
+- !private ["s23CustomStringConvertibleP", "reconnectDelay"]
+- !private ["s23CustomStringConvertibleP", "reportConnectionProblemAfter"]
+- !private ["s23CustomStringConvertibleP", "reportDisconnect"]
+- !private ["s23CustomStringConvertibleP", "reportDisconnectTimer"]
+- !private ["s23CustomStringConvertibleP", "reportedDisconnect"]
+- !private ["s23CustomStringConvertibleP", "resetPong"]
+- !private ["s23CustomStringConvertibleP", "scheduleDisconnect"]
+- !private ["s23CustomStringConvertibleP", "schedulePing"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s23CustomStringConvertibleP", "sendMessage"]
+- !private ["s23CustomStringConvertibleP", "sendPairingRequest"]
+- !private ["s23CustomStringConvertibleP", "sendPing"]
+- !private ["s23CustomStringConvertibleP", "serialNumber"]
+- !private ["s23CustomStringConvertibleP", "socket"]
+- !private ["s23CustomStringConvertibleP", "stderr"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So13DateFormatterC", "dateFormat"]
+- ["So13DateFormatterC", "init"]
+- !private ["So13DateFormatterC", "string"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "characters"]
+- ["s9DecodableP", "init"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "asyncAfter"]
+- !private ["So14DispatchObjectC", "global"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["8Dispatch0A3QoSV", "QoSClass"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "asyncAfter"]
+- !private ["So13DispatchQueueC", "global"]
+- ["So13DispatchQueueC", "init"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "characters"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CONNECTION_ERROR"]
+- !private ["s9EquatableP", "Data"]
+- !private ["s9EquatableP", "Date"]
+- ["s9EquatableP", "DateFormatter"]
+- !private ["s9EquatableP", "DispatchQoS"]
+- ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "DispatchTime"]
+- !private ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "Int64"]
+- !private ["s9EquatableP", "Mapper"]
+- !private ["s9EquatableP", "NSEC_PER_SEC"]
+- !private ["s9EquatableP", "PairingCode"]
+- !private ["s9EquatableP", "PairingRequest"]
+- !private ["s9EquatableP", "PairingRequestMessage"]
+- !private ["s9EquatableP", "QoSClass"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "Timer"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "WebSocket"]
+- !private ["s9EquatableP", "__stderrp"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "asyncAfter"]
+- !private ["s9EquatableP", "characters"]
+- !private ["s9EquatableP", "code"]
+- !private ["s9EquatableP", "connect"]
+- !private ["s9EquatableP", "dateFormat"]
+- !private ["s9EquatableP", "debugPrint"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "df"]
+- !private ["s9EquatableP", "disableSSLCertValidation"]
+- !private ["s9EquatableP", "disableSSLValidation"]
+- !private ["s9EquatableP", "disconnect"]
+- !private ["s9EquatableP", "disconnectMissedPong"]
+- !private ["s9EquatableP", "disconnectTimer"]
+- !private ["s9EquatableP", "dispose"]
+- !private ["s9EquatableP", "disposed"]
+- !private ["s9EquatableP", "endpoint"]
+- !private ["s9EquatableP", "global"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initialize"]
+- !private ["s9EquatableP", "invalidate"]
+- !private ["s9EquatableP", "isConnected"]
+- !private ["s9EquatableP", "localizedDescription"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "now"]
+- !private ["s9EquatableP", "observers"]
+- !private ["s9EquatableP", "onConnect"]
+- !private ["s9EquatableP", "onData"]
+- !private ["s9EquatableP", "onDisconnect"]
+- !private ["s9EquatableP", "onPong"]
+- !private ["s9EquatableP", "onText"]
+- !private ["s9EquatableP", "pairingAuthToken"]
+- !private ["s9EquatableP", "pairingConfig"]
+- !private ["s9EquatableP", "pingFrequency"]
+- !private ["s9EquatableP", "pingTimer"]
+- !private ["s9EquatableP", "pongTimeout"]
+- !private ["s9EquatableP", "processQueue"]
+- !private ["s9EquatableP", "reconnectDelay"]
+- !private ["s9EquatableP", "reportConnectionProblemAfter"]
+- !private ["s9EquatableP", "reportDisconnect"]
+- !private ["s9EquatableP", "reportDisconnectTimer"]
+- !private ["s9EquatableP", "reportedDisconnect"]
+- !private ["s9EquatableP", "resetPong"]
+- !private ["s9EquatableP", "scheduleDisconnect"]
+- !private ["s9EquatableP", "schedulePing"]
+- !private ["s9EquatableP", "scheduledTimer"]
+- !private ["s9EquatableP", "sendMessage"]
+- !private ["s9EquatableP", "sendPairingRequest"]
+- !private ["s9EquatableP", "sendPing"]
+- !private ["s9EquatableP", "serialNumber"]
+- !private ["s9EquatableP", "socket"]
+- !private ["s9EquatableP", "stderr"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "write"]
+- ["s9EquatableP", ""]
+- !private ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "characters"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "characters"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "characters"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["So9FormatterC", "dateFormat"]
+- !private ["So9FormatterC", "string"]
+- !private ["s8HashableP", "CONNECTION_ERROR"]
+- !private ["s8HashableP", "Data"]
+- !private ["s8HashableP", "Date"]
+- ["s8HashableP", "DateFormatter"]
+- !private ["s8HashableP", "DispatchQoS"]
+- ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "DispatchTime"]
+- !private ["s8HashableP", "Double"]
+- !private ["s8HashableP", "Int64"]
+- !private ["s8HashableP", "Mapper"]
+- !private ["s8HashableP", "NSEC_PER_SEC"]
+- !private ["s8HashableP", "PairingCode"]
+- !private ["s8HashableP", "PairingRequest"]
+- !private ["s8HashableP", "PairingRequestMessage"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "Timer"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "WebSocket"]
+- !private ["s8HashableP", "__stderrp"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "asyncAfter"]
+- !private ["s8HashableP", "characters"]
+- !private ["s8HashableP", "code"]
+- !private ["s8HashableP", "connect"]
+- !private ["s8HashableP", "dateFormat"]
+- !private ["s8HashableP", "debugPrint"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "df"]
+- !private ["s8HashableP", "disableSSLCertValidation"]
+- !private ["s8HashableP", "disableSSLValidation"]
+- !private ["s8HashableP", "disconnect"]
+- !private ["s8HashableP", "disconnectMissedPong"]
+- !private ["s8HashableP", "disconnectTimer"]
+- !private ["s8HashableP", "dispose"]
+- !private ["s8HashableP", "disposed"]
+- !private ["s8HashableP", "endpoint"]
+- !private ["s8HashableP", "global"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "initialize"]
+- !private ["s8HashableP", "invalidate"]
+- !private ["s8HashableP", "isConnected"]
+- !private ["s8HashableP", "localizedDescription"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "observers"]
+- !private ["s8HashableP", "onConnect"]
+- !private ["s8HashableP", "onData"]
+- !private ["s8HashableP", "onDisconnect"]
+- !private ["s8HashableP", "onPong"]
+- !private ["s8HashableP", "onText"]
+- !private ["s8HashableP", "pairingAuthToken"]
+- !private ["s8HashableP", "pairingConfig"]
+- !private ["s8HashableP", "pingFrequency"]
+- !private ["s8HashableP", "pingTimer"]
+- !private ["s8HashableP", "pongTimeout"]
+- !private ["s8HashableP", "processQueue"]
+- !private ["s8HashableP", "reconnectDelay"]
+- !private ["s8HashableP", "reportConnectionProblemAfter"]
+- !private ["s8HashableP", "reportDisconnect"]
+- !private ["s8HashableP", "reportDisconnectTimer"]
+- !private ["s8HashableP", "reportedDisconnect"]
+- !private ["s8HashableP", "resetPong"]
+- !private ["s8HashableP", "scheduleDisconnect"]
+- !private ["s8HashableP", "schedulePing"]
+- !private ["s8HashableP", "scheduledTimer"]
+- !private ["s8HashableP", "sendMessage"]
+- !private ["s8HashableP", "sendPairingRequest"]
+- !private ["s8HashableP", "sendPing"]
+- !private ["s8HashableP", "serialNumber"]
+- !private ["s8HashableP", "socket"]
+- !private ["s8HashableP", "stderr"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "write"]
+- ["s8HashableP", ""]
+- !private ["s5Int64V", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "characters"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "characters"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper8MappableP", "authenticationToken"]
+- !private ["12ObjectMapper8MappableP", "init"]
+- !private ["12ObjectMapper8MappableP", "method"]
+- !private ["12ObjectMapper8MappableP", "pairingCode"]
+- !private ["12ObjectMapper8MappableP", "pairingState"]
+- !private ["12ObjectMapper8MappableP", "payload"]
+- !private ["12ObjectMapper0B0C", "init"]
+- !private ["12ObjectMapper0B0C", "map"]
+- !private ["12ObjectMapper0B0C", "toJSONString"]
+- !private ["10RealmSwift10MinMaxTypeP", "init"]
+- !private ["s10MirrorPathP", "characters"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "characters"]
+- !private ["So8NSCodingP", "code"]
+- !private ["So8NSCodingP", "dateFormat"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "localizedDescription"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "characters"]
+- !private ["So9NSCopyingP", "code"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "localizedDescription"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So7NSErrorC", "code"]
+- !private ["So7NSErrorC", "localizedDescription"]
+- !private ["So21NSItemProviderReadingP", "characters"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "characters"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "characters"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "DateFormatter"]
+- !private ["So8NSObjectC", "DispatchQoS"]
+- ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "DispatchTime"]
+- !private ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Int64"]
+- !private ["So8NSObjectC", "Mapper"]
+- !private ["So8NSObjectC", "NSEC_PER_SEC"]
+- !private ["So8NSObjectC", "PairingCode"]
+- !private ["So8NSObjectC", "PairingCodeMessage"]
+- ["So8NSObjectC", "PairingDeviceConfiguration"]
+- !private ["So8NSObjectC", "PairingRequest"]
+- !private ["So8NSObjectC", "PairingRequestMessage"]
+- !private ["So8NSObjectC", "PairingResponse"]
+- !private ["So8NSObjectC", "PairingResponseMessage"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Timer"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "WebSocket"]
+- !private ["So8NSObjectC", "__stderrp"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- !private ["So8NSObjectC", "characters"]
+- !private ["So8NSObjectC", "code"]
+- ["So8NSObjectC", "connect"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "debugPrint"]
+- ["So8NSObjectC", "df"]
+- !private ["So8NSObjectC", "disableSSLCertValidation"]
+- ["So8NSObjectC", "disableSSLValidation"]
+- !private ["So8NSObjectC", "disconnect"]
+- ["So8NSObjectC", "disconnectMissedPong"]
+- ["So8NSObjectC", "disconnectTimer"]
+- ["So8NSObjectC", "dispose"]
+- ["So8NSObjectC", "disposed"]
+- ["So8NSObjectC", "endpoint"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initialize"]
+- !private ["So8NSObjectC", "invalidate"]
+- !private ["So8NSObjectC", "isConnected"]
+- !private ["So8NSObjectC", "localizedDescription"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "observers"]
+- !private ["So8NSObjectC", "onConnect"]
+- !private ["So8NSObjectC", "onData"]
+- !private ["So8NSObjectC", "onDisconnect"]
+- !private ["So8NSObjectC", "onPong"]
+- !private ["So8NSObjectC", "onText"]
+- ["So8NSObjectC", "pairingAuthToken"]
+- ["So8NSObjectC", "pairingConfig"]
+- ["So8NSObjectC", "pingFrequency"]
+- ["So8NSObjectC", "pingTimer"]
+- ["So8NSObjectC", "pongTimeout"]
+- ["So8NSObjectC", "processQueue"]
+- ["So8NSObjectC", "reconnect"]
+- ["So8NSObjectC", "reconnectDelay"]
+- ["So8NSObjectC", "reportConnectionProblemAfter"]
+- ["So8NSObjectC", "reportDisconnect"]
+- ["So8NSObjectC", "reportDisconnectTimer"]
+- ["So8NSObjectC", "reportedDisconnect"]
+- ["So8NSObjectC", "resetPong"]
+- ["So8NSObjectC", "scheduleDisconnect"]
+- ["So8NSObjectC", "schedulePing"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- ["So8NSObjectC", "sendMessage"]
+- ["So8NSObjectC", "sendPairingRequest"]
+- ["So8NSObjectC", "sendPing"]
+- ["So8NSObjectC", "serialNumber"]
+- ["So8NSObjectC", "socket"]
+- !private ["So8NSObjectC", "stderr"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "write"]
+- !private ["So16NSObjectProtocolP", "Data"]
+- !private ["So16NSObjectProtocolP", "Date"]
+- ["So16NSObjectProtocolP", "DateFormatter"]
+- !private ["So16NSObjectProtocolP", "DispatchQoS"]
+- ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "DispatchTime"]
+- !private ["So16NSObjectProtocolP", "Double"]
+- !private ["So16NSObjectProtocolP", "Int64"]
+- !private ["So16NSObjectProtocolP", "Mapper"]
+- !private ["So16NSObjectProtocolP", "NSEC_PER_SEC"]
+- !private ["So16NSObjectProtocolP", "PairingCode"]
+- !private ["So16NSObjectProtocolP", "PairingRequest"]
+- !private ["So16NSObjectProtocolP", "PairingRequestMessage"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "Timer"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "WebSocket"]
+- !private ["So16NSObjectProtocolP", "__stderrp"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "asyncAfter"]
+- !private ["So16NSObjectProtocolP", "characters"]
+- !private ["So16NSObjectProtocolP", "code"]
+- !private ["So16NSObjectProtocolP", "connect"]
+- !private ["So16NSObjectProtocolP", "dateFormat"]
+- !private ["So16NSObjectProtocolP", "debugPrint"]
+- !private ["So16NSObjectProtocolP", "df"]
+- !private ["So16NSObjectProtocolP", "disableSSLCertValidation"]
+- !private ["So16NSObjectProtocolP", "disableSSLValidation"]
+- !private ["So16NSObjectProtocolP", "disconnect"]
+- !private ["So16NSObjectProtocolP", "disconnectMissedPong"]
+- !private ["So16NSObjectProtocolP", "disconnectTimer"]
+- !private ["So16NSObjectProtocolP", "dispose"]
+- !private ["So16NSObjectProtocolP", "disposed"]
+- !private ["So16NSObjectProtocolP", "endpoint"]
+- !private ["So16NSObjectProtocolP", "global"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "initialize"]
+- !private ["So16NSObjectProtocolP", "invalidate"]
+- !private ["So16NSObjectProtocolP", "isConnected"]
+- !private ["So16NSObjectProtocolP", "localizedDescription"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "observers"]
+- !private ["So16NSObjectProtocolP", "onConnect"]
+- !private ["So16NSObjectProtocolP", "onData"]
+- !private ["So16NSObjectProtocolP", "onDisconnect"]
+- !private ["So16NSObjectProtocolP", "onPong"]
+- !private ["So16NSObjectProtocolP", "onText"]
+- !private ["So16NSObjectProtocolP", "pairingAuthToken"]
+- !private ["So16NSObjectProtocolP", "pairingConfig"]
+- !private ["So16NSObjectProtocolP", "pingFrequency"]
+- !private ["So16NSObjectProtocolP", "pingTimer"]
+- !private ["So16NSObjectProtocolP", "pongTimeout"]
+- !private ["So16NSObjectProtocolP", "processQueue"]
+- !private ["So16NSObjectProtocolP", "reconnectDelay"]
+- !private ["So16NSObjectProtocolP", "reportConnectionProblemAfter"]
+- !private ["So16NSObjectProtocolP", "reportDisconnect"]
+- !private ["So16NSObjectProtocolP", "reportDisconnectTimer"]
+- !private ["So16NSObjectProtocolP", "reportedDisconnect"]
+- !private ["So16NSObjectProtocolP", "resetPong"]
+- !private ["So16NSObjectProtocolP", "scheduleDisconnect"]
+- !private ["So16NSObjectProtocolP", "schedulePing"]
+- !private ["So16NSObjectProtocolP", "scheduledTimer"]
+- !private ["So16NSObjectProtocolP", "sendMessage"]
+- !private ["So16NSObjectProtocolP", "sendPairingRequest"]
+- !private ["So16NSObjectProtocolP", "sendPing"]
+- !private ["So16NSObjectProtocolP", "serialNumber"]
+- !private ["So16NSObjectProtocolP", "socket"]
+- !private ["So16NSObjectProtocolP", "stderr"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So16NSObjectProtocolP", "write"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "characters"]
+- !private ["So14NSSecureCodingP", "code"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "localizedDescription"]
+- !private ["So8NSStringC", "characters"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["30CloverConnector_Hackathon_201711PairingCodeV", "FAILED"]
+- !private ["30CloverConnector_Hackathon_201711PairingCodeV", "INITIAL"]
+- !private ["30CloverConnector_Hackathon_201711PairingCodeV", "PAIRED"]
+- !private ["30CloverConnector_Hackathon_201711PairingCodeV", "PAIRING_CODE"]
+- !private ["30CloverConnector_Hackathon_201711PairingCodeV", "PAIRING_REQUEST"]
+- !private ["30CloverConnector_Hackathon_201711PairingCodeV", "PAIRING_RESPONSE"]
+- !private ["30CloverConnector_Hackathon_201718PairingCodeMessageC", "deinit"]
+- !private ["30CloverConnector_Hackathon_201718PairingCodeMessageC", "pairingCode"]
+- !private ["30CloverConnector_Hackathon_201726PairingDeviceConfigurationP", "onPairingCode"]
+- !private ["30CloverConnector_Hackathon_201726PairingDeviceConfigurationP", "onPairingSuccess"]
+- !private ["30CloverConnector_Hackathon_201714PairingRequestC", "authenticationToken"]
+- !private ["30CloverConnector_Hackathon_201714PairingRequestC", "deinit"]
+- !private ["30CloverConnector_Hackathon_201714PairingRequestC", "init"]
+- !private ["30CloverConnector_Hackathon_201714PairingRequestC", "pairingState"]
+- !private ["30CloverConnector_Hackathon_201721PairingRequestMessageC", "deinit"]
+- !private ["30CloverConnector_Hackathon_201721PairingRequestMessageC", "init"]
+- !private ["30CloverConnector_Hackathon_201721PairingRequestMessageC", "method"]
+- !private ["30CloverConnector_Hackathon_201715PairingResponseC", "authenticationToken"]
+- !private ["30CloverConnector_Hackathon_201715PairingResponseC", "deinit"]
+- !private ["30CloverConnector_Hackathon_201715PairingResponseC", "pairingState"]
+- !private ["30CloverConnector_Hackathon_201722PairingResponseMessageC", "deinit"]
+- !private ["30CloverConnector_Hackathon_201722PairingResponseMessageC", "method"]
+- !private ["30CloverConnector_Hackathon_201722PairingResponseMessageC", "payload"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "default"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "characters"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "CONNECTION_ERROR"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A12OptionalTypeP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "characters"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["So14StreamDelegateP", "DispatchQoS"]
+- !private ["So14StreamDelegateP", "DispatchQueue"]
+- !private ["So14StreamDelegateP", "DispatchTime"]
+- !private ["So14StreamDelegateP", "Double"]
+- !private ["So14StreamDelegateP", "Int64"]
+- !private ["So14StreamDelegateP", "NSEC_PER_SEC"]
+- !private ["So14StreamDelegateP", "connect"]
+- !private ["So14StreamDelegateP", "disableSSLCertValidation"]
+- !private ["So14StreamDelegateP", "disconnect"]
+- !private ["So14StreamDelegateP", "init"]
+- !private ["So14StreamDelegateP", "isConnected"]
+- !private ["So14StreamDelegateP", "onConnect"]
+- !private ["So14StreamDelegateP", "onData"]
+- !private ["So14StreamDelegateP", "onDisconnect"]
+- !private ["So14StreamDelegateP", "onPong"]
+- !private ["So14StreamDelegateP", "onText"]
+- !private ["So14StreamDelegateP", "write"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "characters"]
+- ["SS", "init"]
+- !private ["s14StringProtocolP", "characters"]
+- ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "characters"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "characters"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So5TimerC", "invalidate"]
+- !private ["So5TimerC", "scheduledTimer"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "characters"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["10Starscream9WebSocketC", "DispatchQoS"]
+- !private ["10Starscream9WebSocketC", "DispatchQueue"]
+- !private ["10Starscream9WebSocketC", "DispatchTime"]
+- !private ["10Starscream9WebSocketC", "Double"]
+- ["10Starscream9WebSocketC", "Int"]
+- !private ["10Starscream9WebSocketC", "Int64"]
+- !private ["10Starscream9WebSocketC", "NSEC_PER_SEC"]
+- ["10Starscream9WebSocketC", "connect"]
+- !private ["10Starscream9WebSocketC", "disableSSLCertValidation"]
+- !private ["10Starscream9WebSocketC", "disconnect"]
+- !private ["10Starscream9WebSocketC", "init"]
+- !private ["10Starscream9WebSocketC", "isConnected"]
+- !private ["10Starscream9WebSocketC", "onConnect"]
+- !private ["10Starscream9WebSocketC", "onData"]
+- !private ["10Starscream9WebSocketC", "onDisconnect"]
+- !private ["10Starscream9WebSocketC", "onPong"]
+- !private ["10Starscream9WebSocketC", "onText"]
+- !private ["10Starscream9WebSocketC", "write"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "Bool"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "Data"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "Date"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "DateFormatter"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "DispatchQoS"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "DispatchQueue"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "DispatchTime"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "Double"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "Int"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "Int64"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "Mapper"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "NSEC_PER_SEC"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "PairingCode"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "PairingCodeMessage"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "PairingDeviceConfiguration"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "PairingRequest"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "PairingRequestMessage"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "PairingResponse"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "PairingResponseMessage"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "String"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "Timer"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "URL"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "WebSocket"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "__stderrp"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "debugPrint"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "deinit"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "df"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "disableSSLValidation"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "disconnectMissedPong"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "disconnectTimer"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "dispose"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "disposed"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "endpoint"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "init"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "initialize"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "name"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "observers"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "pairingAuthToken"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "pairingConfig"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "pingFrequency"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "pingTimer"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "pongTimeout"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "processQueue"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "reconnect"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "reconnectDelay"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "reportConnectionProblemAfter"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "reportDisconnect"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "reportDisconnectTimer"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "reportedDisconnect"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "resetPong"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "scheduleDisconnect"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "schedulePing"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "sendMessage"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "sendPairingRequest"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "sendPing"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "serialNumber"]
+- ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "socket"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "stderr"]
+- !private ["s23_BidirectionalIndexableP", "characters"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "characters"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "characters"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "characters"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "characters"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "characters"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "characters"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "characters"]
+- !private ["s10_IndexableP", "count"]
+- ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "characters"]
+- !private ["s14_IndexableBaseP", "count"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQoS"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int64"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Mapper"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSEC_PER_SEC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PairingCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PairingRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PairingRequestMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Timer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WebSocket"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "__stderrp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "df"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disableSSLCertValidation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disableSSLValidation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disconnect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disconnectMissedPong"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disconnectTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dispose"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disposed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endpoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isConnected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onConnect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onDisconnect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onPong"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pairingAuthToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pairingConfig"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pingFrequency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pingTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pongTimeout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reconnectDelay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reportConnectionProblemAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reportDisconnect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reportDisconnectTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reportedDisconnect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resetPong"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduleDisconnect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "schedulePing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendPairingRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendPing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serialNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "socket"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stderr"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "characters"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "characters"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "characters"]
+- !private ["s16_SwiftStringViewP", "count"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "10RealmSwift11AddableTypeP"
+- !private "12ObjectMapper12BaseMappableP"
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "SS13CharacterViewV"
+- !private "30CloverConnector_Hackathon_20170A15DeviceErrorTypeO"
+- "30CloverConnector_Hackathon_20170A9TransportC"
+- !private "30CloverConnector_Hackathon_20170A17TransportObserverP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation4DateV"
+- "So13DateFormatterC"
+- "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "8Dispatch0A3QoSV"
+- "So13DispatchQueueC"
+- !private "8Dispatch0A4TimeV"
+- !private "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- !private "So9FormatterC"
+- "s8HashableP"
+- !private "s5Int64V"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper8MappableP"
+- !private "12ObjectMapper0B0C"
+- !private "10RealmSwift10MinMaxTypeP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- !private "So9OS_objectC"
+- !private "30CloverConnector_Hackathon_201711PairingCodeV"
+- !private "30CloverConnector_Hackathon_201718PairingCodeMessageC"
+- !private "30CloverConnector_Hackathon_201726PairingDeviceConfigurationP"
+- !private "30CloverConnector_Hackathon_201714PairingRequestC"
+- !private "30CloverConnector_Hackathon_201721PairingRequestMessageC"
+- !private "30CloverConnector_Hackathon_201715PairingResponseC"
+- !private "30CloverConnector_Hackathon_201722PairingResponseMessageC"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "So14StreamDelegateP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So5TimerC"
+- !private "10Foundation3URLV"
+- "9Alamofire14URLConvertibleP"
+- "10Starscream9WebSocketC"
+- "30CloverConnector_Hackathon_201709WebSocketA9TransportC"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/CloverGoReaderSDK.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/CloverGoLogger.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/clovergoclient.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/CloverConnector-Hackathon-2017/CloverConnector-Hackathon-2017-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/CloverConnector-Hackathon-2017.build/unextended-module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Documents/Clover/Hackathon project/Sample/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Starscream.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Realm.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/ObjectMapper.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/RealmSwift.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+interface-hash: "e81d27cb8ed584419d3541c4cd4f014f"

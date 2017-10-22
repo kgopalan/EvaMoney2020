@@ -1,0 +1,938 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC9BuildTypeO"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E14ProvisionStateO"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC12RomBuildTypeO"
+provides-member:
+- ["30CloverConnector_Hackathon_20179CLVModelsC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC9BuildTypeO", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E14ProvisionStateO", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC12RomBuildTypeO", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Device"]
+provides-dynamic-lookup:
+- "encode"
+depends-top-level:
+- !private "<-"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CLVDateTransform"
+- "CLVModels"
+- "CastingPrecedence"
+- "Date"
+- "Int"
+- "Map"
+- "Mappable"
+- "NSCoder"
+- "NSCoding"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- !private "~="
+depends-member:
+- !private ["10RealmSwift11AddableTypeP", "hashValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC4BaseC", "Reference"]
+- !private ["12ObjectMapper12BaseMappableP", "CLVDateTransform"]
+- !private ["12ObjectMapper12BaseMappableP", "CLVModels"]
+- !private ["12ObjectMapper12BaseMappableP", "activatedTime"]
+- !private ["12ObjectMapper12BaseMappableP", "activationCode"]
+- !private ["12ObjectMapper12BaseMappableP", "buildNumber"]
+- !private ["12ObjectMapper12BaseMappableP", "buildType"]
+- !private ["12ObjectMapper12BaseMappableP", "cpuId"]
+- !private ["12ObjectMapper12BaseMappableP", "createdAt"]
+- !private ["12ObjectMapper12BaseMappableP", "currentRom"]
+- !private ["12ObjectMapper12BaseMappableP", "description_"]
+- !private ["12ObjectMapper12BaseMappableP", "deviceCertificate"]
+- !private ["12ObjectMapper12BaseMappableP", "deviceRef"]
+- !private ["12ObjectMapper12BaseMappableP", "deviceType"]
+- !private ["12ObjectMapper12BaseMappableP", "deviceTypeName"]
+- !private ["12ObjectMapper12BaseMappableP", "emailSent"]
+- !private ["12ObjectMapper12BaseMappableP", "enabled"]
+- ["12ObjectMapper12BaseMappableP", "encode"]
+- ["12ObjectMapper12BaseMappableP", "encodeWithCoder"]
+- !private ["12ObjectMapper12BaseMappableP", "hasShipment"]
+- !private ["12ObjectMapper12BaseMappableP", "id"]
+- !private ["12ObjectMapper12BaseMappableP", "imei"]
+- !private ["12ObjectMapper12BaseMappableP", "imsi"]
+- ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["12ObjectMapper12BaseMappableP", "isCritical"]
+- !private ["12ObjectMapper12BaseMappableP", "lastActivationCode"]
+- ["12ObjectMapper12BaseMappableP", "mapping"]
+- !private ["12ObjectMapper12BaseMappableP", "merchant"]
+- !private ["12ObjectMapper12BaseMappableP", "model"]
+- !private ["12ObjectMapper12BaseMappableP", "name"]
+- !private ["12ObjectMapper12BaseMappableP", "orderPrefix"]
+- !private ["12ObjectMapper12BaseMappableP", "pedCertificate"]
+- !private ["12ObjectMapper12BaseMappableP", "provisionedTime"]
+- !private ["12ObjectMapper12BaseMappableP", "published"]
+- !private ["12ObjectMapper12BaseMappableP", "reseller"]
+- !private ["12ObjectMapper12BaseMappableP", "secureId"]
+- !private ["12ObjectMapper12BaseMappableP", "serial"]
+- !private ["12ObjectMapper12BaseMappableP", "serialNumber"]
+- !private ["12ObjectMapper12BaseMappableP", "simIccid"]
+- !private ["12ObjectMapper12BaseMappableP", "state"]
+- !private ["12ObjectMapper12BaseMappableP", "terminalPrefix"]
+- !private ["12ObjectMapper12BaseMappableP", "versionName"]
+- !private ["12ObjectMapper12BaseMappableP", "version_"]
+- ["12ObjectMapper12BaseMappableP", ""]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC9BuildTypeO", "ENG"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC9BuildTypeO", "RawValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC9BuildTypeO", "USER"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC9BuildTypeO", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC9BuildTypeO", "hashValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC9BuildTypeO", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC9BuildTypeO", "rawValue"]
+- !private ["30CloverConnector_Hackathon_201716CLVDateTransformC", "deinit"]
+- !private ["30CloverConnector_Hackathon_201716CLVDateTransformC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Base"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Bool"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC", "CLVDateTransform"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Date"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Device"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Mappable"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "Merchant"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "NSCoding"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "NSObject"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC", "String"]
+- !private ["s7CVarArgP", "CLVDateTransform"]
+- !private ["s7CVarArgP", "CLVModels"]
+- !private ["s7CVarArgP", "activatedTime"]
+- !private ["s7CVarArgP", "activationCode"]
+- !private ["s7CVarArgP", "buildNumber"]
+- !private ["s7CVarArgP", "buildType"]
+- !private ["s7CVarArgP", "cpuId"]
+- !private ["s7CVarArgP", "createdAt"]
+- !private ["s7CVarArgP", "currentRom"]
+- !private ["s7CVarArgP", "decodeObject"]
+- !private ["s7CVarArgP", "description_"]
+- !private ["s7CVarArgP", "deviceCertificate"]
+- !private ["s7CVarArgP", "deviceRef"]
+- !private ["s7CVarArgP", "deviceType"]
+- !private ["s7CVarArgP", "deviceTypeName"]
+- !private ["s7CVarArgP", "emailSent"]
+- !private ["s7CVarArgP", "enabled"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- !private ["s7CVarArgP", "hasShipment"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "imei"]
+- !private ["s7CVarArgP", "imsi"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isCritical"]
+- !private ["s7CVarArgP", "lastActivationCode"]
+- ["s7CVarArgP", "mapping"]
+- !private ["s7CVarArgP", "merchant"]
+- !private ["s7CVarArgP", "model"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "orderPrefix"]
+- !private ["s7CVarArgP", "pedCertificate"]
+- !private ["s7CVarArgP", "provisionedTime"]
+- !private ["s7CVarArgP", "published"]
+- !private ["s7CVarArgP", "reseller"]
+- !private ["s7CVarArgP", "secureId"]
+- !private ["s7CVarArgP", "serial"]
+- !private ["s7CVarArgP", "serialNumber"]
+- !private ["s7CVarArgP", "simIccid"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "terminalPrefix"]
+- !private ["s7CVarArgP", "versionName"]
+- !private ["s7CVarArgP", "version_"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CLVDateTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "CLVModels"]
+- !private ["s28CustomDebugStringConvertibleP", "activatedTime"]
+- !private ["s28CustomDebugStringConvertibleP", "activationCode"]
+- !private ["s28CustomDebugStringConvertibleP", "buildNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "buildType"]
+- !private ["s28CustomDebugStringConvertibleP", "cpuId"]
+- !private ["s28CustomDebugStringConvertibleP", "createdAt"]
+- !private ["s28CustomDebugStringConvertibleP", "currentRom"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "description_"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceCertificate"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceRef"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceType"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceTypeName"]
+- !private ["s28CustomDebugStringConvertibleP", "emailSent"]
+- !private ["s28CustomDebugStringConvertibleP", "enabled"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- !private ["s28CustomDebugStringConvertibleP", "hasShipment"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "imei"]
+- !private ["s28CustomDebugStringConvertibleP", "imsi"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isCritical"]
+- !private ["s28CustomDebugStringConvertibleP", "lastActivationCode"]
+- ["s28CustomDebugStringConvertibleP", "mapping"]
+- !private ["s28CustomDebugStringConvertibleP", "merchant"]
+- !private ["s28CustomDebugStringConvertibleP", "model"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "orderPrefix"]
+- !private ["s28CustomDebugStringConvertibleP", "pedCertificate"]
+- !private ["s28CustomDebugStringConvertibleP", "provisionedTime"]
+- !private ["s28CustomDebugStringConvertibleP", "published"]
+- !private ["s28CustomDebugStringConvertibleP", "reseller"]
+- !private ["s28CustomDebugStringConvertibleP", "secureId"]
+- !private ["s28CustomDebugStringConvertibleP", "serial"]
+- !private ["s28CustomDebugStringConvertibleP", "serialNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "simIccid"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "terminalPrefix"]
+- !private ["s28CustomDebugStringConvertibleP", "versionName"]
+- !private ["s28CustomDebugStringConvertibleP", "version_"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CLVDateTransform"]
+- !private ["s23CustomStringConvertibleP", "CLVModels"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "activatedTime"]
+- !private ["s23CustomStringConvertibleP", "activationCode"]
+- !private ["s23CustomStringConvertibleP", "buildNumber"]
+- !private ["s23CustomStringConvertibleP", "buildType"]
+- !private ["s23CustomStringConvertibleP", "cpuId"]
+- !private ["s23CustomStringConvertibleP", "createdAt"]
+- !private ["s23CustomStringConvertibleP", "currentRom"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- !private ["s23CustomStringConvertibleP", "description_"]
+- !private ["s23CustomStringConvertibleP", "deviceCertificate"]
+- !private ["s23CustomStringConvertibleP", "deviceRef"]
+- !private ["s23CustomStringConvertibleP", "deviceType"]
+- !private ["s23CustomStringConvertibleP", "deviceTypeName"]
+- !private ["s23CustomStringConvertibleP", "emailSent"]
+- !private ["s23CustomStringConvertibleP", "enabled"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- !private ["s23CustomStringConvertibleP", "hasShipment"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "imei"]
+- !private ["s23CustomStringConvertibleP", "imsi"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isCritical"]
+- !private ["s23CustomStringConvertibleP", "lastActivationCode"]
+- ["s23CustomStringConvertibleP", "mapping"]
+- !private ["s23CustomStringConvertibleP", "merchant"]
+- !private ["s23CustomStringConvertibleP", "model"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "orderPrefix"]
+- !private ["s23CustomStringConvertibleP", "pedCertificate"]
+- !private ["s23CustomStringConvertibleP", "provisionedTime"]
+- !private ["s23CustomStringConvertibleP", "published"]
+- !private ["s23CustomStringConvertibleP", "reseller"]
+- !private ["s23CustomStringConvertibleP", "secureId"]
+- !private ["s23CustomStringConvertibleP", "serial"]
+- !private ["s23CustomStringConvertibleP", "serialNumber"]
+- !private ["s23CustomStringConvertibleP", "simIccid"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "terminalPrefix"]
+- !private ["s23CustomStringConvertibleP", "versionName"]
+- !private ["s23CustomStringConvertibleP", "version_"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "Bool"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "BuildType"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "CLVDateTransform"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "Date"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "Device"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "DeviceProvision"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "DeviceProvisionState"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "Mappable"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "NSCoding"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "NSObject"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "Rom"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "RomBuildType"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "buildNumber"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "buildType"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "cpuId"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "deviceCertificate"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "deviceTypeName"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "imei"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "imsi"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "model"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "name"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "orderPrefix"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "pedCertificate"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "secureId"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "serial"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "simIccid"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC", "terminalPrefix"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "Bool"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "CLVDateTransform"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "Date"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "activatedTime"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "activationCode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "currentRom"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "deviceRef"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "deviceType"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "emailSent"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "hasShipment"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "lastActivationCode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "merchant"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "provisionedTime"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "reseller"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "serialNumber"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC", "state"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E14ProvisionStateO", "ASSOCIATED"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E14ProvisionStateO", "DISASSOCIATED"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E14ProvisionStateO", "NOT_ASSOCIATED"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E14ProvisionStateO", "RawValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E14ProvisionStateO", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E14ProvisionStateO", "hashValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E14ProvisionStateO", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E14ProvisionStateO", "rawValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CLVDateTransform"]
+- !private ["s9EquatableP", "CLVModels"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "activatedTime"]
+- !private ["s9EquatableP", "activationCode"]
+- !private ["s9EquatableP", "buildNumber"]
+- !private ["s9EquatableP", "buildType"]
+- !private ["s9EquatableP", "cpuId"]
+- !private ["s9EquatableP", "createdAt"]
+- !private ["s9EquatableP", "currentRom"]
+- !private ["s9EquatableP", "decodeObject"]
+- !private ["s9EquatableP", "description_"]
+- !private ["s9EquatableP", "deviceCertificate"]
+- !private ["s9EquatableP", "deviceRef"]
+- !private ["s9EquatableP", "deviceType"]
+- !private ["s9EquatableP", "deviceTypeName"]
+- !private ["s9EquatableP", "emailSent"]
+- !private ["s9EquatableP", "enabled"]
+- ["s9EquatableP", "encode"]
+- ["s9EquatableP", "encodeWithCoder"]
+- !private ["s9EquatableP", "hasShipment"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "id"]
+- !private ["s9EquatableP", "imei"]
+- !private ["s9EquatableP", "imsi"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isCritical"]
+- !private ["s9EquatableP", "lastActivationCode"]
+- ["s9EquatableP", "mapping"]
+- !private ["s9EquatableP", "merchant"]
+- !private ["s9EquatableP", "model"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "orderPrefix"]
+- !private ["s9EquatableP", "pedCertificate"]
+- !private ["s9EquatableP", "provisionedTime"]
+- !private ["s9EquatableP", "published"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "reseller"]
+- !private ["s9EquatableP", "secureId"]
+- !private ["s9EquatableP", "serial"]
+- !private ["s9EquatableP", "serialNumber"]
+- !private ["s9EquatableP", "simIccid"]
+- !private ["s9EquatableP", "state"]
+- !private ["s9EquatableP", "terminalPrefix"]
+- !private ["s9EquatableP", "versionName"]
+- !private ["s9EquatableP", "version_"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "CLVDateTransform"]
+- !private ["s8HashableP", "CLVModels"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "activatedTime"]
+- !private ["s8HashableP", "activationCode"]
+- !private ["s8HashableP", "buildNumber"]
+- !private ["s8HashableP", "buildType"]
+- !private ["s8HashableP", "cpuId"]
+- !private ["s8HashableP", "createdAt"]
+- !private ["s8HashableP", "currentRom"]
+- !private ["s8HashableP", "decodeObject"]
+- !private ["s8HashableP", "description_"]
+- !private ["s8HashableP", "deviceCertificate"]
+- !private ["s8HashableP", "deviceRef"]
+- !private ["s8HashableP", "deviceType"]
+- !private ["s8HashableP", "deviceTypeName"]
+- !private ["s8HashableP", "emailSent"]
+- !private ["s8HashableP", "enabled"]
+- ["s8HashableP", "encode"]
+- ["s8HashableP", "encodeWithCoder"]
+- !private ["s8HashableP", "hasShipment"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "id"]
+- !private ["s8HashableP", "imei"]
+- !private ["s8HashableP", "imsi"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isCritical"]
+- !private ["s8HashableP", "lastActivationCode"]
+- ["s8HashableP", "mapping"]
+- !private ["s8HashableP", "merchant"]
+- !private ["s8HashableP", "model"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "orderPrefix"]
+- !private ["s8HashableP", "pedCertificate"]
+- !private ["s8HashableP", "provisionedTime"]
+- !private ["s8HashableP", "published"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "reseller"]
+- !private ["s8HashableP", "secureId"]
+- !private ["s8HashableP", "serial"]
+- !private ["s8HashableP", "serialNumber"]
+- !private ["s8HashableP", "simIccid"]
+- !private ["s8HashableP", "state"]
+- !private ["s8HashableP", "terminalPrefix"]
+- !private ["s8HashableP", "versionName"]
+- !private ["s8HashableP", "version_"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "hashValue"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper3MapC", "subscript"]
+- !private ["12ObjectMapper8MappableP", "CLVDateTransform"]
+- !private ["12ObjectMapper8MappableP", "CLVModels"]
+- !private ["12ObjectMapper8MappableP", "activatedTime"]
+- !private ["12ObjectMapper8MappableP", "activationCode"]
+- !private ["12ObjectMapper8MappableP", "buildNumber"]
+- !private ["12ObjectMapper8MappableP", "buildType"]
+- !private ["12ObjectMapper8MappableP", "cpuId"]
+- !private ["12ObjectMapper8MappableP", "createdAt"]
+- !private ["12ObjectMapper8MappableP", "currentRom"]
+- !private ["12ObjectMapper8MappableP", "description_"]
+- !private ["12ObjectMapper8MappableP", "deviceCertificate"]
+- !private ["12ObjectMapper8MappableP", "deviceRef"]
+- !private ["12ObjectMapper8MappableP", "deviceType"]
+- !private ["12ObjectMapper8MappableP", "deviceTypeName"]
+- !private ["12ObjectMapper8MappableP", "emailSent"]
+- !private ["12ObjectMapper8MappableP", "enabled"]
+- ["12ObjectMapper8MappableP", "encode"]
+- ["12ObjectMapper8MappableP", "encodeWithCoder"]
+- !private ["12ObjectMapper8MappableP", "hasShipment"]
+- !private ["12ObjectMapper8MappableP", "id"]
+- !private ["12ObjectMapper8MappableP", "imei"]
+- !private ["12ObjectMapper8MappableP", "imsi"]
+- ["12ObjectMapper8MappableP", "init"]
+- !private ["12ObjectMapper8MappableP", "isCritical"]
+- !private ["12ObjectMapper8MappableP", "lastActivationCode"]
+- ["12ObjectMapper8MappableP", "mapping"]
+- !private ["12ObjectMapper8MappableP", "merchant"]
+- !private ["12ObjectMapper8MappableP", "model"]
+- !private ["12ObjectMapper8MappableP", "name"]
+- !private ["12ObjectMapper8MappableP", "orderPrefix"]
+- !private ["12ObjectMapper8MappableP", "pedCertificate"]
+- !private ["12ObjectMapper8MappableP", "provisionedTime"]
+- !private ["12ObjectMapper8MappableP", "published"]
+- !private ["12ObjectMapper8MappableP", "reseller"]
+- !private ["12ObjectMapper8MappableP", "secureId"]
+- !private ["12ObjectMapper8MappableP", "serial"]
+- !private ["12ObjectMapper8MappableP", "serialNumber"]
+- !private ["12ObjectMapper8MappableP", "simIccid"]
+- !private ["12ObjectMapper8MappableP", "state"]
+- !private ["12ObjectMapper8MappableP", "terminalPrefix"]
+- !private ["12ObjectMapper8MappableP", "versionName"]
+- !private ["12ObjectMapper8MappableP", "version_"]
+- ["12ObjectMapper8MappableP", ""]
+- ["30CloverConnector_Hackathon_20179CLVModelsC8MerchantC", "Merchant"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC8MerchantCADC", "deinit"]
+- !private ["10RealmSwift10MinMaxTypeP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So8NSCodingP", "CLVDateTransform"]
+- !private ["So8NSCodingP", "CLVModels"]
+- !private ["So8NSCodingP", "activatedTime"]
+- !private ["So8NSCodingP", "activationCode"]
+- !private ["So8NSCodingP", "buildNumber"]
+- !private ["So8NSCodingP", "buildType"]
+- !private ["So8NSCodingP", "cpuId"]
+- !private ["So8NSCodingP", "createdAt"]
+- !private ["So8NSCodingP", "currentRom"]
+- !private ["So8NSCodingP", "description_"]
+- !private ["So8NSCodingP", "deviceCertificate"]
+- !private ["So8NSCodingP", "deviceRef"]
+- !private ["So8NSCodingP", "deviceType"]
+- !private ["So8NSCodingP", "deviceTypeName"]
+- !private ["So8NSCodingP", "emailSent"]
+- !private ["So8NSCodingP", "enabled"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- !private ["So8NSCodingP", "hasShipment"]
+- !private ["So8NSCodingP", "id"]
+- !private ["So8NSCodingP", "imei"]
+- !private ["So8NSCodingP", "imsi"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isCritical"]
+- !private ["So8NSCodingP", "lastActivationCode"]
+- ["So8NSCodingP", "mapping"]
+- !private ["So8NSCodingP", "merchant"]
+- !private ["So8NSCodingP", "model"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "orderPrefix"]
+- !private ["So8NSCodingP", "pedCertificate"]
+- !private ["So8NSCodingP", "provisionedTime"]
+- !private ["So8NSCodingP", "published"]
+- !private ["So8NSCodingP", "reseller"]
+- !private ["So8NSCodingP", "secureId"]
+- !private ["So8NSCodingP", "serial"]
+- !private ["So8NSCodingP", "serialNumber"]
+- !private ["So8NSCodingP", "simIccid"]
+- !private ["So8NSCodingP", "state"]
+- !private ["So8NSCodingP", "terminalPrefix"]
+- !private ["So8NSCodingP", "versionName"]
+- !private ["So8NSCodingP", "version_"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CLVDateTransform"]
+- ["So8NSObjectC", "CLVModels"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Map"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "activatedTime"]
+- ["So8NSObjectC", "activationCode"]
+- ["So8NSObjectC", "buildNumber"]
+- ["So8NSObjectC", "buildType"]
+- ["So8NSObjectC", "cpuId"]
+- ["So8NSObjectC", "createdAt"]
+- ["So8NSObjectC", "currentRom"]
+- !private ["So8NSObjectC", "decodeObject"]
+- ["So8NSObjectC", "description_"]
+- ["So8NSObjectC", "deviceCertificate"]
+- ["So8NSObjectC", "deviceRef"]
+- ["So8NSObjectC", "deviceType"]
+- ["So8NSObjectC", "deviceTypeName"]
+- ["So8NSObjectC", "emailSent"]
+- ["So8NSObjectC", "enabled"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- ["So8NSObjectC", "hasShipment"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "imei"]
+- ["So8NSObjectC", "imsi"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isCritical"]
+- ["So8NSObjectC", "lastActivationCode"]
+- ["So8NSObjectC", "mapping"]
+- ["So8NSObjectC", "merchant"]
+- ["So8NSObjectC", "model"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "orderPrefix"]
+- ["So8NSObjectC", "pedCertificate"]
+- ["So8NSObjectC", "provisionedTime"]
+- ["So8NSObjectC", "published"]
+- ["So8NSObjectC", "reseller"]
+- ["So8NSObjectC", "secureId"]
+- ["So8NSObjectC", "serial"]
+- ["So8NSObjectC", "serialNumber"]
+- ["So8NSObjectC", "simIccid"]
+- ["So8NSObjectC", "state"]
+- ["So8NSObjectC", "terminalPrefix"]
+- ["So8NSObjectC", "versionName"]
+- ["So8NSObjectC", "version_"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "CLVDateTransform"]
+- !private ["So16NSObjectProtocolP", "CLVModels"]
+- !private ["So16NSObjectProtocolP", "activatedTime"]
+- !private ["So16NSObjectProtocolP", "activationCode"]
+- !private ["So16NSObjectProtocolP", "buildNumber"]
+- !private ["So16NSObjectProtocolP", "buildType"]
+- !private ["So16NSObjectProtocolP", "cpuId"]
+- !private ["So16NSObjectProtocolP", "createdAt"]
+- !private ["So16NSObjectProtocolP", "currentRom"]
+- !private ["So16NSObjectProtocolP", "decodeObject"]
+- !private ["So16NSObjectProtocolP", "description_"]
+- !private ["So16NSObjectProtocolP", "deviceCertificate"]
+- !private ["So16NSObjectProtocolP", "deviceRef"]
+- !private ["So16NSObjectProtocolP", "deviceType"]
+- !private ["So16NSObjectProtocolP", "deviceTypeName"]
+- !private ["So16NSObjectProtocolP", "emailSent"]
+- !private ["So16NSObjectProtocolP", "enabled"]
+- ["So16NSObjectProtocolP", "encode"]
+- ["So16NSObjectProtocolP", "encodeWithCoder"]
+- !private ["So16NSObjectProtocolP", "hasShipment"]
+- !private ["So16NSObjectProtocolP", "id"]
+- !private ["So16NSObjectProtocolP", "imei"]
+- !private ["So16NSObjectProtocolP", "imsi"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isCritical"]
+- !private ["So16NSObjectProtocolP", "lastActivationCode"]
+- ["So16NSObjectProtocolP", "mapping"]
+- !private ["So16NSObjectProtocolP", "merchant"]
+- !private ["So16NSObjectProtocolP", "model"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "orderPrefix"]
+- !private ["So16NSObjectProtocolP", "pedCertificate"]
+- !private ["So16NSObjectProtocolP", "provisionedTime"]
+- !private ["So16NSObjectProtocolP", "published"]
+- !private ["So16NSObjectProtocolP", "reseller"]
+- !private ["So16NSObjectProtocolP", "secureId"]
+- !private ["So16NSObjectProtocolP", "serial"]
+- !private ["So16NSObjectProtocolP", "serialNumber"]
+- !private ["So16NSObjectProtocolP", "simIccid"]
+- !private ["So16NSObjectProtocolP", "state"]
+- !private ["So16NSObjectProtocolP", "terminalPrefix"]
+- !private ["So16NSObjectProtocolP", "versionName"]
+- !private ["So16NSObjectProtocolP", "version_"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A12OptionalTypeP", "hashValue"]
+- !private ["30CloverConnector_Hackathon_20179CLVModelsC4BaseC9ReferenceC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "Bool"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "CLVModels"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "Int"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "Map"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "NSCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "String"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "buildType"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "createdAt"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "description_"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "enabled"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "encode"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "encodeWithCoder"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "id"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "isCritical"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "mapping"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "published"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "versionName"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC", "version_"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC12RomBuildTypeO", "ENG"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC12RomBuildTypeO", "RawValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC12RomBuildTypeO", "USER"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC12RomBuildTypeO", "deinit"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC12RomBuildTypeO", "hashValue"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC12RomBuildTypeO", "init"]
+- ["30CloverConnector_Hackathon_20179CLVModelsC6DeviceC12RomBuildTypeO", "rawValue"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["12ObjectMapper13TransformTypeP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLVDateTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLVModels"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activatedTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activationCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buildNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buildType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cpuId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createdAt"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentRom"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "description_"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceCertificate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceRef"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceTypeName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailSent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enabled"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasShipment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imei"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imsi"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isCritical"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastActivationCode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapping"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "merchant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "model"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orderPrefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pedCertificate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "provisionedTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "published"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reseller"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secureId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serial"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serialNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "simIccid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "terminalPrefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "versionName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "version_"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "10RealmSwift11AddableTypeP"
+- "30CloverConnector_Hackathon_20179CLVModelsC4BaseC"
+- "12ObjectMapper12BaseMappableP"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC9BuildTypeO"
+- !private "30CloverConnector_Hackathon_201716CLVDateTransformC"
+- "30CloverConnector_Hackathon_20179CLVModelsC"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceCADC"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E9ProvisionC"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC0E14ProvisionStateO"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper3MapC"
+- "12ObjectMapper8MappableP"
+- "30CloverConnector_Hackathon_20179CLVModelsC8MerchantC"
+- !private "30CloverConnector_Hackathon_20179CLVModelsC8MerchantCADC"
+- !private "10RealmSwift10MinMaxTypeP"
+- "s10MirrorPathP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "30CloverConnector_Hackathon_20179CLVModelsC4BaseC9ReferenceC"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC3RomC"
+- "30CloverConnector_Hackathon_20179CLVModelsC6DeviceC12RomBuildTypeO"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "12ObjectMapper13TransformTypeP"
+- "9Alamofire14URLConvertibleP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/CloverGoReaderSDK.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/CloverGoLogger.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/clovergoclient.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/CloverConnector-Hackathon-2017/CloverConnector-Hackathon-2017-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/CloverConnector-Hackathon-2017.build/unextended-module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Documents/Clover/Hackathon project/Sample/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Starscream.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Realm.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/ObjectMapper.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/RealmSwift.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+interface-hash: "d232a1d9441d67d7afb4ffb5aaa8c385"

@@ -1,0 +1,447 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WebSocketDeviceConfiguration"
+provides-nominal:
+- "30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC"
+provides-member:
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CloverDeviceConfiguration"
+- "CloverTransport"
+- "Int"
+- "NSObject"
+- "PairingDeviceConfiguration"
+- "String"
+- !private "StringLiteralType"
+- !private "WebSocketCloverTransport"
+- "WebSocketDeviceConfiguration"
+- !private "debugPrint"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "WebSocketCloverTransport"]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "disableSSLValidation"]
+- !private ["s7CVarArgP", "endpoint"]
+- ["s7CVarArgP", "getCloverDeviceTypeName"]
+- ["s7CVarArgP", "getMaxMessageCharacters"]
+- ["s7CVarArgP", "getMessagePackageName"]
+- ["s7CVarArgP", "getName"]
+- ["s7CVarArgP", "getTransport"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "maxCharInMessage"]
+- !private ["s7CVarArgP", "pairingAuthToken"]
+- !private ["s7CVarArgP", "pairingConfig"]
+- !private ["s7CVarArgP", "pingFrequency"]
+- !private ["s7CVarArgP", "pongTimeout"]
+- !private ["s7CVarArgP", "posName"]
+- !private ["s7CVarArgP", "posSerialNumber"]
+- !private ["s7CVarArgP", "reconnectTimer"]
+- ["s7CVarArgP", "remoteApplicationID"]
+- ["s7CVarArgP", "remoteSourceSDK"]
+- !private ["s7CVarArgP", "reportConnectionProblemTimeout"]
+- ["s7CVarArgP", ""]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "WebSocketCloverTransport"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "debugPrint"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "disableSSLValidation"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "endpoint"]
+- ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "getCloverDeviceTypeName"]
+- ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "getMaxMessageCharacters"]
+- ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "getMessagePackageName"]
+- ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "getName"]
+- ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "getTransport"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "maxCharInMessage"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "pairingAuthToken"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "pairingConfig"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "pingFrequency"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "pongTimeout"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "posName"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "posSerialNumber"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "reconnectTimer"]
+- ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "remoteApplicationID"]
+- ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "remoteSourceSDK"]
+- !private ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", "reportConnectionProblemTimeout"]
+- ["30CloverConnector_Hackathon_20170A19DeviceConfigurationP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "WebSocketCloverTransport"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "disableSSLValidation"]
+- !private ["s28CustomDebugStringConvertibleP", "endpoint"]
+- ["s28CustomDebugStringConvertibleP", "getCloverDeviceTypeName"]
+- ["s28CustomDebugStringConvertibleP", "getMaxMessageCharacters"]
+- ["s28CustomDebugStringConvertibleP", "getMessagePackageName"]
+- ["s28CustomDebugStringConvertibleP", "getName"]
+- ["s28CustomDebugStringConvertibleP", "getTransport"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "maxCharInMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "pairingAuthToken"]
+- !private ["s28CustomDebugStringConvertibleP", "pairingConfig"]
+- !private ["s28CustomDebugStringConvertibleP", "pingFrequency"]
+- !private ["s28CustomDebugStringConvertibleP", "pongTimeout"]
+- !private ["s28CustomDebugStringConvertibleP", "posName"]
+- !private ["s28CustomDebugStringConvertibleP", "posSerialNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "reconnectTimer"]
+- ["s28CustomDebugStringConvertibleP", "remoteApplicationID"]
+- ["s28CustomDebugStringConvertibleP", "remoteSourceSDK"]
+- !private ["s28CustomDebugStringConvertibleP", "reportConnectionProblemTimeout"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "WebSocketCloverTransport"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "disableSSLValidation"]
+- !private ["s23CustomStringConvertibleP", "endpoint"]
+- ["s23CustomStringConvertibleP", "getCloverDeviceTypeName"]
+- ["s23CustomStringConvertibleP", "getMaxMessageCharacters"]
+- ["s23CustomStringConvertibleP", "getMessagePackageName"]
+- ["s23CustomStringConvertibleP", "getName"]
+- ["s23CustomStringConvertibleP", "getTransport"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "maxCharInMessage"]
+- !private ["s23CustomStringConvertibleP", "pairingAuthToken"]
+- !private ["s23CustomStringConvertibleP", "pairingConfig"]
+- !private ["s23CustomStringConvertibleP", "pingFrequency"]
+- !private ["s23CustomStringConvertibleP", "pongTimeout"]
+- !private ["s23CustomStringConvertibleP", "posName"]
+- !private ["s23CustomStringConvertibleP", "posSerialNumber"]
+- !private ["s23CustomStringConvertibleP", "reconnectTimer"]
+- ["s23CustomStringConvertibleP", "remoteApplicationID"]
+- ["s23CustomStringConvertibleP", "remoteSourceSDK"]
+- !private ["s23CustomStringConvertibleP", "reportConnectionProblemTimeout"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "WebSocketCloverTransport"]
+- !private ["s9EquatableP", "debugPrint"]
+- !private ["s9EquatableP", "disableSSLValidation"]
+- !private ["s9EquatableP", "endpoint"]
+- ["s9EquatableP", "getCloverDeviceTypeName"]
+- ["s9EquatableP", "getMaxMessageCharacters"]
+- ["s9EquatableP", "getMessagePackageName"]
+- ["s9EquatableP", "getName"]
+- ["s9EquatableP", "getTransport"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "maxCharInMessage"]
+- !private ["s9EquatableP", "pairingAuthToken"]
+- !private ["s9EquatableP", "pairingConfig"]
+- !private ["s9EquatableP", "pingFrequency"]
+- !private ["s9EquatableP", "pongTimeout"]
+- !private ["s9EquatableP", "posName"]
+- !private ["s9EquatableP", "posSerialNumber"]
+- !private ["s9EquatableP", "reconnectTimer"]
+- ["s9EquatableP", "remoteApplicationID"]
+- ["s9EquatableP", "remoteSourceSDK"]
+- !private ["s9EquatableP", "reportConnectionProblemTimeout"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "WebSocketCloverTransport"]
+- !private ["s8HashableP", "debugPrint"]
+- !private ["s8HashableP", "disableSSLValidation"]
+- !private ["s8HashableP", "endpoint"]
+- ["s8HashableP", "getCloverDeviceTypeName"]
+- ["s8HashableP", "getMaxMessageCharacters"]
+- ["s8HashableP", "getMessagePackageName"]
+- ["s8HashableP", "getName"]
+- ["s8HashableP", "getTransport"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "maxCharInMessage"]
+- !private ["s8HashableP", "pairingAuthToken"]
+- !private ["s8HashableP", "pairingConfig"]
+- !private ["s8HashableP", "pingFrequency"]
+- !private ["s8HashableP", "pongTimeout"]
+- !private ["s8HashableP", "posName"]
+- !private ["s8HashableP", "posSerialNumber"]
+- !private ["s8HashableP", "reconnectTimer"]
+- ["s8HashableP", "remoteApplicationID"]
+- ["s8HashableP", "remoteSourceSDK"]
+- !private ["s8HashableP", "reportConnectionProblemTimeout"]
+- ["s8HashableP", ""]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CloverTransport"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "PairingDeviceConfiguration"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "WebSocketCloverTransport"]
+- !private ["So8NSObjectC", "debugPrint"]
+- ["So8NSObjectC", "disableSSLValidation"]
+- ["So8NSObjectC", "endpoint"]
+- ["So8NSObjectC", "getCloverDeviceTypeName"]
+- ["So8NSObjectC", "getMaxMessageCharacters"]
+- ["So8NSObjectC", "getMessagePackageName"]
+- ["So8NSObjectC", "getName"]
+- ["So8NSObjectC", "getTransport"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "maxCharInMessage"]
+- ["So8NSObjectC", "pairingAuthToken"]
+- ["So8NSObjectC", "pairingConfig"]
+- ["So8NSObjectC", "pingFrequency"]
+- ["So8NSObjectC", "pongTimeout"]
+- ["So8NSObjectC", "posName"]
+- ["So8NSObjectC", "posSerialNumber"]
+- ["So8NSObjectC", "reconnectTimer"]
+- ["So8NSObjectC", "remoteApplicationID"]
+- ["So8NSObjectC", "remoteSourceSDK"]
+- ["So8NSObjectC", "reportConnectionProblemTimeout"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "WebSocketCloverTransport"]
+- !private ["So16NSObjectProtocolP", "debugPrint"]
+- !private ["So16NSObjectProtocolP", "disableSSLValidation"]
+- !private ["So16NSObjectProtocolP", "endpoint"]
+- ["So16NSObjectProtocolP", "getCloverDeviceTypeName"]
+- ["So16NSObjectProtocolP", "getMaxMessageCharacters"]
+- ["So16NSObjectProtocolP", "getMessagePackageName"]
+- ["So16NSObjectProtocolP", "getName"]
+- ["So16NSObjectProtocolP", "getTransport"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "maxCharInMessage"]
+- !private ["So16NSObjectProtocolP", "pairingAuthToken"]
+- !private ["So16NSObjectProtocolP", "pairingConfig"]
+- !private ["So16NSObjectProtocolP", "pingFrequency"]
+- !private ["So16NSObjectProtocolP", "pongTimeout"]
+- !private ["So16NSObjectProtocolP", "posName"]
+- !private ["So16NSObjectProtocolP", "posSerialNumber"]
+- !private ["So16NSObjectProtocolP", "reconnectTimer"]
+- ["So16NSObjectProtocolP", "remoteApplicationID"]
+- ["So16NSObjectProtocolP", "remoteSourceSDK"]
+- !private ["So16NSObjectProtocolP", "reportConnectionProblemTimeout"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["30CloverConnector_Hackathon_201709WebSocketA9TransportC", "init"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "Bool"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "CloverTransport"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "Int"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "PairingDeviceConfiguration"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "String"]
+- !private ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "WebSocketCloverTransport"]
+- !private ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "debugPrint"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "deinit"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "disableSSLValidation"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "endpoint"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "getCloverDeviceTypeName"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "getMaxMessageCharacters"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "getMessagePackageName"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "getName"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "getTransport"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "init"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "maxCharInMessage"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "pairingAuthToken"]
+- !private ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "pairingConfig"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "pingFrequency"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "pongTimeout"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "posName"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "posSerialNumber"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "reconnectTimer"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "remoteApplicationID"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "remoteSourceSDK"]
+- ["30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC", "reportConnectionProblemTimeout"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WebSocketCloverTransport"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disableSSLValidation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endpoint"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getCloverDeviceTypeName"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getMaxMessageCharacters"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getMessagePackageName"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getName"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getTransport"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxCharInMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pairingAuthToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pairingConfig"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pingFrequency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pongTimeout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "posName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "posSerialNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reconnectTimer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "remoteApplicationID"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "remoteSourceSDK"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reportConnectionProblemTimeout"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "30CloverConnector_Hackathon_20170A19DeviceConfigurationP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "30CloverConnector_Hackathon_201709WebSocketA9TransportC"
+- "30CloverConnector_Hackathon_201728WebSocketDeviceConfigurationC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/CloverGoReaderSDK.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/CloverGoLogger.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/clovergoclient.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/CloverConnector-Hackathon-2017/CloverConnector-Hackathon-2017-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOfferResponse.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionValue.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionOffer.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermissionResults.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Headers/CloverGoReaderSDK-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Headers/CloverGoLogger-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient-Swift.h"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Headers/clovergoclient.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Trupti/Desktop/Eva/build/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/CloverConnector-Hackathon-2017.build/unextended-module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Documents/Clover/Hackathon project/Sample/Pods/CLVGoSDK/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/Starscream/zlib/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Starscream.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Realm.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/ObjectMapper.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/RealmSwift.build/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoReaderSDK.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/CloverGoLogger.framework/Modules/module.modulemap"
+- "/Users/Trupti/Desktop/Eva/Pods/CLVGoSDK/clovergoclient.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+interface-hash: "6c5a9b9dcdc643266495f384ca29b22a"

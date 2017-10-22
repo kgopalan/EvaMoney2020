@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/Realm/RLMSyncPermissionOfferResponse.m \
+  /Users/Trupti/Desktop/Eva/build/Pods.build/Debug-iphoneos/Realm.build/module.modulemap \
+  /Users/Trupti/Desktop/Eva/Pods/Target\ Support\ Files/Realm/Realm-prefix.pch \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncPermissionOfferResponse_Private.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncPermissionOfferResponse.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/Realm.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMArray.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMCollection.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMThreadSafeReference.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMMigration.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMObject.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMObjectBase.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMObjectSchema.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMPlatform.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMProperty.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMConstants.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMRealm.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMRealmConfiguration.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMRealmConfiguration+Sync.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncUtil.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMResults.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSchema.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncConfiguration.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncCredentials.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncManager.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncPermission.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncPermissionChange.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncPermissionOffer.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncPermissionResults.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncUser.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncPermissionValue.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncSession.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/NSError+RLMSync.h \
+  /Users/Trupti/Desktop/Eva/Pods/Realm/include/RLMSyncUtil_Private.h
